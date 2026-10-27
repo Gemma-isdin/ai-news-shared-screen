@@ -11,11 +11,60 @@
       "url": "https://ollama.com/blog",
       "confirmado": true,
       "_visto": "2026-10-27T15:50:58.480Z",
-      "_imagen_buscada": true,
-      "imagen": null
+      "imagen": null,
+      "_img_intentos": 1,
+      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
     },
     {
       "id": 2,
+      "titulo": "Ndoc: plataforma IA para reemplazar Office y Google Workspace",
+      "titular_corto": "Ndoc: alternativa IA nativa a suites ofimáticas",
+      "resumen": "Rohit Patel (ex-director Meta Superintelligence Labs) lanzó Ndoc, suite AI-nativa unificando presentaciones, documentos y análisis. Usa open-source fine-tuneados para reducir costos vs frontier APIs. Divido en Stage (slides), Narrative (docs) y Model (Python/data).",
+      "categoria": "Producto",
+      "prioridad": "alta",
+      "fuente": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/27/ndoc-ai-native",
+      "publicado": "2026-10-27T00:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-27T16:10:23.346Z",
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
+    },
+    {
+      "id": 3,
+      "titulo": "IBM anuncia gobernanza completa de agentes IA empresariales",
+      "titular_corto": "IBM watsonx.governance para agentes IA",
+      "resumen": "IBM TechXchange 2026 presenta watsonx Orchestrate y watsonx.governance para monitorear agentes IA. Incluye identity management (HashiCorp Vault), compliance automático (NIST RMF, EU AI Act) y observabilidad real-time con Arize/Langfuse.",
+      "categoria": "Herramientas",
+      "prioridad": "alta",
+      "fuente": "IBM",
+      "url": "https://ibm.com/watsonx-governance",
+      "publicado": "2026-10-27T00:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-27T16:10:23.346Z",
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
+    },
+    {
+      "id": 4,
+      "titulo": "Nanbeige4.3-33B: modelo open-weights Apache 2.0 para agentes",
+      "titular_corto": "Nanbeige: 33B open-source para programación",
+      "resumen": "Nanbeige LLM Lab libera Nanbeige4.3-33B (Apache 2.0), modelo 33B con contexto 512K como teacher para distilación en agentes menores. Terminal-Bench 4.0: 23.8 vs 6.3 (Qwen). DeepSWE: 65.5. BF16 requiere ~68-70GB; 4-bit ~22GB.",
+      "categoria": "Modelos",
+      "prioridad": "alta",
+      "fuente": "Hugging Face",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "publicado": "2026-10-27T00:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-27T16:10:23.346Z",
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
+    },
+    {
+      "id": 5,
       "titulo": "OpenAI lanza GPT-6.1 Terra con razonamiento visual y automatización",
       "titular_corto": "GPT-6.1 Terra: modelo intermedio con precio reducido",
       "resumen": "OpenAI anunció GPT-6.1 Terra, modelo intermedio de la serie GPT-6 optimizado para tareas profesionales cotidianas como redacción, interpretación de planos técnicos y automatización de procesos. Reduce precios 50% (1$/M tokens entrada, 5$/M salida) frente a GPT-5.6 Terra y GPT-6.1 Sol. Disponible en API, ChatGPT Plus/Pro/Enterprise y Amazon Bedrock.",
@@ -26,11 +75,11 @@
       "publicado": "2026-10-26T21:35:28Z",
       "confirmado": true,
       "_visto": "2026-10-27T15:50:58.480Z",
-      "_imagen_buscada": true,
-      "imagen": null
+      "imagen": "https://cdn.openai.com/mdx-assets/71f084db-a08b-48c5-b96e-5fbdc21a1a00/terra-art-card-16x9.0394724b.png",
+      "_img_intentos": 1
     },
     {
-      "id": 3,
+      "id": 6,
       "titulo": "OpenAI publica descubrimientos en matemáticas, informática y física",
       "titular_corto": "OpenAI anuncia avances en investigación científica",
       "resumen": "OpenAI publicó tres nuevos descubrimientos científicos realizados con apoyo de comunidades académicas, incluyendo un trabajo sobre la Conjetura del Tiempo Exponencial que desafía hipótesis fundamentales de la complejidad computacional. Los hallazgos demuestran capacidad de IA para contribuir a investigación pura.",
@@ -41,11 +90,11 @@
       "publicado": "2026-10-26T21:35:28Z",
       "confirmado": true,
       "_visto": "2026-10-27T15:50:58.480Z",
-      "_imagen_buscada": true,
-      "imagen": null
+      "imagen": "https://images.ctfassets.net/kftzwdyauwt9/5HKwJOTURosg0IoKJA21s8/88eefd210a578266fca1a9d9454daadc/from-ai-results-to-scientific-understanding-social.png?w=1600&h=900&fit=fill",
+      "_img_intentos": 1
     },
     {
-      "id": 4,
+      "id": 7,
       "titulo": "GitHub dominado por infraestructura de agentes y orquestación",
       "titular_corto": "Repos trending: agentes autónomos y memory persistence",
       "resumen": "En tendencias de GitHub (26-27 octubre): stablyai/orca (inferencia LLM eficiente), morluto/rea (reverse engineering con MCP), openrig/openrig (equipos multi-agente coordinados), y herramientas de persistencia de memoria como claude-mem y Agent-Reach. Comunidad enfocada en ecosistema de agentes autónomos.",
@@ -55,11 +104,11 @@
       "url": "https://github.com/trending",
       "confirmado": true,
       "_visto": "2026-10-27T15:50:58.480Z",
-      "_imagen_buscada": true,
-      "imagen": null
+      "imagen": "https://github.githubassets.com/assets/github-mark-57519b92ca4e.png",
+      "_img_intentos": 1
     },
     {
-      "id": 5,
+      "id": 8,
       "titulo": "DeepSeek abliterated disponible en 5 proveedores de inferencia",
       "titular_corto": "Variante sin censura de DeepSeek llega a múltiples plataformas",
       "resumen": "La versión abliterated (sin restricciones de contenido) del modelo DeepSeek está disponible en 5 proveedores de inferencia diferentes, demostrando adopción acelerada de alternativas open weights al modelo base censurado. Refleja tendencia de comunidad hacia customización de modelos.",
@@ -70,63 +119,98 @@
       "publicado": "2026-10-27T04:53:52Z",
       "confirmado": true,
       "_visto": "2026-10-27T15:50:58.480Z",
-      "_imagen_buscada": true,
-      "imagen": null
+      "imagen": null,
+      "_img_intentos": 1,
+      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
+    },
+    {
+      "id": 9,
+      "titulo": "Meta y NVIDIA expanden partnership: $3B en infraestructura Muse",
+      "titular_corto": "Meta-NVIDIA: $3B, Vera Rubin GPUs",
+      "resumen": "Meta y NVIDIA anunciaron expansión: NVIDIA invierte $3B, deployment Vera Rubin GPUs/CPUs, optimización end-to-end para Muse. Incluye agent safety con OpenShell y monitoreo NVIDIA Sentry para workflows agenticos empresariales.",
+      "categoria": "Negocio",
+      "prioridad": "media",
+      "fuente": "NVIDIA",
+      "url": "https://nvidia.com/meta-partnership",
+      "publicado": "2026-10-27T00:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-27T16:10:23.346Z",
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
+    },
+    {
+      "id": 10,
+      "titulo": "Apple M6: MacBook Pro con Neural Engine dual 16-core mejorado",
+      "titular_corto": "M6 duplica capacidad: Neural Engine 32-core",
+      "resumen": "Apple anunció M6 en MacBook Pro 14\" con dual 16-core Neural Engine (32 cores NPU) y GPU Neural Accelerators. 1.9× faster vs M5, 25% on-device ML, 13× vs M1. 170GB/s memory bandwidth. Soporta LLMs locales con Apple Intelligence.",
+      "categoria": "Producto",
+      "prioridad": "media",
+      "fuente": "Apple",
+      "url": "https://apple.com/macbook-pro",
+      "publicado": "2026-10-27T00:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-27T16:10:23.346Z",
+      "_img_intentos": 1,
+      "imagen": "https://www.apple.com/v/macbook-pro/ay/images/meta/macbook-pro__difvbgz1plsi_og.png?202610261111"
     }
   ],
   "destacado": {
-    "titulo": "OpenAI lanza GPT-6.1 Terra con precios reducidos a la mitad",
-    "texto": "OpenAI presentó GPT-6.1 Terra, un modelo intermedio optimizado para tareas cotidianas con razonamiento visual y automatización de procesos. Reduce costos 50% frente a modelos anteriores y está disponible en API, ChatGPT y servicios cloud.",
-    "_visto": "2026-10-27T15:50:58.480Z"
+    "titulo": "Ndoc, gobernanza de agentes y Nanbeige 33B dominan el 27 oct",
+    "texto": "Ndoc (ex-director Meta) lanza suite IA nativa para reemplazar Office. IBM amplía gobernanza de agentes, Meta/NVIDIA invierten $3B. Nanbeige libera modelo 33B open-source con benchmarks fuertes en programación agentica.",
+    "_visto": "2026-10-27T16:10:23.346Z"
   },
   "modelo_open_source": {
-    "nombre": "DeepSeek (variante abliterated)",
-    "tamano": "Múltiples tamaños disponibles",
-    "licencia": "Open weights (variante comunitaria)",
-    "destaca_en": "Alternativa sin restricciones a modelos censurados con múltiples opciones de inferencia.",
-    "ejecucion_local": "Compatible con Ollama, vLLM y otros motores; requiere 20-40GB VRAM según tamaño.",
-    "url": "https://allmodels.io/llm/abliterated",
-    "_visto": "2026-10-27T15:50:58.480Z",
-    "_imagen_buscada": true,
-    "imagen": null
+    "nombre": "Nanbeige4.3-33B",
+    "tamano": "33B parámetros",
+    "licencia": "Apache 2.0",
+    "destaca_en": "Programación agentica, razonamiento multi-paso y automatización empresarial. Teacher model para distilación.",
+    "ejecucion_local": "BF16: 68-70GB VRAM (A100/H100). 4-bit: 22GB (RTX 3090/4090). Soporta vLLM, SGLang, Hugging Face Transformers.",
+    "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+    "_visto": "2026-10-27T16:10:23.346Z",
+    "_img_intentos": 1,
+    "imagen": null,
+    "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
   },
   "herramienta_del_dia": {
-    "nombre": "Cursor Agent SDK",
-    "que_hace": "Framework para crear agentes de IA personalizados, probarlos localmente y desplegarlos en cloud con triggers de GitHub, Slack y cron.",
-    "diferencia": "Define agentes como código reutilizable; incluye bots para validación de despliegues y análisis de seguridad automáticos.",
-    "licencia": "De pago",
-    "url": "https://cursor.com/changelog",
-    "_visto": "2026-10-27T15:50:58.480Z",
-    "_imagen_buscada": true,
-    "imagen": null
+    "nombre": "Ndoc",
+    "que_hace": "Suite AI-nativa unificando presentaciones, documentos y análisis, reemplazando Microsoft Office y Google Workspace.",
+    "diferencia": "Arquitectura IA nativa vs chatbot en software legacy. Open-source fine-tuned para reducir costos. Exportable HTML.",
+    "licencia": "Freemium",
+    "url": "https://ndoc.ai",
+    "_visto": "2026-10-27T16:10:23.346Z",
+    "_img_intentos": 1,
+    "imagen": null,
+    "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
   },
   "trending": [
     {
-      "nombre": "stablyai/orca",
-      "tipo": "github",
-      "descripcion": "Motor de inferencia LLM eficiente optimizado para bajo consumo VRAM; alternativa a vLLM.",
-      "url": "https://github.com/stablyai/orca",
-      "_imagen_buscada": true,
-      "imagen": null
-    },
-    {
-      "nombre": "openrig/openrig",
-      "tipo": "github",
-      "descripcion": "Framework para coordinar equipos de agentes de desarrollo con roles persistentes compartiendo contexto.",
-      "url": "https://github.com/openrig/openrig",
-      "_imagen_buscada": true,
-      "imagen": null
-    },
-    {
-      "nombre": "GPT-6.1 Terra",
+      "nombre": "Nanbeige/Nanbeige4.3-33B",
       "tipo": "huggingface",
-      "descripcion": "Modelo OpenAI para tareas profesionales cotidianas con razonamiento visual y automatización de procesos.",
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-      "_imagen_buscada": true,
-      "imagen": null
+      "descripcion": "33B Apache 2.0, teacher para agentes, 512K context, Terminal-Bench 4.0 23.8.",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
+    },
+    {
+      "nombre": "IBM-watsonx/governance",
+      "tipo": "github",
+      "descripcion": "Gobernanza agentes IA, identity management, compliance automático y monitoreo tiempo real.",
+      "url": "https://github.com/IBM-watsonx",
+      "_img_intentos": 1,
+      "imagen": "https://avatars.githubusercontent.com/u/133000016?s=280&v=4"
+    },
+    {
+      "nombre": "Ndoc",
+      "tipo": "github",
+      "descripcion": "Suite IA alternativa Office/Google con open-source models, creada ex-director Meta.",
+      "url": "https://github.com/ndoc-ai/ndoc",
+      "_img_intentos": 1,
+      "imagen": "https://opengraph.githubassets.com/1/ndoc-ai/ndoc"
     }
   ],
   "fecha": "2026-10-27",
-  "generado": "2026-10-27T15:50:58.480Z",
-  "_ultima_consulta": "2026-10-27T15:50:58.480Z"
+  "generado": "2026-10-27T16:10:23.346Z",
+  "_ultima_consulta": "2026-10-27T16:10:23.346Z"
 }
