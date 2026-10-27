@@ -74,7 +74,7 @@ h1, h2 { font-family: var(--font-display); letter-spacing: -0.02em; line-height:
 .pantalla {
   height: 100%;
   display: grid;
-  grid-template-rows: 7rem minmax(0, 60fr) 6.2rem minmax(0, 27fr) 12rem 4.4rem;
+  grid-template-rows: 7rem minmax(0, 53fr) 6.2rem minmax(0, 36fr) 11.5rem 4.4rem;
   gap: 1.25rem;
 }
 .marco { padding: 0 2.5rem; min-height: 0; }
@@ -189,7 +189,7 @@ h1, h2 { font-family: var(--font-display); letter-spacing: -0.02em; line-height:
   color: hsl(220 30% 85%); margin-bottom: 1rem; min-height: 1.6rem;
 }
 .estado .punto { width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--primary); }
-.titulo { font-size: 3.7rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1.08; }
+.titulo { font-size: 3.5rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1.08; }
 .palabra { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: 0.1em; margin-bottom: -0.1em; }
 .palabra > span { display: inline-block; transform: translateY(110%); transition: transform .8s var(--ease-out-expo); }
 .titulo.visible .palabra > span { transform: none; }
@@ -229,28 +229,44 @@ h1, h2 { font-family: var(--font-display); letter-spacing: -0.02em; line-height:
 .cifra b.acento { color: var(--primary); }
 .cifra span { font-size: 1rem; color: var(--muted-foreground); }
 
-/* ---------- Lista ---------- */
+/* ---------- Lista en cola ---------- */
 .lista-zona { display: flex; flex-direction: column; }
 .zona-cab { display: flex; justify-content: space-between; align-items: baseline; padding: 1.1rem 1.5rem 0.8rem; border-bottom: 1px solid var(--border); }
 .zona-cab h2 { font-size: 1.3rem; font-weight: 700; }
 .zona-cab span { font-size: 1rem; color: var(--muted-foreground); }
 .lista { overflow: hidden; flex: 1; padding: 0.5rem; position: relative; }
 .item {
-  display: grid; grid-template-columns: 2.4rem 7.5rem 1fr; gap: 1.1rem; align-items: center;
-  padding: 0.6rem 0.8rem; border-radius: var(--radius-lg);
-  transition: background-color 150ms ease;
+  display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: center;
+  padding: 0.4rem 0.7rem; border-radius: var(--radius-lg); overflow: hidden;
+  transition: background-color 150ms ease, opacity 500ms var(--ease-out-expo), transform 500ms var(--ease-out-expo),
+              height 500ms var(--ease-out-expo), padding 500ms var(--ease-out-expo);
 }
-.item-num { font-family: var(--font-display); font-size: 1.3rem; font-weight: 800; color: var(--muted-foreground); text-align: center; font-variant-numeric: tabular-nums; }
-.mini { position: relative; width: 7.5rem; height: 5rem; border-radius: var(--radius); overflow: hidden; background: var(--muted); transition: box-shadow 250ms var(--ease-out-expo), transform 250ms var(--ease-out-expo); }
+.item.entra { opacity: 0; transform: translateY(2rem); }
+.item.sale { opacity: 0; transform: translateX(-3rem); }
+.item-num { font-family: var(--font-display); font-size: 1.2rem; font-weight: 800; color: var(--muted-foreground); text-align: center; font-variant-numeric: tabular-nums; }
+.mini { position: relative; width: 6rem; height: 3.9rem; border-radius: var(--radius); overflow: hidden; background: var(--muted); transition: box-shadow 250ms var(--ease-out-expo), transform 250ms var(--ease-out-expo); }
 .mini img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.item-meta { font-size: 0.95rem; color: var(--muted-foreground); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.item-meta { font-size: 0.92rem; color: var(--muted-foreground); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .item-meta b { color: var(--foreground); font-weight: 600; margin-right: 0.5rem; }
-.item-titulo { font-size: 1.32rem; line-height: 1.3; font-weight: 500; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.item-meta .nuevo { color: var(--primary); font-weight: 700; margin-right: 0.5rem; }
+.item-titulo { font-size: 1.25rem; line-height: 1.3; font-weight: 500; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .item.hover { background: color-mix(in srgb, var(--primary) 4%, transparent); }
 .item.activo { background: var(--primary-soft); }
 .item.activo .item-num { color: var(--primary); }
 .item.activo .mini { box-shadow: 0 0 0 2px var(--primary); transform: scale(1.04); }
 .item.activo .item-titulo { color: var(--primary); font-weight: 700; }
+
+/* Aviso de noticias nuevas */
+.aviso-nuevas {
+  position: fixed; left: 50%; top: 8.4rem; z-index: 45;
+  transform: translate(-50%, -22rem); transition: transform 700ms var(--ease-out-expo);
+  display: flex; align-items: center; gap: 0.8rem;
+  background: var(--primary); color: #fff; padding: 0.8rem 1.6rem; border-radius: 2rem;
+  font-family: var(--font-display); font-weight: 700; font-size: 1.4rem; letter-spacing: -0.02em;
+  box-shadow: 0 1rem 2.5rem hsl(12 76% 40% / .35);
+}
+.aviso-nuevas.visible { transform: translate(-50%, 0); }
+.aviso-nuevas i { width: 0.7rem; height: 0.7rem; border-radius: 50%; background: #fff; }
 
 /* ---------- Panel rotativo ---------- */
 .panel { position: relative; }
@@ -311,6 +327,7 @@ h1, h2 { font-family: var(--font-display); letter-spacing: -0.02em; line-height:
 
 @media (prefers-reduced-motion: reduce) {
   .ticker-pista, .esqueleto i, .capa img, .collage img, .directo i::after { animation: none; }
+  .item { transition: none; }
   .capa, .puntero, .palabra > span { transition: none; }
 }
 </style>
@@ -365,7 +382,7 @@ h1, h2 { font-family: var(--font-display); letter-spacing: -0.02em; line-height:
 
   <div class="marco">
     <section class="tarjeta lista-zona">
-      <div class="zona-cab"><h2>Todas las noticias</h2><span id="actualizado"></span></div>
+      <div class="zona-cab"><h2>A continuación</h2></div>
       <div class="lista" id="lista"></div>
     </section>
   </div>
@@ -384,6 +401,7 @@ h1, h2 { font-family: var(--font-display); letter-spacing: -0.02em; line-height:
   <svg viewBox="0 0 24 24"><path d="M3 2l7.5 19 2.6-7.6L21 10.8z" fill="#fff" stroke="#1b2235" stroke-width="1.4" stroke-linejoin="round"/></svg>
 </div>
 <div class="aviso-ejemplo" id="aviso">Datos de ejemplo</div>
+<div class="aviso-nuevas" id="aviso-nuevas"><i></i><span></span></div>
 
 <script>
 /* QR Code Generator (MIT, Kazuhiko Arase), incrustado para funcionar sin conexión */
@@ -517,6 +535,7 @@ async function cargar() {
 /* ---------- Estado ---------- */
 let datos = null, firma = "", diapositivas = [], indice = -1, ciclo = 0;
 let temporizador = null, temporizadorPanel = null;
+let pendiente = null, nuevasPendientes = 0, ultimoEnCola = -1;
 const puntero = $("puntero");
 let pos = { x: innerWidth * 0.8, y: innerHeight * 0.9 };
 function colocarPuntero(x, y) { pos = { x, y }; puntero.style.transform = `translate(${x}px, ${y}px)`; }
@@ -548,29 +567,65 @@ function contar(id, valor) {
   requestAnimationFrame(paso);
 }
 
+/* ---------- Lista en cola ---------- */
+function crearItem(i) {
+  const n = datos.noticias[i];
+  const item = el("div", "item"); item.dataset.i = i;
+  const mini = el("div", "mini"); imagenEn(mini, n.imagen, "", n.titulo);
+  const cuerpo = el("div"), meta = el("div", "item-meta");
+  if (esNuevo(n.publicado) || n._nueva) meta.appendChild(el("span", "nuevo", "Nuevo"));
+  meta.append(el("b", null, n.fuente || dominio(n.url)),
+    document.createTextNode([n.categoria, hace(n.publicado)].filter(Boolean).join(", ")));
+  cuerpo.append(meta, el("div", "item-titulo", n.titulo));
+  item.append(mini, cuerpo);
+  return item;
+}
+function avanzarCola(item) {
+  // La noticia que pasa al escenario sale de la lista y entra la siguiente por abajo
+  const lista = $("lista"), n = datos.noticias.length;
+  if (!item || !n) return;
+  const alto = item.offsetHeight;
+  item.style.height = alto + "px";
+  requestAnimationFrame(() => {
+    item.classList.add("sale");
+    item.style.height = "0px"; item.style.paddingTop = "0px"; item.style.paddingBottom = "0px";
+  });
+  setTimeout(() => {
+    item.remove();
+    const siguienteI = (ultimoEnCola + 1) % n;
+    const nuevo = crearItem(siguienteI); nuevo.classList.add("entra");
+    lista.appendChild(nuevo); ultimoEnCola = siguienteI;
+    if (nuevo.offsetTop + nuevo.offsetHeight > lista.clientHeight + 4 && lista.children.length > 1) {
+      nuevo.remove(); ultimoEnCola = (siguienteI - 1 + n) % n;
+    } else requestAnimationFrame(() => requestAnimationFrame(() => nuevo.classList.remove("entra")));
+  }, reducirMovimiento ? 0 : 520);
+}
+function avisarNuevas(cuantas) {
+  if (!cuantas) return;
+  const a = $("aviso-nuevas");
+  a.querySelector("span").textContent = cuantas === 1 ? "Ha llegado 1 noticia nueva" : `Han llegado ${cuantas} noticias nuevas`;
+  a.classList.add("visible");
+  setTimeout(() => a.classList.remove("visible"), 6000);
+}
+
 /* ---------- Pintar ---------- */
 function pintar(d) {
   datos = d;
-  const g = d.generado ? new Date(d.generado) : null;
-  $("actualizado").textContent = g && !isNaN(g)
-    ? `Actualizado a las ${g.toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" })}` : "";
 
   contar("c-noticias", d.noticias.length);
   contar("c-alta", d.noticias.filter(n => n.prioridad === "alta").length);
   contar("c-fuentes", CONFIG.fuentesRevisadas);
   reloj();
 
+  // Lista en cola: se llena hasta donde cabe
   const lista = $("lista"); lista.replaceChildren();
-  d.noticias.forEach((n, i) => {
-    const item = el("div", "item");
-    const mini = el("div", "mini"); imagenEn(mini, n.imagen, "", n.titulo);
-    const cuerpo = el("div"), meta = el("div", "item-meta");
-    meta.append(el("b", null, n.fuente || dominio(n.url)),
-      document.createTextNode([n.categoria, hace(n.publicado)].filter(Boolean).join(", ")));
-    cuerpo.append(meta, el("div", "item-titulo", n.titulo));
-    item.append(el("div", "item-num", String(i + 1)), mini, cuerpo);
-    lista.appendChild(item);
-  });
+  ultimoEnCola = -1;
+  const n = d.noticias.length;
+  for (let k = 0; k < Math.min(n, 12); k++) {
+    const item = crearItem(k); lista.appendChild(item); ultimoEnCola = k;
+    if (item.offsetTop + item.offsetHeight > lista.clientHeight) { item.remove(); ultimoEnCola = k - 1; break; }
+  }
+  [...lista.children].forEach((it, k) => { it.classList.add("entra"); setTimeout(() => it.classList.remove("entra"), 80 * k + 50); });
 
   const pista = $("ticker"); pista.replaceChildren();
   const titulares = d.noticias.map(n => n.titular_corto || n.titulo);
@@ -643,34 +698,35 @@ async function clic() {
   document.body.appendChild(o); setTimeout(() => o.remove(), 700);
   await esperar(150); puntero.classList.remove("clic"); await esperar(150);
 }
-function desplazarLista(i) {
-  const lista = $("lista"), item = lista.children[i];
-  if (!item) return;
-  lista.scrollTo({ top: Math.max(0, item.offsetTop - lista.clientHeight * 0.3), behavior: reducirMovimiento ? "auto" : "smooth" });
-}
 
 async function siguiente() {
   clearTimeout(temporizador);
+  if (pendiente) {                      // llegaron noticias nuevas: se incorporan al terminar la actual
+    const d = pendiente, cuantas = nuevasPendientes;
+    pendiente = null; nuevasPendientes = 0;
+    pintar(d); avisarNuevas(cuantas);
+    return;
+  }
   const miCiclo = ++ciclo;
   if (!diapositivas.length) return;
   indice = (indice + 1) % diapositivas.length;
   const s = diapositivas[indice];
   const items = [...$("lista").children];
+  items.forEach(x => x.classList.remove("activo", "hover"));
 
+  let item = null;
   if (s.tipo === "noticia") {
-    desplazarLista(s.i);
-    await esperar(500); if (miCiclo !== ciclo) return;
-    const item = items[s.i];
-    items.forEach(x => x.classList.remove("hover"));
-    await moverA(item); if (miCiclo !== ciclo) return;
-    item.classList.add("hover");
-    await clic(); if (miCiclo !== ciclo) return;
-    items.forEach(x => x.classList.remove("activo", "hover"));
-    item.classList.add("activo");
-  } else {
-    items.forEach(x => x.classList.remove("activo", "hover"));
+    item = items.find(x => Number(x.dataset.i) === s.i) || null;
+    if (item) {
+      await moverA(item); if (miCiclo !== ciclo) return;
+      item.classList.add("hover");
+      await clic(); if (miCiclo !== ciclo) return;
+      item.classList.remove("hover"); item.classList.add("activo");
+    }
   }
-  await mostrar(s, miCiclo);
+  const mostrado = mostrar(s, miCiclo);
+  if (item) setTimeout(() => { if (miCiclo === ciclo) avanzarCola(item); }, 1400);
+  await mostrado;
 }
 
 function historias() {
@@ -724,7 +780,7 @@ async function mostrar(s, miCiclo) {
   } else {
     const n = datos.noticias[s.i];
     imagenEn(capa, n.imagen, n.categoria || "IA", n.titulo, false);
-    if (esNuevo(n.publicado)) etq.appendChild(el("span", "chip nuevo", "Nuevo"));
+    if (esNuevo(n.publicado) || n._nueva) etq.appendChild(el("span", "chip nuevo", "Nuevo"));
     if (n.categoria) etq.appendChild(el("span", "chip", n.categoria));
     if (n.confirmado === false) etq.appendChild(el("span", "chip aviso", "Pendiente de confirmar"));
     titulo = n.titulo; resumen = n.resumen; url = n.url; origen = dominio(n.url) || n.fuente || "la fuente";
@@ -776,10 +832,17 @@ async function mostrar(s, miCiclo) {
 /* ---------- Arranque y recarga ---------- */
 async function actualizar() {
   const d = await cargar();
-  const usar = d || datos || EJEMPLO;
   $("aviso").style.display = (!d && !datos) ? "block" : "none";
+  const usar = d || datos || EJEMPLO;
   const nueva = JSON.stringify(usar);
-  if (nueva !== firma) { firma = nueva; pintar(usar); }
+  if (nueva === firma) return;
+  firma = nueva;
+  if (!datos) { pintar(usar); return; }
+  // Marca las que no estaban y espera a que termine la noticia en curso
+  const antes = new Set(datos.noticias.map(n => n.url || n.titulo));
+  let cuantas = 0;
+  usar.noticias.forEach(n => { if (!antes.has(n.url || n.titulo)) { n._nueva = true; cuantas++; } });
+  pendiente = usar; nuevasPendientes = cuantas;
 }
 actualizar();
 setInterval(actualizar, CONFIG.minutosRecarga * 60000);
