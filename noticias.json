@@ -1,0 +1,132 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "Ollama v0.40 integra síntesis de voz local y modelos de decisión",
+      "titular_corto": "Ollama añade TTS local y modelos de decisión para agentes",
+      "resumen": "Ollama lanzó v0.40 con soporte nativo para síntesis de voz mediante modelo Phonon (100x más rápido en Apple Silicon), soporte para decision models optimizados y activación de MLX como motor por defecto. Compatible con OpenAI audio API para integración directa en aplicaciones cliente.",
+      "categoria": "Herramientas",
+      "prioridad": "alta",
+      "fuente": "Ollama",
+      "url": "https://ollama.com/blog",
+      "confirmado": true,
+      "_visto": "2026-10-27T15:50:58.480Z",
+      "_imagen_buscada": true,
+      "imagen": null
+    },
+    {
+      "id": 2,
+      "titulo": "OpenAI lanza GPT-6.1 Terra con razonamiento visual y automatización",
+      "titular_corto": "GPT-6.1 Terra: modelo intermedio con precio reducido",
+      "resumen": "OpenAI anunció GPT-6.1 Terra, modelo intermedio de la serie GPT-6 optimizado para tareas profesionales cotidianas como redacción, interpretación de planos técnicos y automatización de procesos. Reduce precios 50% (1$/M tokens entrada, 5$/M salida) frente a GPT-5.6 Terra y GPT-6.1 Sol. Disponible en API, ChatGPT Plus/Pro/Enterprise y Amazon Bedrock.",
+      "categoria": "Producto",
+      "prioridad": "alta",
+      "fuente": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "publicado": "2026-10-26T21:35:28Z",
+      "confirmado": true,
+      "_visto": "2026-10-27T15:50:58.480Z",
+      "_imagen_buscada": true,
+      "imagen": null
+    },
+    {
+      "id": 3,
+      "titulo": "OpenAI publica descubrimientos en matemáticas, informática y física",
+      "titular_corto": "OpenAI anuncia avances en investigación científica",
+      "resumen": "OpenAI publicó tres nuevos descubrimientos científicos realizados con apoyo de comunidades académicas, incluyendo un trabajo sobre la Conjetura del Tiempo Exponencial que desafía hipótesis fundamentales de la complejidad computacional. Los hallazgos demuestran capacidad de IA para contribuir a investigación pura.",
+      "categoria": "Investigación",
+      "prioridad": "alta",
+      "fuente": "OpenAI",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "publicado": "2026-10-26T21:35:28Z",
+      "confirmado": true,
+      "_visto": "2026-10-27T15:50:58.480Z",
+      "_imagen_buscada": true,
+      "imagen": null
+    },
+    {
+      "id": 4,
+      "titulo": "GitHub dominado por infraestructura de agentes y orquestación",
+      "titular_corto": "Repos trending: agentes autónomos y memory persistence",
+      "resumen": "En tendencias de GitHub (26-27 octubre): stablyai/orca (inferencia LLM eficiente), morluto/rea (reverse engineering con MCP), openrig/openrig (equipos multi-agente coordinados), y herramientas de persistencia de memoria como claude-mem y Agent-Reach. Comunidad enfocada en ecosistema de agentes autónomos.",
+      "categoria": "Herramientas",
+      "prioridad": "media",
+      "fuente": "GitHub",
+      "url": "https://github.com/trending",
+      "confirmado": true,
+      "_visto": "2026-10-27T15:50:58.480Z",
+      "_imagen_buscada": true,
+      "imagen": null
+    },
+    {
+      "id": 5,
+      "titulo": "DeepSeek abliterated disponible en 5 proveedores de inferencia",
+      "titular_corto": "Variante sin censura de DeepSeek llega a múltiples plataformas",
+      "resumen": "La versión abliterated (sin restricciones de contenido) del modelo DeepSeek está disponible en 5 proveedores de inferencia diferentes, demostrando adopción acelerada de alternativas open weights al modelo base censurado. Refleja tendencia de comunidad hacia customización de modelos.",
+      "categoria": "Modelos",
+      "prioridad": "media",
+      "fuente": "Hacker News",
+      "url": "https://allmodels.io/llm/abliterated",
+      "publicado": "2026-10-27T04:53:52Z",
+      "confirmado": true,
+      "_visto": "2026-10-27T15:50:58.480Z",
+      "_imagen_buscada": true,
+      "imagen": null
+    }
+  ],
+  "destacado": {
+    "titulo": "OpenAI lanza GPT-6.1 Terra con precios reducidos a la mitad",
+    "texto": "OpenAI presentó GPT-6.1 Terra, un modelo intermedio optimizado para tareas cotidianas con razonamiento visual y automatización de procesos. Reduce costos 50% frente a modelos anteriores y está disponible en API, ChatGPT y servicios cloud.",
+    "_visto": "2026-10-27T15:50:58.480Z"
+  },
+  "modelo_open_source": {
+    "nombre": "DeepSeek (variante abliterated)",
+    "tamano": "Múltiples tamaños disponibles",
+    "licencia": "Open weights (variante comunitaria)",
+    "destaca_en": "Alternativa sin restricciones a modelos censurados con múltiples opciones de inferencia.",
+    "ejecucion_local": "Compatible con Ollama, vLLM y otros motores; requiere 20-40GB VRAM según tamaño.",
+    "url": "https://allmodels.io/llm/abliterated",
+    "_visto": "2026-10-27T15:50:58.480Z",
+    "_imagen_buscada": true,
+    "imagen": null
+  },
+  "herramienta_del_dia": {
+    "nombre": "Cursor Agent SDK",
+    "que_hace": "Framework para crear agentes de IA personalizados, probarlos localmente y desplegarlos en cloud con triggers de GitHub, Slack y cron.",
+    "diferencia": "Define agentes como código reutilizable; incluye bots para validación de despliegues y análisis de seguridad automáticos.",
+    "licencia": "De pago",
+    "url": "https://cursor.com/changelog",
+    "_visto": "2026-10-27T15:50:58.480Z",
+    "_imagen_buscada": true,
+    "imagen": null
+  },
+  "trending": [
+    {
+      "nombre": "stablyai/orca",
+      "tipo": "github",
+      "descripcion": "Motor de inferencia LLM eficiente optimizado para bajo consumo VRAM; alternativa a vLLM.",
+      "url": "https://github.com/stablyai/orca",
+      "_imagen_buscada": true,
+      "imagen": null
+    },
+    {
+      "nombre": "openrig/openrig",
+      "tipo": "github",
+      "descripcion": "Framework para coordinar equipos de agentes de desarrollo con roles persistentes compartiendo contexto.",
+      "url": "https://github.com/openrig/openrig",
+      "_imagen_buscada": true,
+      "imagen": null
+    },
+    {
+      "nombre": "GPT-6.1 Terra",
+      "tipo": "huggingface",
+      "descripcion": "Modelo OpenAI para tareas profesionales cotidianas con razonamiento visual y automatización de procesos.",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "_imagen_buscada": true,
+      "imagen": null
+    }
+  ],
+  "fecha": "2026-10-27",
+  "generado": "2026-10-27T15:50:58.480Z",
+  "_ultima_consulta": "2026-10-27T15:50:58.480Z"
+}
