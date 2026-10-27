@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
 <title>ISDIN | AI News</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -473,7 +474,7 @@ function imagenEn(cont, src, texto, semilla, clara = true) {
   const pon = () => cont.replaceChildren(malla(texto, semilla, clara));
   cont.replaceChildren();
   if (!src) { pon(); return; }
-  const img = el("img"); img.alt = ""; img.onerror = pon; img.src = src;
+  const img = el("img"); img.alt = ""; img.referrerPolicy = "no-referrer"; img.decoding = "async"; img.onerror = pon; img.src = src;
   cont.appendChild(img);
 }
 
