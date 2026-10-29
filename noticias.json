@@ -185,12 +185,12 @@
       "tipo": "huggingface",
       "descripcion": "Modelo Le Chonk de 1T parámetros open-weight para programación y ciberseguridad",
       "url": "https://huggingface.co/mistralai/mistral-large-4",
-      "_img_intentos": 1,
+      "_img_intentos": 2,
       "imagen": null,
       "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
     }
   ],
   "fecha": "2026-10-29",
-  "generado": "2026-10-29T16:05:00.311Z",
-  "_ultima_consulta": "2026-10-29T16:05:00.311Z"
+  "generado": "2026-10-29T16:33:19.856Z",
+  "_ultima_consulta": "2026-10-29T16:33:19.856Z"
 }
