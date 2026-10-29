@@ -2,20 +2,6 @@
   "noticias": [
     {
       "id": 1,
-      "titulo": "DeepSeek-V4.1-Flash domina trending Hugging Face con arquitectura 763B MoE",
-      "titular_corto": "DeepSeek-V4.1-Flash lidera trending de HF",
-      "resumen": "DeepSeek-V4.1-Flash (763B sparse MoE) es modelo #1 trending Hugging Face. Multimodal nativo, FP8, MIT license. Comunidad optimiza versiones sin censura y quantizaciones GSQ. Segunda opción: Meta Muse-Spark (816B, 42B activos/token).",
-      "categoria": "Modelos",
-      "prioridad": "alta",
-      "fuente": "Hugging Face",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "confirmado": true,
-      "_visto": "2026-10-29T14:05:00.077Z",
-      "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png"
-    },
-    {
-      "id": 2,
       "titulo": "GitHub Copilot integra múltiples modelos incluido Claude Sonnet",
       "titular_corto": "Copilot soporta Claude y Gemini",
       "resumen": "GitHub Copilot incorporó soporte multi-modelo, permitiendo a desarrolladores usar Claude 3.5/3.7 Sonnet de Anthropic, Gemini de Google y modelos de OpenAI. Rompe exclusividad con OpenAI.",
@@ -30,7 +16,7 @@
       "reciente": true
     },
     {
-      "id": 3,
+      "id": 2,
       "titulo": "Modelos open-weight frontier de octubre: Muse, Beam, Step 5 y más",
       "titular_corto": "Ola de modelos open-weight grandes",
       "resumen": "Múltiples laboratorios lanzaron modelos open-weights: Meta Muse Spark Open (816B, Muse License), Reflection Beam 1.0 (501B, Apache 2.0), StepFun Step 5 (600B) y Z.ai GLM-5.3. Todos disponibles en Hugging Face.",
@@ -45,27 +31,28 @@
       "reciente": true
     },
     {
-      "id": 4,
-      "titulo": "Mistral Large 4 (Le Chonk) abre sus pesos como open-weight",
-      "titular_corto": "Mistral Large 4 es ahora open-weight",
-      "resumen": "Mistral lanza los pesos del modelo Le Chonk, su mayor modelo de 1T parámetros en arquitectura Mixture of Experts. El modelo multimodal está optimizado para programación (48% en benchmarks de codificación) y ciberseguridad (51% en defensiva). Entrenado en Europa con 3.800 NVIDIA Grace Blackwell GPUs.",
+      "id": 3,
+      "titulo": "Mistral Large 4 \"Le Chonk\" lanzado: 1T parámetros con 49B activos",
+      "titular_corto": "Mistral Large 4 abierto para descargar hoy",
+      "resumen": "Mistral AI liberó oficialmente Mistral Large 4 (Le Chonk) el 29 de octubre con 1.05 billones de parámetros en arquitectura MoE (49B activos). Soporta contexto de 1M tokens, es multimodal y destaca en ciberseguridad y codificación de agentes. Disponible en FP8 y GGUF en Hugging Face.",
       "categoria": "Modelos",
       "prioridad": "alta",
-      "fuente": "Mistral",
+      "fuente": "Mistral AI",
       "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "publicado": "2026-10-29T12:00:07Z",
+      "publicado": "2026-10-29T00:00:00Z",
       "imagen": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
       "confirmado": true,
-      "_visto": "2026-10-29T16:05:00.311Z"
+      "_visto": "2026-10-29T16:05:00.311Z",
+      "es_ia": true
     },
     {
-      "id": 5,
-      "titulo": "Google Gemini 4 Carbon: Modelo frontier para ciberseguridad",
-      "titular_corto": "Gemini 4 Carbon: líder en defensa y coding seguro",
-      "resumen": "Google lanzó Gemini 4 Carbon, especializado en detección de vulnerabilidades y ciberseguridad. Logra 88.2% en SEC-bench Pro, 71% en CWE-bench y es número 1 del Artificial Analysis Index. Acceso inicial limitado via Fairwind Program. Precios: $2-4 por millón tokens entrada, $10-20 salida.",
+      "id": 4,
+      "titulo": "Google Gemini 4 Carbon: 88.2% en SEC-bench Pro para ciberseguridad",
+      "titular_corto": "Gemini 4 Carbon domina benchmarks de seguridad",
+      "resumen": "Google lanzó Gemini 4 Carbon, modelo de frontera para ingeniería de software y defensa cibernética autónoma. Alcanza 88.2% en SEC-bench Pro (vulnerabilidades), 71% en CWE-bench (parches). Acceso restringido a defensores verificados bajo el programa Fairwind.",
       "categoria": "Modelos",
       "prioridad": "alta",
-      "fuente": "Google",
+      "fuente": "Google DeepMind",
       "url": "https://blog.google/technology/ai/gemini-4-carbon-cybersecurity/",
       "publicado": "2026-10-29T00:00:00Z",
       "confirmado": true,
@@ -73,7 +60,24 @@
       "reciente": true,
       "_img_intentos": 3,
       "imagen": null,
-      "_imagen_error": "lectura directa: HTTP 404 | microlink: Microlink no encontró imagen"
+      "_imagen_error": "lectura directa: HTTP 404 | microlink: Microlink no encontró imagen",
+      "es_ia": true
+    },
+    {
+      "id": 5,
+      "titulo": "GitHub Octoverse 2026: 40% de PRs generados por agentes de IA",
+      "titular_corto": "Agentes de IA dominan flujos de desarrollo",
+      "resumen": "El reporte Octoverse 2026 de GitHub muestra que en septiembre, más del 40% de pull requests fueron iniciados por agentes (vs. 17% en marzo). El 55% de usuarios activos de Copilot usan funciones agenticas, registrando 225+ millones de desarrolladores globales y 17.9 mil millones de pushes anuales.",
+      "categoria": "Producto",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "GitHub",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "publicado": "2026-10-29T00:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-29T17:05:00.281Z",
+      "_img_intentos": 1,
+      "imagen": "https://github.blog/wp-content/uploads/2026/10/Octoverse2026_BlogHeader_2.jpg"
     },
     {
       "id": 6,
@@ -139,58 +143,77 @@
     },
     {
       "id": 10,
-      "titulo": "NVIDIA Nemotron 3.5 Transcribe: Modelo speech unificado",
-      "titular_corto": "Nemotron 3.5 Transcribe: ASR y diarización integradas",
-      "resumen": "NVIDIA liberó Nemotron 3.5 Transcribe (34B parámetros, 4.3B activos), modelo speech LLM que unifica ASR, diarización y traducción en una arquitectura Mamba-2/Transformer. Maneja hasta 1 hora de audio, 40 idiomas, contexto 65k tokens. Licencia OpenMDW-1.1, disponible en Hugging Face.",
+      "titulo": "DeepSeek V4.1-Flash variantes cuantizadas para ejecución local",
+      "titular_corto": "DeepSeek versiones GGUF y abliteradas",
+      "resumen": "Comunidad libera variantes fuertemente cuantizadas GGUF y versiones abliteradas de DeepSeek-V4.1-Flash (552B MoE, 8-16B activos). Optimizadas para Apple Silicon y configuraciones multi-GPU. Disponibles en Hugging Face con bajo overhead de memoria.",
       "categoria": "Modelos",
-      "prioridad": "alta",
-      "fuente": "NVIDIA",
-      "url": "https://huggingface.co/nvidia/Nemotron-3.5-Transcribe",
-      "publicado": "2026-10-28T00:00:00Z",
+      "prioridad": "media",
+      "fuente": "Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "confirmado": true,
-      "_visto": "2026-10-29T13:05:00.065Z",
+      "_visto": "2026-10-29T14:05:00.077Z",
       "_img_intentos": 1,
-      "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
+      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png",
+      "es_ia": true,
+      "publicado": "2026-10-29T00:00:00Z"
     }
   ],
   "destacado": {
-    "titulo": "Mistral Large 4 (Le Chonk) abre sus pesos para libre uso",
-    "texto": "Mistral AI lanzó los pesos de su modelo multimodal de 1 billón de parámetros como open-weight. El modelo destaca en tareas de programación y ciberseguridad, entrenado completamente en Europa con 3.800 GPUs.",
-    "_visto": "2026-10-29T16:05:00.311Z"
+    "titulo": "GitHub supera 225M desarrolladores con agentes de IA generando 40% de PRs",
+    "texto": "GitHub Octoverse 2026 revela que los agentes de IA iniciaron más del 40% de pull requests en septiembre, frente al 17% en marzo. Los desarrolladores usan múltiples modelos para tareas específicas y los repositios con agentes registran 8 veces más commits.",
+    "_visto": "2026-10-29T17:05:00.281Z"
   },
   "modelo_open_source": {
-    "nombre": "Mistral Large 4 (Le Chonk)",
-    "tamano": "~1 billón de parámetros (1.05T total, ~50B activos por token)",
-    "licencia": "Apache 2.0",
-    "destaca_en": "Programación, ciberseguridad defensiva y análisis multimodal. Mejor rendimiento en tareas de codificación entre modelos open-weight.",
-    "ejecucion_local": "Requiere múltiples GPUs de alta gama (H100/A100). Los pesos están disponibles para descarga e inferencia distribuida.",
-    "url": "https://mistral.ai/news/mistral-large-4-oss/",
-    "_visto": "2026-10-29T16:05:00.311Z",
+    "nombre": "Mistral Large 4 (\"Le Chonk\")",
+    "tamano": "1.05 billones parámetros (49B activos)",
+    "licencia": "Mistral Ecosystem Open-Weight License",
+    "destaca_en": "Ciberseguridad, codificación agentica, comprensión visual. 88% en código vulnerable, bajo costo de inferencia.",
+    "ejecucion_local": "8x NVIDIA B300 (BF16) o 4x B300 (NVFP4). GGUF disponible para CPUs.",
+    "url": "https://huggingface.co/mistralai/Mistral-Large-4",
+    "_visto": "2026-10-29T17:05:00.281Z",
     "_img_intentos": 1,
-    "imagen": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp"
+    "imagen": null,
+    "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
   },
   "herramienta_del_dia": {
-    "nombre": "Cursor Agent SDK",
-    "que_hace": "Framework para definir y desplegar agentes IA como código con instrucciones, herramientas y disparadores.",
-    "diferencia": "Escalable a 300 repos, canvases interactivos, control remoto iOS, webhooks GitHub/Slack y Marketplace.",
-    "licencia": "De pago",
-    "url": "https://cursor.com/changelog",
-    "_visto": "2026-10-29T14:05:00.077Z",
+    "nombre": "GitHub Copilot Autonomous Agent",
+    "que_hace": "Agente autónomo en nube que ejecuta tareas independientes en repositorios. 230% crecimiento YoY.",
+    "diferencia": "Funciona sin intervención humana, se integra con flujos de desarrollo existentes, 90% de PRs con agentes se fusionan en 2 semanas.",
+    "licencia": "De pago (GitHub Copilot Pro/Enterprise)",
+    "url": "https://github.com/",
+    "_visto": "2026-10-29T17:05:00.281Z",
     "_img_intentos": 1,
-    "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
+    "imagen": "https://images.ctfassets.net/8aevphvgewt8/76epZKB2wF998m4e4bLLXn/c505f20b00ec70b88b1be5aec42c4be4/OG_image.jpg"
   },
   "trending": [
     {
-      "nombre": "mistralai/mistral-large-4",
+      "nombre": "mistralai/Mistral-Large-4",
       "tipo": "huggingface",
-      "descripcion": "Modelo Le Chonk de 1T parámetros open-weight para programación y ciberseguridad",
-      "url": "https://huggingface.co/mistralai/mistral-large-4",
-      "_img_intentos": 2,
+      "descripcion": "Modelo frontier abierto MoE 1T con contexto 1M, multimodal, ciberseguridad.",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4",
+      "_img_intentos": 3,
       "imagen": null,
       "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
+    },
+    {
+      "nombre": "meta-llama/Muse-Spark-Open-816B",
+      "tipo": "huggingface",
+      "descripcion": "Modelo abierto 816B para agentes, desarrollo, multimodal con 1M tokens.",
+      "url": "https://huggingface.co/meta-llama/Muse-Spark-Open-816B-A42B",
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
+    },
+    {
+      "nombre": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "tipo": "huggingface",
+      "descripcion": "Variantes cuantizadas GGUF y abliteradas para ejecución local eficiente.",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "_img_intentos": 1,
+      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png"
     }
   ],
   "fecha": "2026-10-29",
-  "generado": "2026-10-29T16:33:19.856Z",
-  "_ultima_consulta": "2026-10-29T16:33:19.856Z"
+  "generado": "2026-10-29T17:05:00.281Z",
+  "_ultima_consulta": "2026-10-29T17:05:00.281Z"
 }
