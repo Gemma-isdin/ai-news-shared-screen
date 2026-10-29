@@ -46,6 +46,20 @@
     },
     {
       "id": 4,
+      "titulo": "Mistral Large 4 (Le Chonk) abre sus pesos como open-weight",
+      "titular_corto": "Mistral Large 4 es ahora open-weight",
+      "resumen": "Mistral lanza los pesos del modelo Le Chonk, su mayor modelo de 1T parámetros en arquitectura Mixture of Experts. El modelo multimodal está optimizado para programación (48% en benchmarks de codificación) y ciberseguridad (51% en defensiva). Entrenado en Europa con 3.800 NVIDIA Grace Blackwell GPUs.",
+      "categoria": "Modelos",
+      "prioridad": "alta",
+      "fuente": "Mistral",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "publicado": "2026-10-29T12:00:07Z",
+      "imagen": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
+      "confirmado": true,
+      "_visto": "2026-10-29T16:05:00.311Z"
+    },
+    {
+      "id": 5,
       "titulo": "Google Gemini 4 Carbon: Modelo frontier para ciberseguridad",
       "titular_corto": "Gemini 4 Carbon: líder en defensa y coding seguro",
       "resumen": "Google lanzó Gemini 4 Carbon, especializado en detección de vulnerabilidades y ciberseguridad. Logra 88.2% en SEC-bench Pro, 71% en CWE-bench y es número 1 del Artificial Analysis Index. Acceso inicial limitado via Fairwind Program. Precios: $2-4 por millón tokens entrada, $10-20 salida.",
@@ -62,7 +76,7 @@
       "_imagen_error": "lectura directa: HTTP 404 | microlink: Microlink no encontró imagen"
     },
     {
-      "id": 5,
+      "id": 6,
       "titulo": "Gemini 4 Carbon de Google es modelo #1 en Artificial Analysis Intelligence Index",
       "titular_corto": "Gemini 4 Carbon lidera benchmarks de IA",
       "resumen": "Google DeepMind lanzó Gemini 4 Carbon el 28 de octubre, posicionándose #1 en Artificial Analysis v5.0 (score 59). Destacado en ciberseguridad (SEC-bench 88.2%), debugging sostenido y reducción 2x en alucinaciones vs. Argon. Rollout gradual vía Fairwind.",
@@ -76,7 +90,7 @@
       "_visto": "2026-10-29T14:05:00.077Z"
     },
     {
-      "id": 6,
+      "id": 7,
       "titulo": "MetaHarness: framework open source para desplegar agentes de IA gobernados",
       "titular_corto": "MetaHarness automatiza harness de agentes IA",
       "resumen": "Cognitum One anunció MetaHarness en GitHub Universe 2026, plataforma open source MIT que genera automáticamente infraestructura para agentes autónomos a partir de especificaciones de código. Incluye integración nativa de MCP, memoria delimitada, registros verificables y políticas deny-by-default. Compatible con Claude Code, OpenAI Codex, Hermes y agentic frameworks. Disponible en GitHub como `ruvnet/metaharness` y npm namespace `@metaharness/*`.",
@@ -92,7 +106,7 @@
       "imagen": "https://opengraph.githubassets.com/1/ruvnet/metaharness"
     },
     {
-      "id": 7,
+      "id": 8,
       "titulo": "Red Hat y NVIDIA anuncian OpenShell para ejecutar modelos open weights de forma segura",
       "titular_corto": "OpenShell: sandboxing seguro de agentes open weights",
       "resumen": "Red Hat y NVIDIA presentaron OpenShell (Apache 2.0), runtime sandboxed para agentes IA con política deny-by-default de acceso a red, archivos y herramientas externas. Se integra con NVIDIA Sentry en BlueField-4 DPUs para monitoreo out-of-band. Red Hat lo integra en Red Hat AI y OpenShift AI. Arquitectura de referencia incluye vLLM e NVIDIA NIM, con soporte Day 0 para Nemotron 3.5 Super VL.",
@@ -108,7 +122,7 @@
       "imagen": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"
     },
     {
-      "id": 8,
+      "id": 9,
       "titulo": "Gemini 4 Carbon: el modelo frontera de Google con #1 en benchmarks",
       "titular_corto": "Gemini 4 Carbon lidera en Artificial Analysis Intelligence",
       "resumen": "Google DeepMind anunció Gemini 4 Carbon el 28 de octubre, posicionándose #1 en la Artificial Analysis Intelligence Index v5.0. Optimizado para tareas agenticas de horizonte largo, ciberseguridad defensiva (88.2% en SEC-bench Pro) y desarrollo full-stack. Lanzamiento faseado: primero para defensores cibernéticos verificados, luego expansión pública.",
@@ -124,7 +138,7 @@
       "reciente": false
     },
     {
-      "id": 9,
+      "id": 10,
       "titulo": "NVIDIA Nemotron 3.5 Transcribe: Modelo speech unificado",
       "titular_corto": "Nemotron 3.5 Transcribe: ASR y diarización integradas",
       "resumen": "NVIDIA liberó Nemotron 3.5 Transcribe (34B parámetros, 4.3B activos), modelo speech LLM que unifica ASR, diarización y traducción en una arquitectura Mamba-2/Transformer. Maneja hasta 1 hora de audio, 40 idiomas, contexto 65k tokens. Licencia OpenMDW-1.1, disponible en Hugging Face.",
@@ -137,39 +151,23 @@
       "_visto": "2026-10-29T13:05:00.065Z",
       "_img_intentos": 1,
       "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
-    },
-    {
-      "id": 10,
-      "titulo": "Ollama añade Liquid LFM3, modelos de decisión y Nemotron 3.5 mejorado",
-      "titular_corto": "Ollama: nuevos modelos multimodales y agentes",
-      "resumen": "Ollama agregó Oct 28-29: Liquid LFM3 (1.7B, 256K contexto), D1 (2B decisión), Nemotron 3.5 Super (120B MoE), Phonon TTS. Soporta agentes locales con herramientas, ejecución acelerada en Apple Silicon y quantizaciones eficientes.",
-      "categoria": "Modelos",
-      "prioridad": "alta",
-      "fuente": "Ollama",
-      "url": "https://ollama.com/blog",
-      "confirmado": true,
-      "_visto": "2026-10-29T12:05:00.078Z",
-      "_img_intentos": 1,
-      "imagen": "https://ollama.com/public/og.png",
-      "reciente": true,
-      "publicado": "2026-10-28T00:00:00Z"
     }
   ],
   "destacado": {
-    "titulo": "Gemini 4 Carbon alcanza #1 en IA con enfoque en ciberseguridad",
-    "texto": "Google anunció Gemini 4 Carbon, nuevo modelo #1 en Artificial Analysis Intelligence Index. Optimizado para debugging multidia y ciberseguridad (88.2% SEC-bench), con acceso gradual mediante programa Fairwind. Precios: $2-10/M tokens inicial.",
-    "_visto": "2026-10-29T14:05:00.077Z"
+    "titulo": "Mistral Large 4 (Le Chonk) abre sus pesos para libre uso",
+    "texto": "Mistral AI lanzó los pesos de su modelo multimodal de 1 billón de parámetros como open-weight. El modelo destaca en tareas de programación y ciberseguridad, entrenado completamente en Europa con 3.800 GPUs.",
+    "_visto": "2026-10-29T16:05:00.311Z"
   },
   "modelo_open_source": {
-    "nombre": "DeepSeek-V4.1-Flash-1017",
-    "tamano": "763B parámetros (sparse MoE)",
-    "licencia": "MIT",
-    "destaca_en": "Multimodal (texto/imagen), arquitectura MoE eficiente, razonamiento complejo y tareas agentic con activación selectiva.",
-    "ejecucion_local": "Requiere múltiples GPUs. Comunidad ofrece GGUF y GSQ quantizadas. Aprox. 100+ GB FP8 distribuido en cluster.",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "_visto": "2026-10-29T14:05:00.077Z",
+    "nombre": "Mistral Large 4 (Le Chonk)",
+    "tamano": "~1 billón de parámetros (1.05T total, ~50B activos por token)",
+    "licencia": "Apache 2.0",
+    "destaca_en": "Programación, ciberseguridad defensiva y análisis multimodal. Mejor rendimiento en tareas de codificación entre modelos open-weight.",
+    "ejecucion_local": "Requiere múltiples GPUs de alta gama (H100/A100). Los pesos están disponibles para descarga e inferencia distribuida.",
+    "url": "https://mistral.ai/news/mistral-large-4-oss/",
+    "_visto": "2026-10-29T16:05:00.311Z",
     "_img_intentos": 1,
-    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png"
+    "imagen": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp"
   },
   "herramienta_del_dia": {
     "nombre": "Cursor Agent SDK",
@@ -183,23 +181,16 @@
   },
   "trending": [
     {
-      "nombre": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "nombre": "mistralai/mistral-large-4",
       "tipo": "huggingface",
-      "descripcion": "Modelo trending #1: 763B MoE multimodal con quantizaciones GSQ comunitarias optimizadas.",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "descripcion": "Modelo Le Chonk de 1T parámetros open-weight para programación y ciberseguridad",
+      "url": "https://huggingface.co/mistralai/mistral-large-4",
       "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png"
-    },
-    {
-      "nombre": "meta-models/Muse-Spark-Open-816B",
-      "tipo": "huggingface",
-      "descripcion": "816B abierto (42B activos), 1M contexto, optimizado para agentes y razonamiento.",
-      "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
-      "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/meta-models/Muse-Spark-Open-816B-A42B.png"
+      "imagen": null,
+      "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
     }
   ],
   "fecha": "2026-10-29",
-  "generado": "2026-10-29T15:05:00.084Z",
-  "_ultima_consulta": "2026-10-29T15:05:00.084Z"
+  "generado": "2026-10-29T16:05:00.311Z",
+  "_ultima_consulta": "2026-10-29T16:05:00.311Z"
 }
