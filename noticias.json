@@ -2,6 +2,23 @@
   "noticias": [
     {
       "id": 1,
+      "titulo": "Gemini 4 Carbon: modelo frontier de Google para ciberseguridad",
+      "titular_corto": "Gemini 4 Carbon #1 en seguridad cibernética",
+      "resumen": "Google DeepMind lanzó Gemini 4 Carbon como su modelo más potente, ocupando el primer puesto en el Artificial Analysis Intelligence Index v5.0. Destaca en ciberseguridad con 88.2% en SEC-bench Pro, 54.8% en ExploitGym y 71% en CWE-bench. Disponible en preview para equipos de defensa cibernética antes de lanzamiento general.",
+      "categoria": "Modelos",
+      "prioridad": "alta",
+      "fuente": "Google DeepMind",
+      "url": "https://blog.google/technology/ai/gemini-4-carbon/",
+      "publicado": "2026-10-29T12:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-29T11:40:13.817Z",
+      "reciente": true,
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
+    },
+    {
+      "id": 2,
       "titulo": "Gemini 4 Carbon: el modelo frontera de Google con #1 en benchmarks",
       "titular_corto": "Gemini 4 Carbon lidera en Artificial Analysis Intelligence",
       "resumen": "Google DeepMind anunció Gemini 4 Carbon el 28 de octubre, posicionándose #1 en la Artificial Analysis Intelligence Index v5.0. Optimizado para tareas agenticas de horizonte largo, ciberseguridad defensiva (88.2% en SEC-bench Pro) y desarrollo full-stack. Lanzamiento faseado: primero para defensores cibernéticos verificados, luego expansión pública.",
@@ -13,77 +30,134 @@
       "confirmado": true,
       "_visto": "2026-10-29T10:44:06.531Z",
       "_img_intentos": 1,
-      "imagen": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SocialShare_gradient.max-1440x810.jpg"
+      "imagen": null,
+      "reciente": false
     },
     {
-      "id": 2,
-      "titulo": "Ollama v0.40 integra síntesis de voz local y modelos de decisión",
-      "titular_corto": "Ollama añade TTS local y modelos de decisión para agentes",
-      "resumen": "Ollama lanzó v0.40 con soporte nativo para síntesis de voz mediante modelo Phonon (100x más rápido en Apple Silicon), soporte para decision models optimizados y activación de MLX como motor por defecto. Compatible con OpenAI audio API para integración directa en aplicaciones cliente.",
-      "categoria": "Herramientas",
+      "id": 3,
+      "titulo": "Genie 4: simulador de mundos interactivo en tiempo real",
+      "titular_corto": "Genie 4: mundos interactivos generados con IA",
+      "resumen": "DeepMind anunció Genie 4, modelo generador de mundos interactivos que permite exploración en tiempo real, dirección por lenguaje natural y generación nativa de audio/diálogo. Integra Gemini Omni para visual y Gemini 3.8 Flash como agente de ciclo cerrado. Disponible en preview limitado con expansión a Google AI Ultra.",
+      "categoria": "Modelos",
       "prioridad": "alta",
-      "fuente": "Ollama",
-      "url": "https://ollama.com/blog",
+      "fuente": "Google DeepMind",
+      "url": "https://deepmind.google/discover/blog/genie-4-a-new-generation-of-world-simulation/",
+      "publicado": "2026-10-27T12:00:00Z",
       "confirmado": true,
-      "_visto": "2026-10-27T15:50:58.480Z",
-      "imagen": "https://ollama.com/public/og.png",
-      "_img_intentos": 2
+      "_visto": "2026-10-29T11:40:13.817Z",
+      "reciente": false,
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
+    },
+    {
+      "id": 4,
+      "titulo": "Liquid AI libera LFM3: modelos 2B multimodal para edge",
+      "titular_corto": "LFM3 multimodal abierto para dispositivos",
+      "resumen": "Liquid AI lanzó la familia LFM3 (2B parámetros) con arquitectura tri-híbrida optimizada para edge. Incluye LFM3-Omni (texto/imagen/audio/video), LFM3-VL, LFM3-Audio y modelos de decisión d1. Decodifica 1.8-2.8x más rápido que competidores, entra en 1GB con cuantización 4-bit bajo licencia LFM Open v1.0.",
+      "categoria": "Modelos",
+      "prioridad": "alta",
+      "fuente": "Liquid AI",
+      "url": "https://huggingface.co/liquid-ai/lfm3-omni",
+      "publicado": "2026-10-27T12:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-29T11:40:13.817Z",
+      "reciente": false,
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
+    },
+    {
+      "id": 5,
+      "titulo": "DeepSeek V4.1 Flash Cyber: modelo ligero para seguridad",
+      "titular_corto": "DeepSeek V4.1 para análisis de código seguro",
+      "resumen": "DeepSeek lanzó V4.1 Flash Cyber optimizado para inferencia rápida, inspección de seguridad de código y automatización defensiva. Complementa línea frontier con enfoque en tareas de seguridad ofensiva/defensiva con latencia mínima en edge.",
+      "categoria": "Modelos",
+      "prioridad": "media",
+      "fuente": "DeepSeek",
+      "url": "https://deepseek.com/news",
+      "publicado": "2026-10-29T12:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-29T11:40:13.817Z",
+      "reciente": true,
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
+    },
+    {
+      "id": 6,
+      "titulo": "Anthropic presenta S-1 para IPO en Nasdaq bajo símbolo ANT",
+      "titular_corto": "Anthropic solicita IPO, valuada en $21B+",
+      "resumen": "Anthropic presentó formulario S-1 ante SEC para salida a bolsa planificada en Nasdaq bajo ticker ANT. Empresa ahora valuada por encima de $21B tras ronda Serie D de €3B. Anuncio incluye fondo de beneficio público y expansión del programa de IA para Ciencias.",
+      "categoria": "Negocio",
+      "prioridad": "media",
+      "fuente": "Anthropic",
+      "url": "https://www.anthropic.com/news/anthropic-announces-s1-filing",
+      "publicado": "2026-10-26T12:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-29T11:40:13.817Z",
+      "reciente": false,
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: HTTP 404 | microlink: self-signed certificate in certificate chain"
     }
   ],
   "destacado": {
-    "titulo": "DeepMind lidera con Gemini 4 Carbon y modelo interactivo Genie 4",
-    "texto": "Google DeepMind lanzó Gemini 4 Carbon (28 oct), el modelo más capacitado en benchmarks, y Genie 4 (27 oct), el primer simulador interactivo con audio nativo. Ambos representan avances críticos en razonamiento de horizonte largo y generación de mundos en tiempo real.",
-    "_visto": "2026-10-29T10:44:06.531Z"
+    "titulo": "Gemini 4 Carbon lidera inteligencia frontier; Mistral y Google lanzan modelos",
+    "texto": "Google DeepMind anunció Gemini 4 Carbon como su modelo más fuerte en ciberseguridad y agentes de larga duración. Mistral lanzó Large 4 (1 billón parámetros) y Liquid AI liberó LFM3 multimodal, mientras DeepMind presentó Genie 4 para simulación interactiva en tiempo real y EmbeddingGemma 2 como modelo de embeddings multimodal abierto.",
+    "_visto": "2026-10-29T11:40:13.817Z"
   },
   "modelo_open_source": {
-    "nombre": "DeepSeek V4.1 Flash Cyber",
-    "tamano": "552B MoE (~16B active en decode)",
-    "licencia": "Apache 2.0 / Community License",
-    "destaca_en": "Pentesting, auditoría de seguridad, explotación de vulnerabilidades y análisis ofensivo sin restricciones.",
-    "ejecucion_local": "Requiere setup multi-GPU (4-8× H200 o equivalente) para correr completo. Altamente aconsejable para clusters de investigación en ciberseguridad.",
-    "url": "https://huggingface.co/mrfakename/DeepSeek-V4.1-Flash-1017-abliterated",
-    "_visto": "2026-10-29T10:44:06.531Z",
+    "nombre": "Liquid AI LFM3-Omni",
+    "tamano": "2.2B parámetros",
+    "licencia": "LFM Open License v1.0",
+    "destaca_en": "IA multimodal para edge: procesa texto, imagen, audio y video nativamente en dispositivos con bajo consumo de recursos.",
+    "ejecucion_local": "Cuantización 4-bit permite ejecutar en ~1GB memoria. Soporta llama.cpp (GGUF), MLX, ONNX, vLLM. Ideal para smartphones, laptops y dispositivos embebidos sin GPUs dedicadas.",
+    "url": "https://huggingface.co/liquid-ai/lfm3-omni",
+    "_visto": "2026-10-29T11:40:13.817Z",
     "_img_intentos": 1,
-    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/mrfakename/DeepSeek-V4.1-Flash-1017-abliterated.png"
+    "imagen": null,
+    "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
   },
   "herramienta_del_dia": {
-    "nombre": "GitHub Copilot Fusion",
-    "que_hace": "Sistema de orquestación dinámica que elige automáticamente entre modelos o cascadas (modelo rápido + juez) según complejidad de la tarea.",
-    "diferencia": "Elimina necesidad de seleccionar modelo manualmente; entrena sobre histórico de decisiones para optimizar velocidad vs. calidad.",
-    "licencia": "De pago",
-    "url": "https://github.com/features/copilot",
-    "_visto": "2026-10-29T10:44:06.531Z",
+    "nombre": "Genie 4 (DeepMind)",
+    "que_hace": "Genera mundos interactivos en tiempo real, navegables con comandos de texto, con audio y diálogo nativo integrados en el bucle de simulación.",
+    "diferencia": "Primer simulador de mundos que genera audio nativo junto a video, con agentes Gemini integrados para coherencia física y continuidad a largo plazo en interacciones en vivo.",
+    "licencia": "Freemium",
+    "url": "https://deepmind.google/discover/blog/genie-4-a-new-generation-of-world-simulation/",
+    "_visto": "2026-10-29T11:40:13.817Z",
     "_img_intentos": 1,
-    "imagen": "https://opengraph.githubassets.com/1/features/copilot"
+    "imagen": null,
+    "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
   },
   "trending": [
     {
-      "nombre": "GitHub/Octoverse-2026",
+      "nombre": "obra/superpowers",
       "tipo": "github",
-      "descripcion": "Reporte anual mostrando que el 40% de PRs en GitHub son iniciadas por agentes de IA.",
-      "url": "https://github.blog/news-insights/octoverse/octoverse-2026",
+      "descripcion": "Framework de habilidades agnóstico para agentes agentic skills con manifiestos SKILL.md, TDD, y debugging sistemático entre sesiones.",
+      "url": "https://github.com/obra/superpowers",
+      "_img_intentos": 1,
+      "imagen": "https://opengraph.githubassets.com/1/obra/superpowers"
+    },
+    {
+      "nombre": "CopilotKit/OpenBot",
+      "tipo": "github",
+      "descripcion": "Sandbox open-source para coworkers IA con Docker aislado, acceso real a navegador, credenciales con scope, y protocolo AG-UI.",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "_img_intentos": 1,
+      "imagen": "https://opengraph.githubassets.com/1/CopilotKit/OpenBot"
+    },
+    {
+      "nombre": "google/embeddinggemma-2",
+      "tipo": "huggingface",
+      "descripcion": "Modelo multimodal 740M parámetros que mapea texto, audio, imagen y video a espacio vectorial compartido con Apache 2.0.",
+      "url": "https://huggingface.co/google/embeddinggemma-2",
       "_img_intentos": 1,
       "imagen": null,
-      "_imagen_error": "lectura directa: HTTP 404 | microlink: Microlink no encontró imagen"
-    },
-    {
-      "nombre": "google/deepmind-genie-4",
-      "tipo": "github",
-      "descripcion": "Modelo simulador interactivo con generación nativa de audio y control en tiempo real.",
-      "url": "https://deepmind.google",
-      "_img_intentos": 1,
-      "imagen": "https://lh3.googleusercontent.com/BJIjbCcZWJxE1GFvgIXWdWFXW0ECXBzsBe-JHx95GSuDVFKdli-cocBQRXll_xaipD6bNQ0B_Wz7JI2Ken5TFjrfUuSlv0hgq2qjgirOMK2eirjLXA8=w1200-h630-n-nu-rw"
-    },
-    {
-      "nombre": "MiniMax/MCode-Stack",
-      "tipo": "github",
-      "descripcion": "15 habilidades y rutinas agnósticas para construcción de agentes de programación autónomos.",
-      "url": "https://github.com",
-      "_img_intentos": 1,
-      "imagen": "https://images.ctfassets.net/8aevphvgewt8/76epZKB2wF998m4e4bLLXn/c505f20b00ec70b88b1be5aec42c4be4/OG_image.jpg"
+      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
     }
   ],
   "fecha": "2026-10-29",
-  "generado": "2026-10-29T10:44:06.531Z",
-  "_ultima_consulta": "2026-10-29T10:44:06.531Z"
+  "generado": "2026-10-29T11:40:13.817Z",
+  "_ultima_consulta": "2026-10-29T11:40:13.817Z"
 }
