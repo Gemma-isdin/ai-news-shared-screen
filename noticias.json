@@ -12,7 +12,8 @@
       "confirmado": true,
       "_visto": "2026-10-29T12:05:00.078Z",
       "_img_intentos": 1,
-      "imagen": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png?resize=800%2C425"
+      "imagen": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png?resize=800%2C425",
+      "reciente": true
     },
     {
       "id": 2,
@@ -26,7 +27,8 @@
       "confirmado": true,
       "_visto": "2026-10-29T12:05:00.078Z",
       "_img_intentos": 1,
-      "imagen": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+      "imagen": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "reciente": true
     },
     {
       "id": 3,
@@ -40,7 +42,8 @@
       "confirmado": true,
       "_visto": "2026-10-29T12:05:00.078Z",
       "_img_intentos": 1,
-      "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
+      "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png",
+      "reciente": true
     },
     {
       "id": 4,
@@ -54,7 +57,8 @@
       "confirmado": true,
       "_visto": "2026-10-29T12:05:00.078Z",
       "_img_intentos": 1,
-      "imagen": "https://huggingface.co/front/thumbnails/models.png"
+      "imagen": "https://huggingface.co/front/thumbnails/models.png",
+      "reciente": true
     },
     {
       "id": 5,
@@ -68,10 +72,61 @@
       "confirmado": true,
       "_visto": "2026-10-29T12:05:00.078Z",
       "_img_intentos": 1,
-      "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
+      "imagen": "https://huggingface.co/front/thumbnails/v2-2.png",
+      "reciente": true
     },
     {
       "id": 6,
+      "titulo": "Google lanza Gemini 4 Carbon para defensa cibernética y desarrollo seguro",
+      "titular_corto": "Gemini 4 Carbon: modelo de ciberseguridad de Google",
+      "resumen": "Google DeepMind presentó Gemini 4 Carbon, optimizado para detección de vulnerabilidades (88.2% SEC-bench Pro), explotación de fallos (54.8% ExploitGym) y parches de seguridad (71.0% CWE-bench). Lidera en generación de código seguro frente a modelos rivales y resiste inyecciones de prompts. Disponible primero para investigadores de defensa a través del programa Fairwind, con API a $2 por millón de tokens de entrada.",
+      "categoria": "Modelos",
+      "prioridad": "alta",
+      "fuente": "Google DeepMind",
+      "url": "https://blog.google/technology/ai/gemini-4-carbon-cybersecurity/",
+      "publicado": "2026-10-29T12:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-29T12:10:56.075Z",
+      "reciente": true,
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
+    },
+    {
+      "id": 7,
+      "titulo": "MetaHarness: framework open source para desplegar agentes de IA gobernados",
+      "titular_corto": "MetaHarness automatiza harness de agentes IA",
+      "resumen": "Cognitum One anunció MetaHarness en GitHub Universe 2026, plataforma open source MIT que genera automáticamente infraestructura para agentes autónomos a partir de especificaciones de código. Incluye integración nativa de MCP, memoria delimitada, registros verificables y políticas deny-by-default. Compatible con Claude Code, OpenAI Codex, Hermes y agentic frameworks. Disponible en GitHub como `ruvnet/metaharness` y npm namespace `@metaharness/*`.",
+      "categoria": "Herramientas",
+      "prioridad": "alta",
+      "fuente": "GitHub Universe 2026",
+      "url": "https://github.com/ruvnet/metaharness",
+      "publicado": "2026-10-28T12:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-29T12:10:56.075Z",
+      "reciente": false,
+      "_img_intentos": 1,
+      "imagen": "https://opengraph.githubassets.com/1/ruvnet/metaharness"
+    },
+    {
+      "id": 8,
+      "titulo": "Red Hat y NVIDIA anuncian OpenShell para ejecutar modelos open weights de forma segura",
+      "titular_corto": "OpenShell: sandboxing seguro de agentes open weights",
+      "resumen": "Red Hat y NVIDIA presentaron OpenShell (Apache 2.0), runtime sandboxed para agentes IA con política deny-by-default de acceso a red, archivos y herramientas externas. Se integra con NVIDIA Sentry en BlueField-4 DPUs para monitoreo out-of-band. Red Hat lo integra en Red Hat AI y OpenShift AI. Arquitectura de referencia incluye vLLM e NVIDIA NIM, con soporte Day 0 para Nemotron 3.5 Super VL.",
+      "categoria": "Producto",
+      "prioridad": "alta",
+      "fuente": "Red Hat / NVIDIA",
+      "url": "https://redhat.com/ai",
+      "publicado": "2026-10-28T12:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-29T12:10:56.075Z",
+      "reciente": false,
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
+    },
+    {
+      "id": 9,
       "titulo": "Gemini 4 Carbon: el modelo frontera de Google con #1 en benchmarks",
       "titular_corto": "Gemini 4 Carbon lidera en Artificial Analysis Intelligence",
       "resumen": "Google DeepMind anunció Gemini 4 Carbon el 28 de octubre, posicionándose #1 en la Artificial Analysis Intelligence Index v5.0. Optimizado para tareas agenticas de horizonte largo, ciberseguridad defensiva (88.2% en SEC-bench Pro) y desarrollo full-stack. Lanzamiento faseado: primero para defensores cibernéticos verificados, luego expansión pública.",
@@ -83,11 +138,11 @@
       "confirmado": true,
       "_visto": "2026-10-29T10:44:06.531Z",
       "_img_intentos": 2,
-      "imagen": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SocialShare_gradient.max-1440x810.jpg",
+      "imagen": null,
       "reciente": false
     },
     {
-      "id": 7,
+      "id": 10,
       "titulo": "Ollama facilita ejecución local de modelos open-source grandes",
       "titular_corto": "Ollama simplifica deployment de LLMs locales",
       "resumen": "Ollama continúa como herramienta prioritaria para ejecutar modelos open-weights en local. Soporta toda la gama de nuevos modelos de octubre con optimizaciones de memoria y velocidad.",
@@ -98,78 +153,65 @@
       "confirmado": true,
       "_visto": "2026-10-29T12:05:00.078Z",
       "_img_intentos": 1,
-      "imagen": "https://ollama.com/public/og.png"
-    },
-    {
-      "id": 8,
-      "titulo": "DeepSeek V4.1 Flash Cyber: modelo ligero para seguridad",
-      "titular_corto": "DeepSeek V4.1 para análisis de código seguro",
-      "resumen": "DeepSeek lanzó V4.1 Flash Cyber optimizado para inferencia rápida, inspección de seguridad de código y automatización defensiva. Complementa línea frontier con enfoque en tareas de seguridad ofensiva/defensiva con latencia mínima en edge.",
-      "categoria": "Modelos",
-      "prioridad": "media",
-      "fuente": "DeepSeek",
-      "url": "https://deepseek.com/news",
-      "publicado": "2026-10-29T12:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-10-29T11:40:13.817Z",
-      "reciente": true,
-      "_img_intentos": 2,
-      "imagen": "https://www.deepseek.com/images/deepseek-social.jpg"
+      "imagen": "https://ollama.com/public/og.png",
+      "reciente": true
     }
   ],
   "destacado": {
-    "titulo": "DeepSeek V4.1 Flash lanzado con mejoras en programación",
-    "texto": "DeepSeek presentó V4.1 Flash 1017, optimizado para programación agentica y desarrollo de software. El modelo utiliza una arquitectura MoE con 552B parámetros totales y contexto de 1 millón de tokens.",
-    "_visto": "2026-10-29T12:05:00.078Z"
+    "titulo": "Google presenta Gemini 4 Carbon, modelo especializado en ciberseguridad",
+    "texto": "Google DeepMind lanzó Gemini 4 Carbon, su modelo más capaz para tareas de seguridad informática, detección de vulnerabilidades y generación de código seguro, alcanzando el 88.2% en SEC-bench Pro. Es el primer modelo frontier optimizado específicamente para defender sistemas contra amenazas automatizadas.",
+    "_visto": "2026-10-29T12:10:56.075Z"
   },
   "modelo_open_source": {
-    "nombre": "DeepSeek V4.1 Flash 1017",
-    "tamano": "552B parámetros (8B/16B activos MoE)",
-    "licencia": "Open weights",
-    "destaca_en": "Programación agentica, desarrollo multi-archivo, reasoning agentico con bajo costo de tokens",
-    "ejecucion_local": "Requiere GPU enterprise o múltiples GPUs consumer (A100/H100). Disponible también en API",
-    "url": "https://huggingface.co/deepseek-ai/deepseek-v4.1-flash",
-    "_visto": "2026-10-29T12:05:00.078Z",
+    "nombre": "LFM3-1.7B-Base (Liquid Foundation Models 3)",
+    "tamano": "1.73B parámetros",
+    "licencia": "LFM Open License v1.0",
+    "destaca_en": "Ejecución en dispositivos locales (móviles, RPi) con solo 1GB RAM en cuantización 4-bit, multimodal: texto, visión, audio, omnimodal.",
+    "ejecucion_local": "Sí: 1GB RAM en cuantización 4-bit en Apple Silicon M4, Qualcomm Hexagon, AMD Ryzen AI, Intel OpenVINO, NVIDIA. Velocidad 1.8-2.8× más rápida que competidores.",
+    "url": "https://huggingface.co/liquid-ai/LFM3-1.7B-Base",
+    "_visto": "2026-10-29T12:10:56.075Z",
     "_img_intentos": 1,
-    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash.png"
+    "imagen": null,
+    "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
   },
   "herramienta_del_dia": {
-    "nombre": "Claude Code",
-    "que_hace": "CLI agentica que ejecuta comandos bash, corre tests, analiza código y crea PRs automáticamente",
-    "diferencia": "Primer producto directo de Anthropic como herramienta de desarrollo autónomo, complementa Cursor/Copilot",
-    "licencia": "De pago",
-    "url": "https://www.anthropic.com",
-    "_visto": "2026-10-29T12:05:00.078Z",
+    "nombre": "MetaHarness",
+    "que_hace": "Framework open source que genera automáticamente infraestructura (CLI, APIs, memoria) para desplegar agentes IA gobernados, análisis repo y testing de configuraciones.",
+    "diferencia": "Enfoque en harness reutilizable y agnóstico del modelo: cambia el LLM pero la infraestructura y gobernanza persisten. Integración nativa MCP, políticas deny-by-default, registros auditables.",
+    "licencia": "Open source",
+    "url": "https://github.com/ruvnet/metaharness",
+    "_visto": "2026-10-29T12:10:56.075Z",
     "_img_intentos": 1,
-    "imagen": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    "imagen": "https://opengraph.githubassets.com/1/ruvnet/metaharness"
   },
   "trending": [
     {
-      "nombre": "deepseek-ai/deepseek-v4.1-flash",
+      "nombre": "ruvnet/metaharness",
+      "tipo": "github",
+      "descripcion": "Framework open source MIT para generar harness gobernados y auditables de agentes IA, integración MCP y políticas deny-by-default.",
+      "url": "https://github.com/ruvnet/metaharness",
+      "_img_intentos": 1,
+      "imagen": "https://opengraph.githubassets.com/1/ruvnet/metaharness"
+    },
+    {
+      "nombre": "liquid-ai/LFM3-1.7B-Base",
       "tipo": "huggingface",
-      "descripcion": "Modelo MoE open-weights optimizado para programación y reasoning agentico con contexto de 1M tokens",
-      "url": "https://huggingface.co/deepseek-ai/deepseek-v4.1-flash",
+      "descripcion": "Modelo multimodal open-weight de 1.7B con arquitectura tri-híbrida, funciona en móviles/RPi con 1GB RAM, 1.8-2.8× más rápido.",
+      "url": "https://huggingface.co/liquid-ai/LFM3-1.7B-Base",
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
+    },
+    {
+      "nombre": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "tipo": "huggingface",
+      "descripcion": "MoE 552B parámetros, ventana contexto 1M tokens, optimizado programación agéntica y eficiencia coste. Disponible abliterada para red teaming.",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
       "_img_intentos": 1,
       "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash.png"
-    },
-    {
-      "nombre": "ollama/ollama",
-      "tipo": "github",
-      "descripcion": "Runtime para ejecutar modelos LLM open-source en local con soporte para nuevos modelos de octubre",
-      "url": "https://github.com/ollama/ollama",
-      "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/ollama/ollama"
-    },
-    {
-      "nombre": "cursor/cursor",
-      "tipo": "github",
-      "descripcion": "IDE nativa para IA con Composer multi-archivo y soporte para múltiples modelos (Claude, GPT, etc)",
-      "url": "https://cursor.com",
-      "_img_intentos": 1,
-      "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png"
     }
   ],
   "fecha": "2026-10-29",
-  "generado": "2026-10-29T12:05:00.078Z",
-  "_ultima_consulta": "2026-10-29T12:05:00.078Z"
+  "generado": "2026-10-29T12:10:56.075Z",
+  "_ultima_consulta": "2026-10-29T12:10:56.075Z"
 }
