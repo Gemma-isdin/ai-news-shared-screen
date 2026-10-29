@@ -2,6 +2,20 @@
   "noticias": [
     {
       "id": 1,
+      "titulo": "DeepSeek-V4.1-Flash domina trending Hugging Face con arquitectura 763B MoE",
+      "titular_corto": "DeepSeek-V4.1-Flash lidera trending de HF",
+      "resumen": "DeepSeek-V4.1-Flash (763B sparse MoE) es modelo #1 trending Hugging Face. Multimodal nativo, FP8, MIT license. Comunidad optimiza versiones sin censura y quantizaciones GSQ. Segunda opción: Meta Muse-Spark (816B, 42B activos/token).",
+      "categoria": "Modelos",
+      "prioridad": "alta",
+      "fuente": "Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "confirmado": true,
+      "_visto": "2026-10-29T14:05:00.077Z",
+      "_img_intentos": 1,
+      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png"
+    },
+    {
+      "id": 2,
       "titulo": "GitHub Copilot integra múltiples modelos incluido Claude Sonnet",
       "titular_corto": "Copilot soporta Claude y Gemini",
       "resumen": "GitHub Copilot incorporó soporte multi-modelo, permitiendo a desarrolladores usar Claude 3.5/3.7 Sonnet de Anthropic, Gemini de Google y modelos de OpenAI. Rompe exclusividad con OpenAI.",
@@ -13,21 +27,6 @@
       "_visto": "2026-10-29T12:05:00.078Z",
       "_img_intentos": 1,
       "imagen": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png?resize=800%2C425",
-      "reciente": true
-    },
-    {
-      "id": 2,
-      "titulo": "Cursor IDE crece con contexto de codebase y soporte multi-modelo",
-      "titular_corto": "Cursor mejora indexación y selección de modelos",
-      "resumen": "Cursor continúa ganando tracción entre desarrolladores por su diseño nativo para LLMs. Soporta Claude, GPT-4o, o3-mini y modelos personalizados. Su feature Composer permite ediciones arquitectónicas multi-archivo.",
-      "categoria": "Herramientas",
-      "prioridad": "alta",
-      "fuente": "Cursor",
-      "url": "https://cursor.com/changelog",
-      "confirmado": true,
-      "_visto": "2026-10-29T12:05:00.078Z",
-      "_img_intentos": 1,
-      "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png",
       "reciente": true
     },
     {
@@ -58,12 +57,26 @@
       "confirmado": true,
       "_visto": "2026-10-29T12:10:56.075Z",
       "reciente": true,
-      "_img_intentos": 2,
+      "_img_intentos": 3,
       "imagen": null,
       "_imagen_error": "lectura directa: HTTP 404 | microlink: Microlink no encontró imagen"
     },
     {
       "id": 5,
+      "titulo": "Gemini 4 Carbon de Google es modelo #1 en Artificial Analysis Intelligence Index",
+      "titular_corto": "Gemini 4 Carbon lidera benchmarks de IA",
+      "resumen": "Google DeepMind lanzó Gemini 4 Carbon el 28 de octubre, posicionándose #1 en Artificial Analysis v5.0 (score 59). Destacado en ciberseguridad (SEC-bench 88.2%), debugging sostenido y reducción 2x en alucinaciones vs. Argon. Rollout gradual vía Fairwind.",
+      "categoria": "Modelos",
+      "prioridad": "alta",
+      "fuente": "Google DeepMind",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "publicado": "2026-10-28T12:41:56Z",
+      "imagen": "https://cdn.sanity.io/images/6vfeftx9/articles/ce3b883faa25c57a8672817086d2da1d248fbbfa-1254x1254.png?w=1200&auto=format",
+      "confirmado": true,
+      "_visto": "2026-10-29T14:05:00.077Z"
+    },
+    {
+      "id": 6,
       "titulo": "MetaHarness: framework open source para desplegar agentes de IA gobernados",
       "titular_corto": "MetaHarness automatiza harness de agentes IA",
       "resumen": "Cognitum One anunció MetaHarness en GitHub Universe 2026, plataforma open source MIT que genera automáticamente infraestructura para agentes autónomos a partir de especificaciones de código. Incluye integración nativa de MCP, memoria delimitada, registros verificables y políticas deny-by-default. Compatible con Claude Code, OpenAI Codex, Hermes y agentic frameworks. Disponible en GitHub como `ruvnet/metaharness` y npm namespace `@metaharness/*`.",
@@ -79,7 +92,7 @@
       "imagen": "https://opengraph.githubassets.com/1/ruvnet/metaharness"
     },
     {
-      "id": 6,
+      "id": 7,
       "titulo": "Red Hat y NVIDIA anuncian OpenShell para ejecutar modelos open weights de forma segura",
       "titular_corto": "OpenShell: sandboxing seguro de agentes open weights",
       "resumen": "Red Hat y NVIDIA presentaron OpenShell (Apache 2.0), runtime sandboxed para agentes IA con política deny-by-default de acceso a red, archivos y herramientas externas. Se integra con NVIDIA Sentry en BlueField-4 DPUs para monitoreo out-of-band. Red Hat lo integra en Red Hat AI y OpenShift AI. Arquitectura de referencia incluye vLLM e NVIDIA NIM, con soporte Day 0 para Nemotron 3.5 Super VL.",
@@ -95,7 +108,7 @@
       "imagen": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"
     },
     {
-      "id": 7,
+      "id": 8,
       "titulo": "Gemini 4 Carbon: el modelo frontera de Google con #1 en benchmarks",
       "titular_corto": "Gemini 4 Carbon lidera en Artificial Analysis Intelligence",
       "resumen": "Google DeepMind anunció Gemini 4 Carbon el 28 de octubre, posicionándose #1 en la Artificial Analysis Intelligence Index v5.0. Optimizado para tareas agenticas de horizonte largo, ciberseguridad defensiva (88.2% en SEC-bench Pro) y desarrollo full-stack. Lanzamiento faseado: primero para defensores cibernéticos verificados, luego expansión pública.",
@@ -111,7 +124,7 @@
       "reciente": false
     },
     {
-      "id": 8,
+      "id": 9,
       "titulo": "NVIDIA Nemotron 3.5 Transcribe: Modelo speech unificado",
       "titular_corto": "Nemotron 3.5 Transcribe: ASR y diarización integradas",
       "resumen": "NVIDIA liberó Nemotron 3.5 Transcribe (34B parámetros, 4.3B activos), modelo speech LLM que unifica ASR, diarización y traducción en una arquitectura Mamba-2/Transformer. Maneja hasta 1 hora de audio, 40 idiomas, contexto 65k tokens. Licencia OpenMDW-1.1, disponible en Hugging Face.",
@@ -126,90 +139,67 @@
       "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
     },
     {
-      "id": 9,
-      "titulo": "Ollama facilita ejecución local de modelos open-source grandes",
-      "titular_corto": "Ollama simplifica deployment de LLMs locales",
-      "resumen": "Ollama continúa como herramienta prioritaria para ejecutar modelos open-weights en local. Soporta toda la gama de nuevos modelos de octubre con optimizaciones de memoria y velocidad.",
-      "categoria": "Herramientas",
-      "prioridad": "media",
+      "id": 10,
+      "titulo": "Ollama añade Liquid LFM3, modelos de decisión y Nemotron 3.5 mejorado",
+      "titular_corto": "Ollama: nuevos modelos multimodales y agentes",
+      "resumen": "Ollama agregó Oct 28-29: Liquid LFM3 (1.7B, 256K contexto), D1 (2B decisión), Nemotron 3.5 Super (120B MoE), Phonon TTS. Soporta agentes locales con herramientas, ejecución acelerada en Apple Silicon y quantizaciones eficientes.",
+      "categoria": "Modelos",
+      "prioridad": "alta",
       "fuente": "Ollama",
       "url": "https://ollama.com/blog",
       "confirmado": true,
       "_visto": "2026-10-29T12:05:00.078Z",
       "_img_intentos": 1,
       "imagen": "https://ollama.com/public/og.png",
-      "reciente": true
-    },
-    {
-      "id": 10,
-      "titulo": "DeepSeek V4.1 Flash Cyber: Modelo eficiente para seguridad",
-      "titular_corto": "DeepSeek V4.1 Flash Cyber: IA rápida especializada",
-      "resumen": "DeepSeek lanzó V4.1 Flash Cyber, extensión de su familia flash optimizada para tareas de ciberseguridad y eficiencia. Complementa las capacidades frontier de reasoning de DeepSeek con una versión rápida especializada en defensa.",
-      "categoria": "Modelos",
-      "prioridad": "media",
-      "fuente": "DeepSeek",
-      "url": "https://www.deepseek.com",
-      "publicado": "2026-10-29T00:00:00Z",
-      "confirmado": false,
-      "_visto": "2026-10-29T13:05:00.065Z",
-      "_img_intentos": 1,
-      "imagen": "https://www.deepseek.com/images/deepseek-social.jpg"
+      "reciente": true,
+      "publicado": "2026-10-28T00:00:00Z"
     }
   ],
   "destacado": {
-    "titulo": "Agentes de IA transforman software: Copilot Fusion y Gemini Carbon",
-    "texto": "GitHub Universe 2026 presenta Copilot Fusion con orquestación multi-modelo inteligente para automatizar flujos de trabajo de software complejos. Simultáneamente, Google lanza Gemini 4 Carbon, especializado en ciberseguridad y agentic coding. La industria se enfoca en herramientas agenticas para automatizar todo el ciclo de desarrollo.",
-    "_visto": "2026-10-29T13:05:00.065Z"
+    "titulo": "Gemini 4 Carbon alcanza #1 en IA con enfoque en ciberseguridad",
+    "texto": "Google anunció Gemini 4 Carbon, nuevo modelo #1 en Artificial Analysis Intelligence Index. Optimizado para debugging multidia y ciberseguridad (88.2% SEC-bench), con acceso gradual mediante programa Fairwind. Precios: $2-10/M tokens inicial.",
+    "_visto": "2026-10-29T14:05:00.077Z"
   },
   "modelo_open_source": {
-    "nombre": "NVIDIA Nemotron 3.5 Bolt 74B-A9B",
-    "tamano": "74B parámetros",
-    "licencia": "OpenMDW-1.1 (comercial permitido)",
-    "destaca_en": "Ejecución local en edge. Cabe en 24GB VRAM con cuantización 2-bit nativa. Ideal para automatización local y tareas sin conexión.",
-    "ejecucion_local": "24GB VRAM mínimo en GPU consumer (RTX 4090, L40). Soporta vLLM, TensorRT-LLM, llama.cpp.",
-    "url": "https://huggingface.co/nvidia/Nemotron-3.5-Bolt",
-    "_visto": "2026-10-29T13:05:00.065Z",
+    "nombre": "DeepSeek-V4.1-Flash-1017",
+    "tamano": "763B parámetros (sparse MoE)",
+    "licencia": "MIT",
+    "destaca_en": "Multimodal (texto/imagen), arquitectura MoE eficiente, razonamiento complejo y tareas agentic con activación selectiva.",
+    "ejecucion_local": "Requiere múltiples GPUs. Comunidad ofrece GGUF y GSQ quantizadas. Aprox. 100+ GB FP8 distribuido en cluster.",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "_visto": "2026-10-29T14:05:00.077Z",
     "_img_intentos": 1,
-    "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
+    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png"
   },
   "herramienta_del_dia": {
-    "nombre": "GitHub Copilot Fusion",
-    "que_hace": "Orquestador inteligente que selecciona automáticamente el mejor modelo para cada tarea de desarrollo, coordinando multi-agentes para automatizar flujos del ciclo de vida del software.",
-    "diferencia": "A diferencia del Copilot clásico, usa routing inteligente y cascada de modelos. Ofrece 50% menos tokens y 40% más rápido que modelos frontier, con estado compartido entre CLI, VS Code y web.",
+    "nombre": "Cursor Agent SDK",
+    "que_hace": "Framework para definir y desplegar agentes IA como código con instrucciones, herramientas y disparadores.",
+    "diferencia": "Escalable a 300 repos, canvases interactivos, control remoto iOS, webhooks GitHub/Slack y Marketplace.",
     "licencia": "De pago",
-    "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
-    "_visto": "2026-10-29T13:05:00.065Z",
+    "url": "https://cursor.com/changelog",
+    "_visto": "2026-10-29T14:05:00.077Z",
     "_img_intentos": 1,
-    "imagen": "https://github.blog/wp-content/uploads/2026/10/Octoverse2026_BlogHeader_2.jpg"
+    "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
   },
   "trending": [
     {
-      "nombre": "continuellm/continue",
-      "tipo": "github",
-      "descripcion": "Extension open source para VS Code/JetBrains que conecta cualquier LLM local (Ollama, vLLM) o cloud.",
-      "url": "https://github.com/continuedev/continue",
+      "nombre": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "tipo": "huggingface",
+      "descripcion": "Modelo trending #1: 763B MoE multimodal con quantizaciones GSQ comunitarias optimizadas.",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/continuedev/continue"
+      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png"
     },
     {
-      "nombre": "nvidia/Nemotron-3.5-Transcribe",
+      "nombre": "meta-models/Muse-Spark-Open-816B",
       "tipo": "huggingface",
-      "descripcion": "Modelo speech unificado: ASR, diarización, traducción en 1 checkpoint. 34B, 40 idiomas, contexto 65k.",
-      "url": "https://huggingface.co/nvidia/Nemotron-3.5-Transcribe",
+      "descripcion": "816B abierto (42B activos), 1M contexto, optimizado para agentes y razonamiento.",
+      "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
       "_img_intentos": 1,
-      "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
-    },
-    {
-      "nombre": "meta/Muse-Spark-Open",
-      "tipo": "huggingface",
-      "descripcion": "816B open weights ejecutable en Mac M5 Ultra. Sucesor abierto de Llama 3.1 405B.",
-      "url": "https://huggingface.co/meta/Muse-Spark-Open",
-      "_img_intentos": 1,
-      "imagen": null,
-      "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
+      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/meta-models/Muse-Spark-Open-816B-A42B.png"
     }
   ],
   "fecha": "2026-10-29",
-  "generado": "2026-10-29T13:05:00.065Z",
-  "_ultima_consulta": "2026-10-29T13:05:00.065Z"
+  "generado": "2026-10-29T14:05:00.077Z",
+  "_ultima_consulta": "2026-10-29T14:05:00.077Z"
 }
