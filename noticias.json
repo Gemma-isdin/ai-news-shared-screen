@@ -14,7 +14,8 @@
       "confirmado": true,
       "_visto": "2026-10-30T07:05:00.377Z",
       "_img_intentos": 3,
-      "imagen": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMTkiIHZpZXdCb3g9IjAgMCAyNSAxOSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8bGluZSB4MT0iMS41IiB5MT0iMS41IiB4Mj0iMTcuNSIgeTI9IjEuNSIgc3Ryb2tlPSIjMDAzQTY5IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxsaW5lIHgxPSIxLjUiIHkxPSI5LjUiIHgyPSIyMy41IiB5Mj0iOS41IiBzdHJva2U9IiMwMDNBNjkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGxpbmUgeDE9IjEuNSIgeTE9IjE3LjUiIHgyPSIyMC41IiB5Mj0iMTcuNSIgc3Ryb2tlPSIjMDAzQTY5IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K"
+      "imagen": null,
+      "reciente": true
     },
     {
       "id": 2,
@@ -47,7 +48,8 @@
       "confirmado": true,
       "_visto": "2026-10-30T07:05:00.377Z",
       "_img_intentos": 1,
-      "imagen": "https://www.prnewswire.com/content/dam/prnewswire/common/prn_facebook_sharing_logo.jpg"
+      "imagen": null,
+      "reciente": true
     },
     {
       "id": 4,
@@ -63,7 +65,8 @@
       "confirmado": true,
       "_visto": "2026-10-30T07:05:00.377Z",
       "_img_intentos": 1,
-      "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
+      "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png",
+      "reciente": true
     },
     {
       "id": 5,
@@ -79,7 +82,8 @@
       "confirmado": true,
       "_visto": "2026-10-30T08:05:00.287Z",
       "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/speridlabs/idol-sdk"
+      "imagen": "https://opengraph.githubassets.com/1/speridlabs/idol-sdk",
+      "reciente": true
     },
     {
       "id": 6,
@@ -109,10 +113,26 @@
       "imagen": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
       "confirmado": true,
       "_visto": "2026-10-29T16:05:00.311Z",
-      "es_ia": true
+      "es_ia": true,
+      "reciente": true
     },
     {
       "id": 8,
+      "titulo": "OpenAI duplica cuotas de uso para suscriptores Pro en octubre 29",
+      "titular_corto": "OpenAI duplica límites de uso en Pro tiers",
+      "resumen": "OpenAI revirtió su plan de reducir límites de uso para Pro 200 tras rechazo comunitario, anunciando en su lugar la duplicación de cuotas de Work y Codex en todos los tiers Pro 100, Pro 200 y Pro 500 sin costo adicional. El cambio fue automático inmediato para usuarios existentes.",
+      "categoria": "Producto",
+      "prioridad": "alta",
+      "fuente": "OpenAI",
+      "url": "https://openai.com/",
+      "publicado": "2026-10-29T12:00:00Z",
+      "confirmado": false,
+      "_visto": "2026-10-30T10:05:00.245Z",
+      "reciente": true,
+      "imagen": null
+    },
+    {
+      "id": 9,
       "titulo": "GitHub Octoverse 2026: 40% de PRs generados por agentes de IA",
       "titular_corto": "Agentes de IA dominan flujos de desarrollo",
       "resumen": "El reporte Octoverse 2026 de GitHub muestra que en septiembre, más del 40% de pull requests fueron iniciados por agentes (vs. 17% en marzo). El 55% de usuarios activos de Copilot usan funciones agenticas, registrando 225+ millones de desarrolladores globales y 17.9 mil millones de pushes anuales.",
@@ -125,10 +145,11 @@
       "confirmado": true,
       "_visto": "2026-10-29T17:05:00.281Z",
       "_img_intentos": 1,
-      "imagen": "https://github.blog/wp-content/uploads/2026/10/Octoverse2026_BlogHeader_2.jpg"
+      "imagen": "https://github.blog/wp-content/uploads/2026/10/Octoverse2026_BlogHeader_2.jpg",
+      "reciente": false
     },
     {
-      "id": 9,
+      "id": 10,
       "titulo": "Gemini 4 Carbon de Google es modelo #1 en Artificial Analysis Intelligence Index",
       "titular_corto": "Gemini 4 Carbon lidera benchmarks de IA",
       "resumen": "Google DeepMind lanzó Gemini 4 Carbon el 28 de octubre, posicionándose #1 en Artificial Analysis v5.0 (score 59). Destacado en ciberseguridad (SEC-bench 88.2%), debugging sostenido y reducción 2x en alucinaciones vs. Argon. Rollout gradual vía Fairwind.",
@@ -139,70 +160,183 @@
       "publicado": "2026-10-28T12:41:56Z",
       "imagen": "https://cdn.sanity.io/images/6vfeftx9/articles/ce3b883faa25c57a8672817086d2da1d248fbbfa-1254x1254.png?w=1200&auto=format",
       "confirmado": true,
-      "_visto": "2026-10-29T14:05:00.077Z"
-    },
-    {
-      "id": 10,
-      "titulo": "MetaHarness: framework open source para desplegar agentes de IA gobernados",
-      "titular_corto": "MetaHarness automatiza harness de agentes IA",
-      "resumen": "Cognitum One anunció MetaHarness en GitHub Universe 2026, plataforma open source MIT que genera automáticamente infraestructura para agentes autónomos a partir de especificaciones de código. Incluye integración nativa de MCP, memoria delimitada, registros verificables y políticas deny-by-default. Compatible con Claude Code, OpenAI Codex, Hermes y agentic frameworks. Disponible en GitHub como `ruvnet/metaharness` y npm namespace `@metaharness/*`.",
-      "categoria": "Herramientas",
-      "prioridad": "alta",
-      "fuente": "GitHub Universe 2026",
-      "url": "https://github.com/ruvnet/metaharness",
-      "publicado": "2026-10-28T12:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-10-29T12:10:56.075Z",
-      "reciente": false,
-      "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/ruvnet/metaharness"
+      "_visto": "2026-10-29T14:05:00.077Z",
+      "reciente": false
     }
   ],
   "destacado": {
-    "titulo": "Mistral Large 4 y Gemini 4 Carbon definen la semana de IA",
-    "texto": "Mistral libera los pesos de su modelo 1T parámetros optimizado para programación. Google presenta Gemini 4 Carbon, especializado en ciberseguridad, número 1 en benchmarks globales de inteligencia artificial.",
-    "_visto": "2026-10-30T08:05:00.287Z"
+    "titulo": "OpenAI duplica límites de uso en tiers Pro tras reversar recorte",
+    "texto": "OpenAI anunció el 29 de octubre la duplicación de cuotas de trabajo y Codex para suscriptores Pro 100 y Pro 500, revirtiendo simultáneamente el recorte previsto para Pro 200 tras presión comunitaria. Los cambios aplican automáticamente sin requieren nuevas suscripciones.",
+    "_visto": "2026-10-30T10:05:00.245Z"
   },
   "modelo_open_source": {
     "nombre": "Mistral Large 4 (Le Chonk)",
-    "tamano": "1.05T parámetros totales (52B activos con MoE)",
-    "licencia": "Mistral Research License",
-    "destaca_en": "Programación, sistemas y tareas autónomas con bajo consumo de tokens",
-    "ejecucion_local": "Local con hardware modesto; optimizado servidores y edge con soporte cuantización",
-    "url": "https://mistral.ai/news/mistral-large-4-oss/",
-    "_visto": "2026-10-30T08:05:00.287Z",
+    "tamano": "1 billón de parámetros (MoE)",
+    "licencia": "Mistral Community License",
+    "destaca_en": "Código, ciberseguridad empresarial, reasoning. Tasa rechazo 96.6% en solicitudes maliciosas.",
+    "ejecucion_local": "Requiere múltiples GPUs H100 o equivalente para despliegue estándar. Viable con cuantización en GPUs de alto rendimiento.",
+    "url": "https://mistral.ai/news/",
+    "_visto": "2026-10-30T10:05:00.245Z",
     "_img_intentos": 1,
     "imagen": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp"
   },
   "herramienta_del_dia": {
-    "nombre": "anySpeechRecognizer",
-    "que_hace": "API Swift unificada para ejecutar modelos reconocimiento voz en dispositivos Apple sin servidores remotos",
-    "diferencia": "Integración nativa Core ML, MLX, llama.cpp; compatible Parakeet, Qwen3-ASR y modelos IA locales",
-    "licencia": "Open source",
-    "url": "https://huggingface.co/blog",
-    "_visto": "2026-10-30T08:05:00.287Z",
-    "_img_intentos": 1,
-    "imagen": "https://huggingface.co/front/thumbnails/blog.png"
+    "nombre": "Claude Haiku 5.5",
+    "que_hace": "Modelo ligero, ultra-rápido y económico (75% más barato) para tareas agenticas de baja latencia con razonamiento adaptativo.",
+    "diferencia": "Primera versión Haiku con razonamiento configurable, 1M contexto, y precios escalonados por longitud de prompt. Dominancia de IA en experiencia de usuario sin fricción de costos.",
+    "licencia": "De pago",
+    "url": "https://anthropic.com/",
+    "_visto": "2026-10-30T10:05:00.245Z",
+    "imagen": null
   },
   "trending": [
     {
-      "nombre": "mistralai/Mistral-Large-4",
+      "nombre": "DeepSeek V4.1 Flash",
       "tipo": "huggingface",
-      "descripcion": "Modelo MoE 1T parámetros para código y tareas autónomas, open weights",
-      "url": "https://huggingface.co/mistralai/Mistral-Large-4",
+      "descripcion": "Modelo rápido de DeepSeek optimizado para inferencia, mantiene tendencia en trending tras nuevo variant Cyber.",
+      "url": "https://huggingface.co/models?sort=trending",
       "_img_intentos": 1,
-      "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
+      "imagen": "https://huggingface.co/front/thumbnails/models.png"
     },
     {
-      "nombre": "speridlabs/idol-sdk",
+      "nombre": "OpenAI/gpt-6-1-terra",
       "tipo": "github",
-      "descripcion": "Imagen a Gaussian Splats 3D ejecutable local, 7.2GB VRAM, Apache 2.0",
-      "url": "https://github.com/speridlabs/idol-sdk",
+      "descripcion": "Nuevo modelo GPT-6.1 Terra para agentes agenticos con costo-eficiencia, generando actividad en comunidad técnica.",
+      "url": "https://github.com/",
+      "imagen": null
+    },
+    {
+      "nombre": "particle-ai/particle-1",
+      "tipo": "github",
+      "descripcion": "Modelo de ingeniería de software con 45% menos tokens, eficiencia token para agentes trending en comunidad dev.",
+      "url": "https://github.com/particle-ai/particle-1",
       "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/speridlabs/idol-sdk"
+      "imagen": "https://opengraph.githubassets.com/1/particle-ai/particle-1"
     }
   ],
   "fecha": "2026-10-30",
-  "generado": "2026-10-30T09:05:00.320Z",
-  "_ultima_consulta": "2026-10-30T09:05:00.320Z"
+  "generado": "2026-10-30T10:05:00.245Z",
+  "_ultima_consulta": "2026-10-30T10:05:00.245Z",
+  "_vistas": [
+    {
+      "k": "t:openai duplica cuotas de uso para suscriptores pro en octubre 29",
+      "titulo": "OpenAI duplica cuotas de uso para suscriptores Pro en octubre 29",
+      "url": "https://openai.com/",
+      "_visto": "2026-10-30T10:05:00.245Z"
+    },
+    {
+      "k": "t:particle 1 modelo eficiente para agentes de ingenieria de software",
+      "titulo": "Particle-1: modelo eficiente para agentes de ingeniería de software",
+      "url": "https://particle.ai/",
+      "_visto": "2026-10-30T10:05:00.245Z"
+    },
+    {
+      "k": "t:anthropic lanza claude api version 2026 10 21 con cambios mayores",
+      "titulo": "Anthropic lanza Claude API versión 2026-10-21 con cambios mayores",
+      "url": "https://anthropic.com/",
+      "_visto": "2026-10-30T10:05:00.245Z"
+    },
+    {
+      "k": "t:claude haiku 5 5 lanzado 75 mas barato que haiku 4 5",
+      "titulo": "Claude Haiku 5.5 lanzado: 75% más barato que Haiku 4.5",
+      "url": "https://anthropic.com/",
+      "_visto": "2026-10-30T10:05:00.245Z"
+    },
+    {
+      "k": "t:xai lanza grok 4 5 con razonamiento configurable",
+      "titulo": "xAI lanza Grok 4.5 con razonamiento configurable",
+      "url": "https://x.ai/",
+      "_visto": "2026-10-30T10:05:00.245Z"
+    },
+    {
+      "k": "t:mistral large 4 actualizado con mejoras de ciberseguridad",
+      "titulo": "Mistral Large 4 actualizado con mejoras de ciberseguridad",
+      "url": "https://mistral.ai/",
+      "_visto": "2026-10-30T10:05:00.245Z"
+    },
+    {
+      "k": "t:openai publica revision mayor del model spec con 5 valores core",
+      "titulo": "OpenAI publica revisión mayor del Model Spec con 5 valores core",
+      "url": "https://openai.com/",
+      "_visto": "2026-10-30T10:05:00.245Z"
+    },
+    {
+      "k": "t:gpt 6 1 terra modelo eficiente para agentes lanzado octubre 26",
+      "titulo": "GPT-6.1 Terra: modelo eficiente para agentes lanzado octubre 26",
+      "url": "https://openai.com/",
+      "_visto": "2026-10-30T10:05:00.245Z"
+    },
+    {
+      "k": "t:cognizant anuncia openai frontier capability group con 25k especialistas",
+      "titulo": "Cognizant anuncia OpenAI Frontier Capability Group con 25k especialistas",
+      "url": "https://cognizant.com/",
+      "_visto": "2026-10-30T10:05:00.245Z"
+    },
+    {
+      "k": "t:deepseek v4 1 flash cyber actualizacion en seguridad y velocidad",
+      "titulo": "DeepSeek V4.1 Flash Cyber: actualizacion en seguridad y velocidad",
+      "url": "https://deepseek.com/",
+      "_visto": "2026-10-30T10:05:00.245Z"
+    },
+    {
+      "k": "https://github.com/speridlabs/idol-sdk",
+      "titulo": "Idol: síntesis 3D local de imagen única a Gaussian Splat",
+      "url": "https://github.com/speridlabs/idol-sdk",
+      "_visto": "2026-10-30T08:05:00.287Z"
+    },
+    {
+      "k": "t:kt lanza token factory plataforma unificada de 500 modelos",
+      "titulo": "KT lanza Token Factory: plataforma unificada de 500 modelos",
+      "url": "https://www.telecompaper.com",
+      "_visto": "2026-10-30T07:05:00.377Z"
+    },
+    {
+      "k": "t:tencent presenta hy4 y hy4 flash con capacidades de vision",
+      "titulo": "Tencent presenta Hy4 y Hy4 Flash con capacidades de visión",
+      "url": "https://www.prnewswire.com",
+      "_visto": "2026-10-30T07:05:00.377Z"
+    },
+    {
+      "k": "https://www.cursor.com/changelog",
+      "titulo": "Cursor v3.26: SDK de agentes GA y canvases interactivos",
+      "url": "https://www.cursor.com/changelog",
+      "_visto": "2026-10-30T07:05:00.377Z"
+    },
+    {
+      "k": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents",
+      "titulo": "GitHub Octoverse 2026: 40% de PRs generados por agentes de IA",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "_visto": "2026-10-29T17:05:00.281Z"
+    },
+    {
+      "k": "https://mistral.ai/news/mistral-large-4-oss",
+      "titulo": "Mistral Large 4 abre pesos: modelo MoE de 1 billón parámetros",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "_visto": "2026-10-29T16:05:00.311Z"
+    },
+    {
+      "k": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "titulo": "Gemini 4 Carbon de Google es modelo #1 en Artificial Analysis Intelligence Index",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "_visto": "2026-10-29T14:05:00.077Z"
+    },
+    {
+      "k": "https://github.com/ruvnet/metaharness",
+      "titulo": "MetaHarness: framework open source para desplegar agentes de IA gobernados",
+      "url": "https://github.com/ruvnet/metaharness",
+      "_visto": "2026-10-29T12:10:56.075Z"
+    },
+    {
+      "k": "https://huggingface.co/models?sort=trending",
+      "titulo": "DeepSeek V4.1 Flash y Qwen3.8 lideran trending en Hugging Face",
+      "url": "https://huggingface.co/models?sort=trending",
+      "_visto": "2026-10-29T12:05:00.078Z"
+    },
+    {
+      "k": "https://github.blog/ai-and-ml",
+      "titulo": "GitHub Copilot integra múltiples modelos incluido Claude Sonnet",
+      "url": "https://github.blog/ai-and-ml/",
+      "_visto": "2026-10-29T12:05:00.078Z"
+    }
+  ]
 }
