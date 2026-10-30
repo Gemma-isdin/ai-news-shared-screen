@@ -165,59 +165,86 @@
     }
   ],
   "destacado": {
-    "titulo": "OpenAI duplica límites de uso en tiers Pro tras reversar recorte",
-    "texto": "OpenAI anunció el 29 de octubre la duplicación de cuotas de trabajo y Codex para suscriptores Pro 100 y Pro 500, revirtiendo simultáneamente el recorte previsto para Pro 200 tras presión comunitaria. Los cambios aplican automáticamente sin requieren nuevas suscripciones.",
-    "_visto": "2026-10-30T10:05:00.245Z"
+    "titulo": "GitHub Copilot Fusion: orquestación automática inteligente de modelos",
+    "texto": "GitHub Copilot Fusion coordina automáticamente entre Claude, GPT y Gemini seleccionando el más eficiente por tarea. Reduce costos 50% vs modelos únicos manteniendo calidad. Disponible en GA con descuento 30% en noviembre de 2026.",
+    "_visto": "2026-10-30T11:05:00.320Z"
   },
   "modelo_open_source": {
-    "nombre": "Mistral Large 4 (Le Chonk)",
-    "tamano": "1 billón de parámetros (MoE)",
-    "licencia": "Mistral Community License",
-    "destaca_en": "Código, ciberseguridad empresarial, reasoning. Tasa rechazo 96.6% en solicitudes maliciosas.",
-    "ejecucion_local": "Requiere múltiples GPUs H100 o equivalente para despliegue estándar. Viable con cuantización en GPUs de alto rendimiento.",
-    "url": "https://mistral.ai/news/",
-    "_visto": "2026-10-30T10:05:00.245Z",
+    "nombre": "DeepSeek-V4.1-Flash-1017",
+    "tamano": "763B parámetros (MoE)",
+    "licencia": "DeepSeek License",
+    "destaca_en": "Eficiencia extrema con bajo consumo vRAM; múltiples quantizaciones para laptop/smartphone local con mínima degradación.",
+    "ejecucion_local": "Local con GGUF (4-8 bits): ~20GB vRAM en GPU o 4GB RAM en CPU con INT4; Ollama y llama.cpp soportados.",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "_visto": "2026-10-30T11:05:00.320Z",
     "_img_intentos": 1,
-    "imagen": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp"
+    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png"
   },
   "herramienta_del_dia": {
-    "nombre": "Claude Haiku 5.5",
-    "que_hace": "Modelo ligero, ultra-rápido y económico (75% más barato) para tareas agenticas de baja latencia con razonamiento adaptativo.",
-    "diferencia": "Primera versión Haiku con razonamiento configurable, 1M contexto, y precios escalonados por longitud de prompt. Dominancia de IA en experiencia de usuario sin fricción de costos.",
+    "nombre": "GitHub Copilot Fusion",
+    "que_hace": "Orquesta automáticamente entre modelos de IA seleccionando el más eficiente para cada subtarea sin intervención del usuario.",
+    "diferencia": "Primer asistente que elimina selección manual de modelo; coordinación automática reduce costos 50% vs usar fronteras únicas.",
     "licencia": "De pago",
-    "url": "https://anthropic.com/",
-    "_visto": "2026-10-30T10:05:00.245Z",
-    "imagen": null
+    "url": "https://github.blog/ai-and-ml/github-copilot-fusion",
+    "_visto": "2026-10-30T11:05:00.320Z",
+    "_img_intentos": 1,
+    "imagen": null,
+    "_imagen_error": "lectura directa: HTTP 404 | microlink: Microlink no encontró imagen"
   },
   "trending": [
     {
-      "nombre": "DeepSeek V4.1 Flash",
+      "nombre": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "tipo": "huggingface",
-      "descripcion": "Modelo rápido de DeepSeek optimizado para inferencia, mantiene tendencia en trending tras nuevo variant Cyber.",
-      "url": "https://huggingface.co/models?sort=trending",
+      "descripcion": "Modelo DeepSeek V4.1 Flash oficial liderando trending por eficiencia y disponibilidad de quantizaciones.",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "_img_intentos": 1,
-      "imagen": "https://huggingface.co/front/thumbnails/models.png"
+      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png"
     },
     {
-      "nombre": "OpenAI/gpt-6-1-terra",
-      "tipo": "github",
-      "descripcion": "Nuevo modelo GPT-6.1 Terra para agentes agenticos con costo-eficiencia, generando actividad en comunidad técnica.",
-      "url": "https://github.com/",
-      "imagen": null
+      "nombre": "zai-org/GLM-5.3",
+      "tipo": "huggingface",
+      "descripcion": "Nueva versión GLM 5.3 disponible para evaluación en cloud sin configuración previa, con mejoras de razonamiento.",
+      "url": "https://huggingface.co/zai-org/GLM-5.3",
+      "_img_intentos": 1,
+      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/zai-org/GLM-5.3.png"
     },
     {
-      "nombre": "particle-ai/particle-1",
-      "tipo": "github",
-      "descripcion": "Modelo de ingeniería de software con 45% menos tokens, eficiencia token para agentes trending en comunidad dev.",
-      "url": "https://github.com/particle-ai/particle-1",
+      "nombre": "black-forest-labs/flux-3-image-klein-comfy",
+      "tipo": "huggingface",
+      "descripcion": "Distribución ComfyUI de Flux 3 con optimizaciones FP8/NVFP4 para generación de imágenes de alto rendimiento.",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
       "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/particle-ai/particle-1"
+      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/black-forest-labs/flux-3-image-klein-comfy.png"
     }
   ],
   "fecha": "2026-10-30",
-  "generado": "2026-10-30T10:05:00.245Z",
-  "_ultima_consulta": "2026-10-30T10:05:00.245Z",
+  "generado": "2026-10-30T11:05:00.320Z",
+  "_ultima_consulta": "2026-10-30T11:05:00.320Z",
   "_vistas": [
+    {
+      "k": "https://github.blog/ai-and-ml/copilot-fusion-announcement",
+      "titulo": "GitHub Copilot Fusion GA: orquestación automática entre 5 modelos IA",
+      "url": "https://github.blog/ai-and-ml/copilot-fusion-announcement",
+      "_visto": "2026-10-30T11:05:00.320Z"
+    },
+    {
+      "k": "https://openai.com/research/model-spec-update",
+      "titulo": "OpenAI actualiza Model Spec: cinco principios de alineación core",
+      "url": "https://openai.com/research/model-spec-update",
+      "_visto": "2026-10-30T11:05:00.320Z"
+    },
+    {
+      "k": "https://www.anthropic.com/news/anthropic-s-1-filing",
+      "titulo": "Anthropic presenta IPO: $16.3B ingresos H1, riesgos existenciales",
+      "url": "https://www.anthropic.com/news/anthropic-s-1-filing",
+      "_visto": "2026-10-30T11:05:00.320Z"
+    },
+    {
+      "k": "https://github.com/deepseek-ai/deepseek-v4.1-flash",
+      "titulo": "DeepSeek V4.1 Flash Cyber: modelo optimizado para ciberseguridad",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V4.1-Flash",
+      "_visto": "2026-10-30T11:05:00.320Z"
+    },
     {
       "k": "t:openai duplica cuotas de uso para suscriptores pro en octubre 29",
       "titulo": "OpenAI duplica cuotas de uso para suscriptores Pro en octubre 29",
