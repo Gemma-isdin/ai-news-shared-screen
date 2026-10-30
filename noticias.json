@@ -2,6 +2,71 @@
   "noticias": [
     {
       "id": 1,
+      "titulo": "KT lanza Token Factory: plataforma unificada de 500 modelos",
+      "titular_corto": "Token Factory: acceso a 500 modelos IA",
+      "resumen": "El operador de telecomunicaciones coreano KT abrió Token Factory para empresas. Integra 73 modelos locales e internacionales expandibles a 500+ vía OpenRouter. Incluye router automático y compresión de prompts en coreano (ahorros hasta 25%) con data sovereignty para sectores regulados.",
+      "categoria": "Producto",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "KT Corporation",
+      "url": "https://www.telecompaper.com",
+      "publicado": "2026-10-30T06:45:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-30T07:05:00.377Z",
+      "_img_intentos": 1,
+      "imagen": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMTkiIHZpZXdCb3g9IjAgMCAyNSAxOSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8bGluZSB4MT0iMS41IiB5MT0iMS41IiB4Mj0iMTcuNSIgeTI9IjEuNSIgc3Ryb2tlPSIjMDAzQTY5IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxsaW5lIHgxPSIxLjUiIHkxPSI5LjUiIHgyPSIyMy41IiB5Mj0iOS41IiBzdHJva2U9IiMwMDNBNjkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGxpbmUgeDE9IjEuNSIgeTE9IjE3LjUiIHgyPSIyMC41IiB5Mj0iMTcuNSIgc3Ryb2tlPSIjMDAzQTY5IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K"
+    },
+    {
+      "id": 2,
+      "titulo": "DeepSeek V4.1 Flash y Qwen3.8 lideran trending en Hugging Face",
+      "titular_corto": "Modelos MoE y multimodales en trending",
+      "resumen": "DeepSeek-V4.1-Flash (763B MoE, 1M contexto) y cuantizaciones GGUF dominan trending. Qwen3.8-27B multimodal en 4-bit y MLX. También trending Google Gemma-4-E2B (edge, QAT, 3.5GB), LiquidAI LFM2.5 (estado-espacio, 1.7GB) y WeVisOne-VL (visión unificada sin pipeline).",
+      "categoria": "Modelos",
+      "prioridad": "alta",
+      "fuente": "Hugging Face",
+      "url": "https://huggingface.co/models?sort=trending",
+      "confirmado": true,
+      "_visto": "2026-10-29T12:05:00.078Z",
+      "_img_intentos": 1,
+      "imagen": "https://huggingface.co/front/thumbnails/models.png",
+      "reciente": true,
+      "es_ia": true,
+      "publicado": "2026-10-30T06:30:00Z"
+    },
+    {
+      "id": 3,
+      "titulo": "Tencent presenta Hy4 y Hy4 Flash con capacidades de visión",
+      "titular_corto": "Tencent Hy4 y Flash: modelos multimodales",
+      "resumen": "En la Cumbre del Ecosistema Digital Global de Tencent, se anunciaron Hy4 (producción) y Hy4 Flash. Hy4 agrega visión nativa a un modelo MoE de 770B params (49B activos), mejorado para tareas largas y agentes. Hy4 Flash ofrece similar capacidad visual pero optimizado para alta velocidad e inferencia económica.",
+      "categoria": "Modelos",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "Tencent",
+      "url": "https://www.prnewswire.com",
+      "publicado": "2026-10-30T06:30:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-30T07:05:00.377Z",
+      "_img_intentos": 1,
+      "imagen": "https://www.prnewswire.com/content/dam/prnewswire/common/prn_facebook_sharing_logo.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "Cursor v3.26: SDK de agentes GA y canvases interactivos",
+      "titular_corto": "Cursor Agent SDK disponible; ambientes 5x rápido",
+      "resumen": "Cursor lanzó su Agent SDK en GA permitiendo crear y desplegar agentes como código. Añade canvases interactivos para visualizar agentes, API Environments para multi-repo (300 repos), control remoto iOS y expansión marketplace a 20+ integraciones CI/CD como Cloudflare y Socket Security.",
+      "categoria": "Herramientas",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "Cursor",
+      "url": "https://www.cursor.com/changelog",
+      "publicado": "2026-10-30T06:15:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-30T07:05:00.377Z",
+      "_img_intentos": 1,
+      "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
+    },
+    {
+      "id": 5,
       "titulo": "GitHub Copilot integra múltiples modelos incluido Claude Sonnet",
       "titular_corto": "Copilot soporta Claude y Gemini",
       "resumen": "GitHub Copilot incorporó soporte multi-modelo, permitiendo a desarrolladores usar Claude 3.5/3.7 Sonnet de Anthropic, Gemini de Google y modelos de OpenAI. Rompe exclusividad con OpenAI.",
@@ -16,22 +81,7 @@
       "reciente": true
     },
     {
-      "id": 2,
-      "titulo": "Modelos open-weight frontier de octubre: Muse, Beam, Step 5 y más",
-      "titular_corto": "Ola de modelos open-weight grandes",
-      "resumen": "Múltiples laboratorios lanzaron modelos open-weights: Meta Muse Spark Open (816B, Muse License), Reflection Beam 1.0 (501B, Apache 2.0), StepFun Step 5 (600B) y Z.ai GLM-5.3. Todos disponibles en Hugging Face.",
-      "categoria": "Modelos",
-      "prioridad": "alta",
-      "fuente": "Hugging Face",
-      "url": "https://huggingface.co/models?sort=trending",
-      "confirmado": true,
-      "_visto": "2026-10-29T12:05:00.078Z",
-      "_img_intentos": 1,
-      "imagen": "https://huggingface.co/front/thumbnails/models.png",
-      "reciente": true
-    },
-    {
-      "id": 3,
+      "id": 6,
       "titulo": "Mistral Large 4 \"Le Chonk\" lanzado: 1T parámetros con 49B activos",
       "titular_corto": "Mistral Large 4 abierto para descargar hoy",
       "resumen": "Mistral AI liberó oficialmente Mistral Large 4 (Le Chonk) el 29 de octubre con 1.05 billones de parámetros en arquitectura MoE (49B activos). Soporta contexto de 1M tokens, es multimodal y destaca en ciberseguridad y codificación de agentes. Disponible en FP8 y GGUF en Hugging Face.",
@@ -46,7 +96,7 @@
       "es_ia": true
     },
     {
-      "id": 4,
+      "id": 7,
       "titulo": "Google Gemini 4 Carbon: 88.2% en SEC-bench Pro para ciberseguridad",
       "titular_corto": "Gemini 4 Carbon domina benchmarks de seguridad",
       "resumen": "Google lanzó Gemini 4 Carbon, modelo de frontera para ingeniería de software y defensa cibernética autónoma. Alcanza 88.2% en SEC-bench Pro (vulnerabilidades), 71% en CWE-bench (parches). Acceso restringido a defensores verificados bajo el programa Fairwind.",
@@ -64,7 +114,7 @@
       "es_ia": true
     },
     {
-      "id": 5,
+      "id": 8,
       "titulo": "GitHub Octoverse 2026: 40% de PRs generados por agentes de IA",
       "titular_corto": "Agentes de IA dominan flujos de desarrollo",
       "resumen": "El reporte Octoverse 2026 de GitHub muestra que en septiembre, más del 40% de pull requests fueron iniciados por agentes (vs. 17% en marzo). El 55% de usuarios activos de Copilot usan funciones agenticas, registrando 225+ millones de desarrolladores globales y 17.9 mil millones de pushes anuales.",
@@ -80,7 +130,7 @@
       "imagen": "https://github.blog/wp-content/uploads/2026/10/Octoverse2026_BlogHeader_2.jpg"
     },
     {
-      "id": 6,
+      "id": 9,
       "titulo": "Gemini 4 Carbon de Google es modelo #1 en Artificial Analysis Intelligence Index",
       "titular_corto": "Gemini 4 Carbon lidera benchmarks de IA",
       "resumen": "Google DeepMind lanzó Gemini 4 Carbon el 28 de octubre, posicionándose #1 en Artificial Analysis v5.0 (score 59). Destacado en ciberseguridad (SEC-bench 88.2%), debugging sostenido y reducción 2x en alucinaciones vs. Argon. Rollout gradual vía Fairwind.",
@@ -94,7 +144,7 @@
       "_visto": "2026-10-29T14:05:00.077Z"
     },
     {
-      "id": 7,
+      "id": 10,
       "titulo": "MetaHarness: framework open source para desplegar agentes de IA gobernados",
       "titular_corto": "MetaHarness automatiza harness de agentes IA",
       "resumen": "Cognitum One anunció MetaHarness en GitHub Universe 2026, plataforma open source MIT que genera automáticamente infraestructura para agentes autónomos a partir de especificaciones de código. Incluye integración nativa de MCP, memoria delimitada, registros verificables y políticas deny-by-default. Compatible con Claude Code, OpenAI Codex, Hermes y agentic frameworks. Disponible en GitHub como `ruvnet/metaharness` y npm namespace `@metaharness/*`.",
@@ -108,78 +158,60 @@
       "reciente": false,
       "_img_intentos": 1,
       "imagen": "https://opengraph.githubassets.com/1/ruvnet/metaharness"
-    },
-    {
-      "id": 8,
-      "titulo": "Red Hat y NVIDIA anuncian OpenShell para ejecutar modelos open weights de forma segura",
-      "titular_corto": "OpenShell: sandboxing seguro de agentes open weights",
-      "resumen": "Red Hat y NVIDIA presentaron OpenShell (Apache 2.0), runtime sandboxed para agentes IA con política deny-by-default de acceso a red, archivos y herramientas externas. Se integra con NVIDIA Sentry en BlueField-4 DPUs para monitoreo out-of-band. Red Hat lo integra en Red Hat AI y OpenShift AI. Arquitectura de referencia incluye vLLM e NVIDIA NIM, con soporte Day 0 para Nemotron 3.5 Super VL.",
-      "categoria": "Producto",
-      "prioridad": "alta",
-      "fuente": "Red Hat / NVIDIA",
-      "url": "https://redhat.com/ai",
-      "publicado": "2026-10-28T12:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-10-29T12:10:56.075Z",
-      "reciente": false,
-      "_img_intentos": 2,
-      "imagen": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"
     }
   ],
   "destacado": {
-    "titulo": "GitHub supera 225M desarrolladores con agentes de IA generando 40% de PRs",
-    "texto": "GitHub Octoverse 2026 revela que los agentes de IA iniciaron más del 40% de pull requests en septiembre, frente al 17% en marzo. Los desarrolladores usan múltiples modelos para tareas específicas y los repositios con agentes registran 8 veces más commits.",
-    "_visto": "2026-10-29T17:05:00.281Z"
+    "titulo": "Tencent y KT lanzan modelos y plataforma de IA el mismo día",
+    "texto": "Tencent revela Hy4 y Hy4 Flash con visión integrada; KT lanza Token Factory con 500 modelos. Anthropic avanza en su salida a bolsa con ticket ANT en Nasdaq.",
+    "_visto": "2026-10-30T07:05:00.377Z"
   },
   "modelo_open_source": {
-    "nombre": "Mistral Large 4 (\"Le Chonk\")",
-    "tamano": "1.05 billones parámetros (49B activos)",
-    "licencia": "Mistral Ecosystem Open-Weight License",
-    "destaca_en": "Ciberseguridad, codificación agentica, comprensión visual. 88% en código vulnerable, bajo costo de inferencia.",
-    "ejecucion_local": "8x NVIDIA B300 (BF16) o 4x B300 (NVFP4). GGUF disponible para CPUs.",
-    "url": "https://huggingface.co/mistralai/Mistral-Large-4",
-    "_visto": "2026-10-29T17:05:00.281Z",
-    "_img_intentos": 2,
-    "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
+    "nombre": "DeepSeek V4.1 Flash",
+    "tamano": "763B parámetros (49B activos)",
+    "destaca_en": "Modelo MoE masivo con contexto de 1M tokens; trending en cuantizaciones GGUF para inferencia local.",
+    "ejecucion_local": "Requiere cluster multi-GPU (A100/H100) o cuantizaciones 4-bit viables en 80GB+ VRAM con optimizaciones.",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+    "_visto": "2026-10-30T07:05:00.377Z",
+    "_img_intentos": 1,
+    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash.png"
   },
   "herramienta_del_dia": {
-    "nombre": "GitHub Copilot Autonomous Agent",
-    "que_hace": "Agente autónomo en nube que ejecuta tareas independientes en repositorios. 230% crecimiento YoY.",
-    "diferencia": "Funciona sin intervención humana, se integra con flujos de desarrollo existentes, 90% de PRs con agentes se fusionan en 2 semanas.",
-    "licencia": "De pago (GitHub Copilot Pro/Enterprise)",
-    "url": "https://github.com/",
-    "_visto": "2026-10-29T17:05:00.281Z",
+    "nombre": "Cursor Agent SDK",
+    "que_hace": "Framework para construir, testear y desplegar agentes autónomos como código en Cursor Cloud o auto-hosted.",
+    "diferencia": "Integración nativa con canvases interactivos, ambientes multi-repo (300 repos), APIs programáticas y control remoto iOS. Templates listos para PR fixers, políticas de aprobación y triaje de tareas.",
+    "licencia": "Freemium",
+    "url": "https://www.cursor.com/changelog",
+    "_visto": "2026-10-30T07:05:00.377Z",
     "_img_intentos": 1,
-    "imagen": "https://images.ctfassets.net/8aevphvgewt8/76epZKB2wF998m4e4bLLXn/c505f20b00ec70b88b1be5aec42c4be4/OG_image.jpg"
+    "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
   },
   "trending": [
     {
-      "nombre": "mistralai/Mistral-Large-4",
+      "nombre": "deepseek-ai/DeepSeek-V4.1-Flash",
       "tipo": "huggingface",
-      "descripcion": "Modelo frontier abierto MoE 1T con contexto 1M, multimodal, ciberseguridad.",
-      "url": "https://huggingface.co/mistralai/Mistral-Large-4",
-      "_img_intentos": 3,
-      "imagen": null,
-      "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
-    },
-    {
-      "nombre": "meta-llama/Muse-Spark-Open-816B",
-      "tipo": "huggingface",
-      "descripcion": "Modelo abierto 816B para agentes, desarrollo, multimodal con 1M tokens.",
-      "url": "https://huggingface.co/meta-llama/Muse-Spark-Open-816B-A42B",
-      "_img_intentos": 2,
-      "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
-    },
-    {
-      "nombre": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "tipo": "huggingface",
-      "descripcion": "Variantes cuantizadas GGUF y abliteradas para ejecución local eficiente.",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "descripcion": "Modelo MoE 763B con 49B activos y 1M contexto; cuantizaciones GGUF para inferencia local.",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
       "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png"
+      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash.png"
+    },
+    {
+      "nombre": "google/gemma-4-E2B-it-qat-q4_0-gguf",
+      "tipo": "huggingface",
+      "descripcion": "Edge LLM Gemma con QAT, optimizado para on-device <3.5GB manteniendo precisión.",
+      "url": "https://huggingface.co/google/gemma-4-E2B-it-qat-q4_0-gguf",
+      "_img_intentos": 1,
+      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/google/gemma-4-E2B-it-qat-q4_0-gguf.png"
+    },
+    {
+      "nombre": "cursor/agent-sdk",
+      "tipo": "github",
+      "descripcion": "SDK oficial de Cursor para desarrollar agentes autónomos con templates y deployment integrado.",
+      "url": "https://github.com/getcursor/agent-sdk",
+      "_img_intentos": 1,
+      "imagen": "https://opengraph.githubassets.com/1/getcursor/agent-sdk"
     }
   ],
   "fecha": "2026-10-30",
-  "generado": "2026-10-30T06:05:00.273Z",
-  "_ultima_consulta": "2026-10-30T06:05:00.273Z"
+  "generado": "2026-10-30T07:05:00.377Z",
+  "_ultima_consulta": "2026-10-30T07:05:00.377Z"
 }
