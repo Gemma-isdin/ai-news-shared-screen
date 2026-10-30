@@ -124,38 +124,6 @@
       "reciente": false,
       "_img_intentos": 2,
       "imagen": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"
-    },
-    {
-      "id": 9,
-      "titulo": "Gemini 4 Carbon: el modelo frontera de Google con #1 en benchmarks",
-      "titular_corto": "Gemini 4 Carbon lidera en Artificial Analysis Intelligence",
-      "resumen": "Google DeepMind anunció Gemini 4 Carbon el 28 de octubre, posicionándose #1 en la Artificial Analysis Intelligence Index v5.0. Optimizado para tareas agenticas de horizonte largo, ciberseguridad defensiva (88.2% en SEC-bench Pro) y desarrollo full-stack. Lanzamiento faseado: primero para defensores cibernéticos verificados, luego expansión pública.",
-      "categoria": "Modelos",
-      "prioridad": "alta",
-      "fuente": "Google DeepMind",
-      "url": "https://blog.google",
-      "publicado": "2026-10-28T00:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-10-29T10:44:06.531Z",
-      "_img_intentos": 3,
-      "imagen": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SocialShare_gradient.max-1440x810.jpg",
-      "reciente": false
-    },
-    {
-      "id": 10,
-      "titulo": "DeepSeek V4.1-Flash variantes cuantizadas para ejecución local",
-      "titular_corto": "DeepSeek versiones GGUF y abliteradas",
-      "resumen": "Comunidad libera variantes fuertemente cuantizadas GGUF y versiones abliteradas de DeepSeek-V4.1-Flash (552B MoE, 8-16B activos). Optimizadas para Apple Silicon y configuraciones multi-GPU. Disponibles en Hugging Face con bajo overhead de memoria.",
-      "categoria": "Modelos",
-      "prioridad": "media",
-      "fuente": "Hugging Face",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "confirmado": true,
-      "_visto": "2026-10-29T14:05:00.077Z",
-      "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png",
-      "es_ia": true,
-      "publicado": "2026-10-29T00:00:00Z"
     }
   ],
   "destacado": {
@@ -171,9 +139,8 @@
     "ejecucion_local": "8x NVIDIA B300 (BF16) o 4x B300 (NVFP4). GGUF disponible para CPUs.",
     "url": "https://huggingface.co/mistralai/Mistral-Large-4",
     "_visto": "2026-10-29T17:05:00.281Z",
-    "_img_intentos": 1,
-    "imagen": null,
-    "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
+    "_img_intentos": 2,
+    "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
   },
   "herramienta_del_dia": {
     "nombre": "GitHub Copilot Autonomous Agent",
@@ -200,9 +167,8 @@
       "tipo": "huggingface",
       "descripcion": "Modelo abierto 816B para agentes, desarrollo, multimodal con 1M tokens.",
       "url": "https://huggingface.co/meta-llama/Muse-Spark-Open-816B-A42B",
-      "_img_intentos": 1,
-      "imagen": null,
-      "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
+      "_img_intentos": 2,
+      "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
     },
     {
       "nombre": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
@@ -213,7 +179,7 @@
       "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png"
     }
   ],
-  "fecha": "2026-10-29",
-  "generado": "2026-10-29T17:05:00.281Z",
-  "_ultima_consulta": "2026-10-29T17:05:00.281Z"
+  "fecha": "2026-10-30",
+  "generado": "2026-10-30T06:05:00.273Z",
+  "_ultima_consulta": "2026-10-30T06:05:00.273Z"
 }
