@@ -2,6 +2,39 @@
   "noticias": [
     {
       "id": 1,
+      "titulo": "Qwenputer: RISC-V CPU compilado en pesos de red neuronal de Qwen",
+      "titular_corto": "Qwenputer: computadora embebida en modelo de IA",
+      "resumen": "Divyansh Agrawal publica Qwenputer en GitHub: una arquitectura RISC-V de 32 bits compilada directamente en 11 capas transformer de Qwen3.5-4B. Usa el estado recurrente Gated DeltaNet como RAM exacta. El modelo ejecuta programas C y MicroPython internamente con precisión bit-perfecta, pasando tests oficiales y alcanzando 100% en aritmética de enteros.",
+      "categoria": "Investigación",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "GitHub / Divyansh Agrawal",
+      "url": "https://github.com/divagr18/qwenputer",
+      "publicado": "2026-10-30T12:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-30T13:05:00.260Z",
+      "reciente": true,
+      "_img_intentos": 1,
+      "imagen": "https://opengraph.githubassets.com/1/divagr18/qwenputer"
+    },
+    {
+      "id": 2,
+      "titulo": "TBC Mischief 1: modelo de video con tecnología neurobiológica 5× más rápido",
+      "titular_corto": "TBC Mischief 1: video rápido con IA neuronderivada",
+      "resumen": "The Biological Computing Co. lanza Mischief 1, primer modelo de video comercial derivado de computación biológica. Genera video a partir de imagen en 5 segundos a 720p por $0.01/seg (80% más barato que base abierta). Disponible en OpenRouter y fal.ai con arquitectura MoE optimizada por patrones extraídos de neuronas biológicas.",
+      "categoria": "Producto",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "The Biological Computing Co.",
+      "url": "https://openrouter.ai",
+      "publicado": "2026-10-30T10:00:00Z",
+      "confirmado": false,
+      "_visto": "2026-10-30T13:05:00.260Z",
+      "reciente": true,
+      "imagen": null
+    },
+    {
+      "id": 3,
       "titulo": "KT lanza Token Factory: plataforma unificada de 500 modelos",
       "titular_corto": "Token Factory: acceso a 500 modelos IA",
       "resumen": "El operador de telecomunicaciones coreano KT abrió Token Factory para empresas. Integra 73 modelos locales e internacionales expandibles a 500+ vía OpenRouter. Incluye router automático y compresión de prompts en coreano (ahorros hasta 25%) con data sovereignty para sectores regulados.",
@@ -18,7 +51,7 @@
       "reciente": true
     },
     {
-      "id": 2,
+      "id": 4,
       "titulo": "DeepSeek V4.1 Flash y Qwen3.8 lideran trending en Hugging Face",
       "titular_corto": "Modelos MoE y multimodales en trending",
       "resumen": "DeepSeek-V4.1-Flash (763B MoE, 1M contexto) y cuantizaciones GGUF dominan trending. Qwen3.8-27B multimodal en 4-bit y MLX. También trending Google Gemma-4-E2B (edge, QAT, 3.5GB), LiquidAI LFM2.5 (estado-espacio, 1.7GB) y WeVisOne-VL (visión unificada sin pipeline).",
@@ -35,7 +68,7 @@
       "publicado": "2026-10-30T06:30:00Z"
     },
     {
-      "id": 3,
+      "id": 5,
       "titulo": "Tencent presenta Hy4 y Hy4 Flash con capacidades de visión",
       "titular_corto": "Tencent Hy4 y Flash: modelos multimodales",
       "resumen": "En la Cumbre del Ecosistema Digital Global de Tencent, se anunciaron Hy4 (producción) y Hy4 Flash. Hy4 agrega visión nativa a un modelo MoE de 770B params (49B activos), mejorado para tareas largas y agentes. Hy4 Flash ofrece similar capacidad visual pero optimizado para alta velocidad e inferencia económica.",
@@ -52,7 +85,7 @@
       "reciente": true
     },
     {
-      "id": 4,
+      "id": 6,
       "titulo": "Idol: síntesis 3D local de imagen única a Gaussian Splat",
       "titular_corto": "Idol convierte fotos en modelos 3D ejecutables",
       "resumen": "Speridlabs lanzó Idol bajo Apache 2.0; convierte imagen en Gaussian Splat 3D con 1M gaussianas en local con 7.2GB VRAM. Referencia open source en síntesis 3D feed-forward para GPUs consumer.",
@@ -69,7 +102,24 @@
       "reciente": true
     },
     {
-      "id": 5,
+      "id": 7,
+      "titulo": "Incidente ciberseguridad: extensión Claude Code maliciosa en marketplace Cursor",
+      "titular_corto": "Malware en extensión claudicode, 5000 afectados",
+      "resumen": "Cursor reporta que versión 2.1.313 de extensión Anthropic.claude-code (fraudulenta) se distribuyó 11 horas en marketplace el 29 oct. Inyectaba clave SSH backdoor etiquetada 'svc-telemetry', configuraba túnel SSH inverso y exfiltraba telemetría. Afectó ~5000 usuarios. Removida, C2 desactivado, versión 2.1.314 liberada.",
+      "categoria": "Ciberseguridad",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "Cursor",
+      "url": "https://cursor.com/changelog",
+      "publicado": "2026-10-29T14:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-30T13:05:00.260Z",
+      "reciente": true,
+      "_img_intentos": 1,
+      "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
+    },
+    {
+      "id": 8,
       "titulo": "GitHub Copilot integra múltiples modelos incluido Claude Sonnet",
       "titular_corto": "Copilot soporta Claude y Gemini",
       "resumen": "GitHub Copilot incorporó soporte multi-modelo, permitiendo a desarrolladores usar Claude 3.5/3.7 Sonnet de Anthropic, Gemini de Google y modelos de OpenAI. Rompe exclusividad con OpenAI.",
@@ -84,7 +134,7 @@
       "reciente": false
     },
     {
-      "id": 6,
+      "id": 9,
       "titulo": "OpenAI duplica cuotas de uso para suscriptores Pro en octubre 29",
       "titular_corto": "OpenAI duplica límites de uso en Pro tiers",
       "resumen": "OpenAI revirtió su plan de reducir límites de uso para Pro 200 tras rechazo comunitario, anunciando en su lugar la duplicación de cuotas de Work y Codex en todos los tiers Pro 100, Pro 200 y Pro 500 sin costo adicional. El cambio fue automático inmediato para usuarios existentes.",
@@ -99,7 +149,7 @@
       "imagen": null
     },
     {
-      "id": 7,
+      "id": 10,
       "titulo": "Mistral Large 4 Open: 1 billón de parámetros con arquitectura MoE eficiente",
       "titular_corto": "Mistral Large 4: MoE de 1T params, pesos abiertos",
       "resumen": "El 29 de octubre Mistral liberó pesos abiertos de Large 4 con 1.05 billones de parámetros en arquitectura MoE. Incluye razonamiento configurable, visión multimodal y defensa reforzada contra exploits, bajo licencia permisiva.",
@@ -113,116 +163,83 @@
       "_visto": "2026-10-29T16:05:00.311Z",
       "es_ia": true,
       "reciente": false
-    },
-    {
-      "id": 8,
-      "titulo": "GitHub Octoverse 2026: 40% de PRs generados por agentes de IA",
-      "titular_corto": "Agentes de IA dominan flujos de desarrollo",
-      "resumen": "El reporte Octoverse 2026 de GitHub muestra que en septiembre, más del 40% de pull requests fueron iniciados por agentes (vs. 17% en marzo). El 55% de usuarios activos de Copilot usan funciones agenticas, registrando 225+ millones de desarrolladores globales y 17.9 mil millones de pushes anuales.",
-      "categoria": "Producto",
-      "es_ia": true,
-      "prioridad": "alta",
-      "fuente": "GitHub",
-      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
-      "publicado": "2026-10-29T00:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-10-29T17:05:00.281Z",
-      "_img_intentos": 1,
-      "imagen": "https://github.blog/wp-content/uploads/2026/10/Octoverse2026_BlogHeader_2.jpg",
-      "reciente": false
-    },
-    {
-      "id": 9,
-      "titulo": "Gemini 4 Carbon de Google es modelo #1 en Artificial Analysis Intelligence Index",
-      "titular_corto": "Gemini 4 Carbon lidera benchmarks de IA",
-      "resumen": "Google DeepMind lanzó Gemini 4 Carbon el 28 de octubre, posicionándose #1 en Artificial Analysis v5.0 (score 59). Destacado en ciberseguridad (SEC-bench 88.2%), debugging sostenido y reducción 2x en alucinaciones vs. Argon. Rollout gradual vía Fairwind.",
-      "categoria": "Modelos",
-      "prioridad": "alta",
-      "fuente": "Google DeepMind",
-      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-      "publicado": "2026-10-28T12:41:56Z",
-      "imagen": "https://cdn.sanity.io/images/6vfeftx9/articles/ce3b883faa25c57a8672817086d2da1d248fbbfa-1254x1254.png?w=1200&auto=format",
-      "confirmado": true,
-      "_visto": "2026-10-29T14:05:00.077Z",
-      "reciente": false
-    },
-    {
-      "id": 10,
-      "titulo": "Google Gemini 4 Carbon: modelo #1 en benchmarks con enfoque en ciberseguridad",
-      "titular_corto": "Gemini 4 Carbon lidera rankings en IA",
-      "resumen": "Google presentó el 28 de octubre Gemini 4 Carbon, su modelo más capaz con puntuación 59 en Artificial Analysis Intelligence Index. Alcanza 88.2% en detección de vulnerabilidades y 71% en parches automáticos de seguridad.",
-      "categoria": "Modelos",
-      "es_ia": true,
-      "prioridad": "alta",
-      "fuente": "Google DeepMind Blog",
-      "url": "https://blog.google/technology/ai/gemini-4-carbon/",
-      "publicado": "2026-10-28T10:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-10-30T12:05:00.257Z",
-      "reciente": false,
-      "_img_intentos": 1,
-      "imagen": null,
-      "_imagen_error": "lectura directa: HTTP 404 | microlink: Request failed with status code 429"
     }
   ],
   "destacado": {
-    "titulo": "Mistral Large 4 abierto: modelo MoE de 1 billón con razonamiento configurable",
-    "texto": "Mistral lanzó ayer los pesos abiertos de su modelo más potente: Large 4 alcanza 1.05 billones de parámetros con arquitectura MoE eficiente. Destaca por razonamiento configurable, ciberseguridad reforzada y disponibilidad local bajo licencia permisiva.",
-    "_visto": "2026-10-30T12:05:00.257Z"
+    "titulo": "Qwenputer: CPU RISC-V compilado en pesos de Qwen3.5 ejecuta código nativo",
+    "texto": "Un proyecto de investigación lanza la primera computadora completamente embebida en una red neuronal. El modelo ejecuta programas en C y MicroPython mediante cálculos determinísticos sin runtime externo, alcanzando 100% de precisión en aritmética de enteros frente al 48% de los LLMs.",
+    "_visto": "2026-10-30T13:05:00.260Z"
   },
   "modelo_open_source": {
-    "nombre": "Mistral Large 4",
-    "tamano": "1.05 billones de parámetros (MoE)",
-    "licencia": "Mistral Ecosystem Open-Weight License",
-    "destaca_en": "Razonamiento configurable, codificación agentica y ciberseguridad defensiva. Alcanza 41% en Terminal-Bench y 51% en Artificial Analysis Cyber Index.",
-    "ejecucion_local": "Requiere GPU de alto rendimiento como H100 para inferencia distribuida; contexto de 1M tokens soportado en clústers multi-GPU con inferencia especulativa integrada.",
-    "url": "https://huggingface.co/mistralai/Mistral-Large-4",
-    "_visto": "2026-10-30T12:05:00.257Z",
+    "nombre": "Qwen3.5-4B-Qwenputer",
+    "tamano": "4B parámetros (base Qwen3.5)",
+    "licencia": "Apache 2.0 (Qwen) / Custom (proyecto Qwenputer)",
+    "destaca_en": "Ejecución determinística de código RISC-V interno. Aritmética de precisión exacta (100%) vs ~48% LLMs. Ejecución en local con 24GB VRAM.",
+    "ejecucion_local": "Sí, ejecutable en GPU 24GB (RTX 4090, H100). Código C/MicroPython compilado nativo dentro del modelo.",
+    "url": "https://github.com/divagr18/qwenputer",
+    "_visto": "2026-10-30T13:05:00.260Z",
     "_img_intentos": 1,
-    "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
+    "imagen": "https://opengraph.githubassets.com/1/divagr18/qwenputer"
   },
   "herramienta_del_dia": {
-    "nombre": "GitHub Copilot Fusion",
-    "que_hace": "Orquesta automáticamente múltiples modelos de IA seleccionando el más apropiado según tarea: simple, cascada o crítica. Reduce costos ~51% manteniendo calidad de frontera.",
-    "diferencia": "A diferencia de wrappers que usan un modelo fijo, Fusion evalúa dinámicamente la dificultad y enruta a modelos más ligeros cuando es suficiente, escalando solo cuando es necesario.",
-    "licencia": "Freemium",
-    "url": "https://github.blog/ai-and-ml/copilot-fusion-announcement",
-    "_visto": "2026-10-30T12:05:00.257Z",
-    "_img_intentos": 1,
-    "imagen": null,
-    "_imagen_error": "lectura directa: HTTP 404 | microlink: Request failed with status code 429"
+    "nombre": "TBC Mischief 1",
+    "que_hace": "Generación de video imagen-a-vídeo basada en tecnología neurobiológica. Produce clips 3-5s a 480p/720p en ~2-5seg por clip.",
+    "diferencia": "5× más rápido que modelos base abiertos, 80% más barato ($0.005-0.01/seg vs competencia), optimizado via patrones de neuronas biológicas reales.",
+    "licencia": "De pago",
+    "url": "https://openrouter.ai",
+    "_visto": "2026-10-30T13:05:00.260Z",
+    "imagen": null
   },
   "trending": [
     {
-      "nombre": "mistralai/Mistral-Large-4",
-      "tipo": "huggingface",
-      "descripcion": "Modelo MoE de frontera con 1T params, razonamiento configurable y defensa cibernética",
-      "url": "https://huggingface.co/mistralai/Mistral-Large-4",
-      "_img_intentos": 1,
-      "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
-    },
-    {
-      "nombre": "google/gemini-4-carbon",
-      "tipo": "huggingface",
-      "descripcion": "Modelo líder en benchmarks con foco en ciberseguridad ofensiva y defensiva",
-      "url": "https://console.cloud.google.com/vertex-ai",
-      "_img_intentos": 1,
-      "imagen": null,
-      "_imagen_error": "la página no tiene imagen de previsualización | microlink: Request failed with status code 429"
-    },
-    {
-      "nombre": "CopilotKit/nightly-labs",
+      "nombre": "divagr18/qwenputer",
       "tipo": "github",
-      "descripcion": "Sandbox de código abierto para coworkers autónomos de IA con control humano",
-      "url": "https://github.com/CopilotKit/nightly-labs",
+      "descripcion": "CPU RISC-V exacto compilado en pesos Qwen3.5. Ejecución determinística sin runtime externo.",
+      "url": "https://github.com/divagr18/qwenputer",
       "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/CopilotKit/nightly-labs"
+      "imagen": "https://opengraph.githubassets.com/1/divagr18/qwenputer"
     }
   ],
   "fecha": "2026-10-30",
-  "generado": "2026-10-30T12:05:00.257Z",
-  "_ultima_consulta": "2026-10-30T12:05:00.257Z",
+  "generado": "2026-10-30T13:05:00.260Z",
+  "_ultima_consulta": "2026-10-30T13:05:00.260Z",
   "_vistas": [
+    {
+      "k": "https://github.com/divagr18/qwenputer",
+      "titulo": "Qwenputer: RISC-V CPU compilado en pesos de red neuronal de Qwen",
+      "url": "https://github.com/divagr18/qwenputer",
+      "_visto": "2026-10-30T13:05:00.260Z"
+    },
+    {
+      "k": "t:tbc mischief 1 modelo de video con tecnologia neurobiologica 5 mas rapido",
+      "titulo": "TBC Mischief 1: modelo de video con tecnología neurobiológica 5× más rápido",
+      "url": "https://openrouter.ai",
+      "_visto": "2026-10-30T13:05:00.260Z"
+    },
+    {
+      "k": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "titulo": "OpenAI y Anthropic disponen ETH: 3-SAT solucionable en tiempo subexponencial",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "_visto": "2026-10-30T13:05:00.260Z"
+    },
+    {
+      "k": "https://cursor.com/changelog",
+      "titulo": "Incidente ciberseguridad: extensión Claude Code maliciosa en marketplace Cursor",
+      "url": "https://cursor.com/changelog",
+      "_visto": "2026-10-30T13:05:00.260Z"
+    },
+    {
+      "k": "t:google lanza actualizaciones gemini creacion de archivos en chat y mejoras home",
+      "titulo": "Google lanza actualizaciones Gemini: creación de archivos en chat y mejoras home",
+      "url": "https://gemini.google",
+      "_visto": "2026-10-30T13:05:00.260Z"
+    },
+    {
+      "k": "t:gasto masivo en ia genera flujos de caja negativos en big tech xataka",
+      "titulo": "Gasto masivo en IA genera flujos de caja negativos en Big Tech (Xataka)",
+      "url": "https://www.xataka.com",
+      "_visto": "2026-10-30T13:05:00.260Z"
+    },
     {
       "k": "https://blog.google/technology/ai/gemini-4-carbon",
       "titulo": "Google Gemini 4 Carbon: modelo #1 en benchmarks con enfoque en ciberseguridad",
