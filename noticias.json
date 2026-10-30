@@ -19,6 +19,55 @@
     },
     {
       "id": 2,
+      "titulo": "Cursor IDE versión 3.27: agentes en nube con canvases interactivos",
+      "titular_corto": "Cursor mejora agentes remotos y entornos",
+      "resumen": "Cursor lanzó versión 3.27 con Cloud Agents capaces de generar canvases interactivos, nueva Environments API para gestionar contenedores, soporte para 300 repositorios, monitorización móvil de agentes locales y mejoras de accesibilidad. Diagramas Mermaid interactivos en preview.",
+      "categoria": "Herramientas",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "Cursor",
+      "url": "https://cursor.com/changelog",
+      "publicado": "2026-10-30T12:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-30T13:05:00.260Z",
+      "reciente": true,
+      "_img_intentos": 1,
+      "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
+    },
+    {
+      "id": 3,
+      "titulo": "TBC Mischief 1: primer modelo neuron-derived para generación de video",
+      "titular_corto": "TBC Mischief genera video 5x más rápido",
+      "resumen": "The Biological Computing Co. lanzó TBC Mischief 1, modelo de video basado en mediciones de neuronas vivas. Genera videos 5 veces más rápido que base model a costo ultra-bajo: 2,50 dólares por 100 clips de 5 segundos. Disponible en fal y OpenRouter.",
+      "categoria": "Modelos",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "The Biological Computing Co.",
+      "url": "https://fal.ai/",
+      "publicado": "2026-10-30T12:00:00Z",
+      "confirmado": false,
+      "_visto": "2026-10-30T15:05:00.258Z",
+      "reciente": true,
+      "imagen": null
+    },
+    {
+      "id": 4,
+      "titulo": "Bivia: modelo multimodal decisor para orquestación de agentes de IA",
+      "titular_corto": "Bivia: decisor multimodal para agentes",
+      "resumen": "Articul8 lanzó Bivia, modelo especializado que toma decisiones estructuradas sobre texto, imagen, video, audio y sensores sin generar tokens. Incluye puntuación de confianza y atribución de evidencia. Diseñado para enrutamiento y verificación de tareas en agentes empresariales.",
+      "categoria": "Herramientas",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "Articul8",
+      "url": "https://www.articul8.ai/",
+      "publicado": "2026-10-30T12:00:00Z",
+      "confirmado": false,
+      "_visto": "2026-10-30T15:05:00.258Z",
+      "reciente": true,
+      "imagen": null
+    },
+    {
+      "id": 5,
       "titulo": "TBC Mischief 1: modelo de video con tecnología neurobiológica 5× más rápido",
       "titular_corto": "TBC Mischief 1: video rápido con IA neuronderivada",
       "resumen": "The Biological Computing Co. lanza Mischief 1, primer modelo de video comercial derivado de computación biológica. Genera video a partir de imagen en 5 segundos a 720p por $0.01/seg (80% más barato que base abierta). Disponible en OpenRouter y fal.ai con arquitectura MoE optimizada por patrones extraídos de neuronas biológicas.",
@@ -34,7 +83,7 @@
       "imagen": null
     },
     {
-      "id": 3,
+      "id": 6,
       "titulo": "KT lanza Token Factory: plataforma unificada de 500 modelos",
       "titular_corto": "Token Factory: acceso a 500 modelos IA",
       "resumen": "El operador de telecomunicaciones coreano KT abrió Token Factory para empresas. Integra 73 modelos locales e internacionales expandibles a 500+ vía OpenRouter. Incluye router automático y compresión de prompts en coreano (ahorros hasta 25%) con data sovereignty para sectores regulados.",
@@ -51,7 +100,7 @@
       "reciente": true
     },
     {
-      "id": 4,
+      "id": 7,
       "titulo": "DeepSeek V4.1 Flash y Qwen3.8 lideran trending en Hugging Face",
       "titular_corto": "Modelos MoE y multimodales en trending",
       "resumen": "DeepSeek-V4.1-Flash (763B MoE, 1M contexto) y cuantizaciones GGUF dominan trending. Qwen3.8-27B multimodal en 4-bit y MLX. También trending Google Gemma-4-E2B (edge, QAT, 3.5GB), LiquidAI LFM2.5 (estado-espacio, 1.7GB) y WeVisOne-VL (visión unificada sin pipeline).",
@@ -68,7 +117,7 @@
       "publicado": "2026-10-30T06:30:00Z"
     },
     {
-      "id": 5,
+      "id": 8,
       "titulo": "Tencent presenta Hy4 y Hy4 Flash con capacidades de visión",
       "titular_corto": "Tencent Hy4 y Flash: modelos multimodales",
       "resumen": "En la Cumbre del Ecosistema Digital Global de Tencent, se anunciaron Hy4 (producción) y Hy4 Flash. Hy4 agrega visión nativa a un modelo MoE de 770B params (49B activos), mejorado para tareas largas y agentes. Hy4 Flash ofrece similar capacidad visual pero optimizado para alta velocidad e inferencia económica.",
@@ -85,7 +134,7 @@
       "reciente": true
     },
     {
-      "id": 6,
+      "id": 9,
       "titulo": "Idol: síntesis 3D local de imagen única a Gaussian Splat",
       "titular_corto": "Idol convierte fotos en modelos 3D ejecutables",
       "resumen": "Speridlabs lanzó Idol bajo Apache 2.0; convierte imagen en Gaussian Splat 3D con 1M gaussianas en local con 7.2GB VRAM. Referencia open source en síntesis 3D feed-forward para GPUs consumer.",
@@ -102,24 +151,7 @@
       "reciente": true
     },
     {
-      "id": 7,
-      "titulo": "Incidente ciberseguridad: extensión Claude Code maliciosa en marketplace Cursor",
-      "titular_corto": "Malware en extensión claudicode, 5000 afectados",
-      "resumen": "Cursor reporta que versión 2.1.313 de extensión Anthropic.claude-code (fraudulenta) se distribuyó 11 horas en marketplace el 29 oct. Inyectaba clave SSH backdoor etiquetada 'svc-telemetry', configuraba túnel SSH inverso y exfiltraba telemetría. Afectó ~5000 usuarios. Removida, C2 desactivado, versión 2.1.314 liberada.",
-      "categoria": "Ciberseguridad",
-      "es_ia": true,
-      "prioridad": "alta",
-      "fuente": "Cursor",
-      "url": "https://cursor.com/changelog",
-      "publicado": "2026-10-29T14:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-10-30T13:05:00.260Z",
-      "reciente": false,
-      "_img_intentos": 1,
-      "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
-    },
-    {
-      "id": 8,
+      "id": 10,
       "titulo": "GitHub Copilot integra múltiples modelos incluido Claude Sonnet",
       "titular_corto": "Copilot soporta Claude y Gemini",
       "resumen": "GitHub Copilot incorporó soporte multi-modelo, permitiendo a desarrolladores usar Claude 3.5/3.7 Sonnet de Anthropic, Gemini de Google y modelos de OpenAI. Rompe exclusividad con OpenAI.",
@@ -132,77 +164,103 @@
       "_img_intentos": 1,
       "imagen": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png?resize=800%2C425",
       "reciente": false
-    },
-    {
-      "id": 9,
-      "titulo": "OpenAI duplica cuotas de uso para suscriptores Pro en octubre 29",
-      "titular_corto": "OpenAI duplica límites de uso en Pro tiers",
-      "resumen": "OpenAI revirtió su plan de reducir límites de uso para Pro 200 tras rechazo comunitario, anunciando en su lugar la duplicación de cuotas de Work y Codex en todos los tiers Pro 100, Pro 200 y Pro 500 sin costo adicional. El cambio fue automático inmediato para usuarios existentes.",
-      "categoria": "Producto",
-      "prioridad": "alta",
-      "fuente": "OpenAI",
-      "url": "https://openai.com/",
-      "publicado": "2026-10-29T12:00:00Z",
-      "confirmado": false,
-      "_visto": "2026-10-30T10:05:00.245Z",
-      "reciente": false,
-      "imagen": null
-    },
-    {
-      "id": 10,
-      "titulo": "Mistral Large 4 Open: 1 billón de parámetros con arquitectura MoE eficiente",
-      "titular_corto": "Mistral Large 4: MoE de 1T params, pesos abiertos",
-      "resumen": "El 29 de octubre Mistral liberó pesos abiertos de Large 4 con 1.05 billones de parámetros en arquitectura MoE. Incluye razonamiento configurable, visión multimodal y defensa reforzada contra exploits, bajo licencia permisiva.",
-      "categoria": "Modelos",
-      "prioridad": "alta",
-      "fuente": "Mistral AI",
-      "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "publicado": "2026-10-29T10:00:00Z",
-      "imagen": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
-      "confirmado": true,
-      "_visto": "2026-10-29T16:05:00.311Z",
-      "es_ia": true,
-      "reciente": false
     }
   ],
   "destacado": {
-    "titulo": "Articul8 Bivia: modelo decisor multimodal para agentes IA",
-    "texto": "Articul8 lanzó Bivia, especializado en decisiones estructuradas para agentes. Procesa texto, documentos, imágenes, audio y video retornando JSON con confianza calibrada. Elimina tokens innecesarios y hallucinations en workflows agentic.",
-    "_visto": "2026-10-30T14:05:00.427Z"
+    "titulo": "Google lanza Gemini 4 Carbon especializado en ciberseguridad",
+    "texto": "Google DeepMind presentó Gemini 4 Carbon, modelo de frontera diseñado para detectar vulnerabilidades, analizar exploits y generar parches automáticos. Lidera benchmarks con enfoque en defensa cibernética y razonamiento complejo para agentes.",
+    "_visto": "2026-10-30T15:05:00.258Z"
   },
   "modelo_open_source": {
-    "nombre": "Qwen3.5-4B-Qwenputer",
-    "tamano": "4B parámetros (base Qwen3.5)",
-    "licencia": "Apache 2.0 (Qwen) / Custom (proyecto Qwenputer)",
-    "destaca_en": "Ejecución determinística de código RISC-V interno. Aritmética de precisión exacta (100%) vs ~48% LLMs. Ejecución en local con 24GB VRAM.",
-    "ejecucion_local": "Sí, ejecutable en GPU 24GB (RTX 4090, H100). Código C/MicroPython compilado nativo dentro del modelo.",
-    "url": "https://github.com/divagr18/qwenputer",
-    "_visto": "2026-10-30T13:05:00.260Z",
+    "nombre": "Aleph-Alpha Kolibri-1",
+    "tamano": "78B parámetros (3.5B activos por token)",
+    "licencia": "Apache 2.0",
+    "destaca_en": "Razonamiento y uso de herramientas en alemán e inglés con contexto de 1M tokens",
+    "ejecucion_local": "Arquitectura MoE eficiente, optimizado para inferencia local en GPU; requiere GPU con 40GB+ VRAM",
+    "url": "https://huggingface.co/AlephAlpha/kolibri-1",
+    "_visto": "2026-10-30T15:05:00.258Z",
     "_img_intentos": 1,
-    "imagen": "https://opengraph.githubassets.com/1/divagr18/qwenputer"
+    "imagen": null,
+    "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
   },
   "herramienta_del_dia": {
-    "nombre": "Bivia",
-    "que_hace": "Modelo multimodal especializado en tomar decisiones estructuradas, retornando JSON tipado con confianza calibrada sobre múltiples tipos de datos.",
-    "diferencia": "Diseñado específicamente para evaluación discreta en lugar de generación conversacional, reduciendo tokens innecesarios y hallucinations en workflows agentic multi-paso. Soporta abstención cuando confianza es insuficiente.",
+    "nombre": "Cursor Cloud Agents",
+    "que_hace": "Agentes de IA que generan canvases interactivos, ejecutan código en entornos containerizados y permiten supervisión móvil",
+    "diferencia": "Integra visual interactivos en lienzo, API para gestionar 300 repos, monitorización remota desde iOS",
     "licencia": "De pago",
-    "url": "https://articul8.ai/",
-    "_visto": "2026-10-30T14:05:00.427Z",
-    "imagen": null
+    "url": "https://cursor.com/changelog",
+    "_visto": "2026-10-30T15:05:00.258Z",
+    "_img_intentos": 1,
+    "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
   },
   "trending": [
     {
-      "nombre": "articul8/bivia",
+      "nombre": "The-Biological-Computing-Co/mischief",
       "tipo": "huggingface",
-      "descripcion": "Modelo decisor multimodal para agentes con salida JSON tipado, confianza calibrada y capacidad de abstención.",
-      "url": "https://articul8.ai/",
-      "imagen": null
+      "descripcion": "Modelo generador de video basado en mediciones de neuronas vivas, 5x más rápido",
+      "url": "https://huggingface.co/TheBiologicalComputingCo/mischief-1",
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
+    },
+    {
+      "nombre": "google-deepmind/gemini-4-carbon",
+      "tipo": "huggingface",
+      "descripcion": "Modelo frontera especializado en ciberseguridad y razonamiento complejo",
+      "url": "https://huggingface.co/google/gemini-4-carbon",
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
+    },
+    {
+      "nombre": "openai/model-spec",
+      "tipo": "github",
+      "descripcion": "Especificación revisada del comportamiento de modelos OpenAI con 5 valores eje de alineación",
+      "url": "https://github.com/openai/model-spec",
+      "_img_intentos": 1,
+      "imagen": "https://opengraph.githubassets.com/1/openai/model-spec"
     }
   ],
   "fecha": "2026-10-30",
-  "generado": "2026-10-30T14:05:00.427Z",
-  "_ultima_consulta": "2026-10-30T14:05:00.427Z",
+  "generado": "2026-10-30T15:05:00.258Z",
+  "_ultima_consulta": "2026-10-30T15:05:00.258Z",
   "_vistas": [
+    {
+      "k": "t:tbc mischief 1 primer modelo neuron derived para generacion de video",
+      "titulo": "TBC Mischief 1: primer modelo neuron-derived para generación de video",
+      "url": "https://fal.ai/",
+      "_visto": "2026-10-30T15:05:00.258Z"
+    },
+    {
+      "k": "t:bivia modelo multimodal decisor para orquestacion de agentes de ia",
+      "titulo": "Bivia: modelo multimodal decisor para orquestación de agentes de IA",
+      "url": "https://www.articul8.ai/",
+      "_visto": "2026-10-30T15:05:00.258Z"
+    },
+    {
+      "k": "https://blog.google/technology/ai",
+      "titulo": "Google Gemini mejora chat: creación interactiva de archivos Office",
+      "url": "https://blog.google/technology/ai/",
+      "_visto": "2026-10-30T15:05:00.258Z"
+    },
+    {
+      "k": "https://github.blog/news-insights/octoverse",
+      "titulo": "GitHub reporta: 40% de PRs generados por agentes de IA en 2026",
+      "url": "https://github.blog/news-insights/octoverse/",
+      "_visto": "2026-10-30T15:05:00.258Z"
+    },
+    {
+      "k": "t:atos lanza genesis intelligence suite ia empresarial soberana",
+      "titulo": "Atos lanza Genesis Intelligence: suite IA empresarial soberana",
+      "url": "https://www.atos.net/",
+      "_visto": "2026-10-30T15:05:00.258Z"
+    },
+    {
+      "k": "t:cognizant forma openai frontier capability group con 25k especialistas",
+      "titulo": "Cognizant forma OpenAI Frontier Capability Group con 25k especialistas",
+      "url": "https://www.cognizant.com/",
+      "_visto": "2026-10-30T15:05:00.258Z"
+    },
     {
       "k": "t:articul8 lanza bivia modelo decisor multimodal para agentes",
       "titulo": "Articul8 lanza Bivia: modelo decisor multimodal para agentes",
@@ -241,7 +299,7 @@
     },
     {
       "k": "https://cursor.com/changelog",
-      "titulo": "Incidente ciberseguridad: extensión Claude Code maliciosa en marketplace Cursor",
+      "titulo": "Cursor IDE versión 3.27: agentes en nube con canvases interactivos",
       "url": "https://cursor.com/changelog",
       "_visto": "2026-10-30T13:05:00.260Z"
     },
