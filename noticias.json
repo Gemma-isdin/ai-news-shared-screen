@@ -53,23 +53,6 @@
     },
     {
       "id": 4,
-      "titulo": "Cursor v3.26: SDK de agentes GA y canvases interactivos",
-      "titular_corto": "Cursor Agent SDK disponible; ambientes 5x rápido",
-      "resumen": "Cursor lanzó su Agent SDK en GA permitiendo crear y desplegar agentes como código. Añade canvases interactivos para visualizar agentes, API Environments para multi-repo (300 repos), control remoto iOS y expansión marketplace a 20+ integraciones CI/CD como Cloudflare y Socket Security.",
-      "categoria": "Herramientas",
-      "es_ia": true,
-      "prioridad": "alta",
-      "fuente": "Cursor",
-      "url": "https://www.cursor.com/changelog",
-      "publicado": "2026-10-30T06:15:00Z",
-      "confirmado": true,
-      "_visto": "2026-10-30T07:05:00.377Z",
-      "_img_intentos": 1,
-      "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png",
-      "reciente": true
-    },
-    {
-      "id": 5,
       "titulo": "Idol: síntesis 3D local de imagen única a Gaussian Splat",
       "titular_corto": "Idol convierte fotos en modelos 3D ejecutables",
       "resumen": "Speridlabs lanzó Idol bajo Apache 2.0; convierte imagen en Gaussian Splat 3D con 1M gaussianas en local con 7.2GB VRAM. Referencia open source en síntesis 3D feed-forward para GPUs consumer.",
@@ -86,7 +69,7 @@
       "reciente": true
     },
     {
-      "id": 6,
+      "id": 5,
       "titulo": "GitHub Copilot integra múltiples modelos incluido Claude Sonnet",
       "titular_corto": "Copilot soporta Claude y Gemini",
       "resumen": "GitHub Copilot incorporó soporte multi-modelo, permitiendo a desarrolladores usar Claude 3.5/3.7 Sonnet de Anthropic, Gemini de Google y modelos de OpenAI. Rompe exclusividad con OpenAI.",
@@ -98,26 +81,10 @@
       "_visto": "2026-10-29T12:05:00.078Z",
       "_img_intentos": 1,
       "imagen": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png?resize=800%2C425",
-      "reciente": true
+      "reciente": false
     },
     {
-      "id": 7,
-      "titulo": "Mistral Large 4 abre pesos: modelo MoE de 1 billón parámetros",
-      "titular_corto": "Mistral Large 4 open weights disponible",
-      "resumen": "Mistral AI publicó pesos de Mistral Large 4 (Le Chonk), modelo Mixture-of-Experts de 1T parámetros con 52B activos. Optimizado para programación, bajo consumo tokens, entrenado en Europa, bajo licencia abierta para ejecución local.",
-      "categoria": "Modelos",
-      "prioridad": "alta",
-      "fuente": "Mistral AI",
-      "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "publicado": "2026-10-29T12:00:00Z",
-      "imagen": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
-      "confirmado": true,
-      "_visto": "2026-10-29T16:05:00.311Z",
-      "es_ia": true,
-      "reciente": true
-    },
-    {
-      "id": 8,
+      "id": 6,
       "titulo": "OpenAI duplica cuotas de uso para suscriptores Pro en octubre 29",
       "titular_corto": "OpenAI duplica límites de uso en Pro tiers",
       "resumen": "OpenAI revirtió su plan de reducir límites de uso para Pro 200 tras rechazo comunitario, anunciando en su lugar la duplicación de cuotas de Work y Codex en todos los tiers Pro 100, Pro 200 y Pro 500 sin costo adicional. El cambio fue automático inmediato para usuarios existentes.",
@@ -128,11 +95,27 @@
       "publicado": "2026-10-29T12:00:00Z",
       "confirmado": false,
       "_visto": "2026-10-30T10:05:00.245Z",
-      "reciente": true,
+      "reciente": false,
       "imagen": null
     },
     {
-      "id": 9,
+      "id": 7,
+      "titulo": "Mistral Large 4 Open: 1 billón de parámetros con arquitectura MoE eficiente",
+      "titular_corto": "Mistral Large 4: MoE de 1T params, pesos abiertos",
+      "resumen": "El 29 de octubre Mistral liberó pesos abiertos de Large 4 con 1.05 billones de parámetros en arquitectura MoE. Incluye razonamiento configurable, visión multimodal y defensa reforzada contra exploits, bajo licencia permisiva.",
+      "categoria": "Modelos",
+      "prioridad": "alta",
+      "fuente": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "publicado": "2026-10-29T10:00:00Z",
+      "imagen": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
+      "confirmado": true,
+      "_visto": "2026-10-29T16:05:00.311Z",
+      "es_ia": true,
+      "reciente": false
+    },
+    {
+      "id": 8,
       "titulo": "GitHub Octoverse 2026: 40% de PRs generados por agentes de IA",
       "titular_corto": "Agentes de IA dominan flujos de desarrollo",
       "resumen": "El reporte Octoverse 2026 de GitHub muestra que en septiembre, más del 40% de pull requests fueron iniciados por agentes (vs. 17% en marzo). El 55% de usuarios activos de Copilot usan funciones agenticas, registrando 225+ millones de desarrolladores globales y 17.9 mil millones de pushes anuales.",
@@ -149,7 +132,7 @@
       "reciente": false
     },
     {
-      "id": 10,
+      "id": 9,
       "titulo": "Gemini 4 Carbon de Google es modelo #1 en Artificial Analysis Intelligence Index",
       "titular_corto": "Gemini 4 Carbon lidera benchmarks de IA",
       "resumen": "Google DeepMind lanzó Gemini 4 Carbon el 28 de octubre, posicionándose #1 en Artificial Analysis v5.0 (score 59). Destacado en ciberseguridad (SEC-bench 88.2%), debugging sostenido y reducción 2x en alucinaciones vs. Argon. Rollout gradual vía Fairwind.",
@@ -162,65 +145,120 @@
       "confirmado": true,
       "_visto": "2026-10-29T14:05:00.077Z",
       "reciente": false
+    },
+    {
+      "id": 10,
+      "titulo": "Google Gemini 4 Carbon: modelo #1 en benchmarks con enfoque en ciberseguridad",
+      "titular_corto": "Gemini 4 Carbon lidera rankings en IA",
+      "resumen": "Google presentó el 28 de octubre Gemini 4 Carbon, su modelo más capaz con puntuación 59 en Artificial Analysis Intelligence Index. Alcanza 88.2% en detección de vulnerabilidades y 71% en parches automáticos de seguridad.",
+      "categoria": "Modelos",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "Google DeepMind Blog",
+      "url": "https://blog.google/technology/ai/gemini-4-carbon/",
+      "publicado": "2026-10-28T10:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-30T12:05:00.257Z",
+      "reciente": false,
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: HTTP 404 | microlink: Request failed with status code 429"
     }
   ],
   "destacado": {
-    "titulo": "GitHub Copilot Fusion: orquestación automática inteligente de modelos",
-    "texto": "GitHub Copilot Fusion coordina automáticamente entre Claude, GPT y Gemini seleccionando el más eficiente por tarea. Reduce costos 50% vs modelos únicos manteniendo calidad. Disponible en GA con descuento 30% en noviembre de 2026.",
-    "_visto": "2026-10-30T11:05:00.320Z"
+    "titulo": "Mistral Large 4 abierto: modelo MoE de 1 billón con razonamiento configurable",
+    "texto": "Mistral lanzó ayer los pesos abiertos de su modelo más potente: Large 4 alcanza 1.05 billones de parámetros con arquitectura MoE eficiente. Destaca por razonamiento configurable, ciberseguridad reforzada y disponibilidad local bajo licencia permisiva.",
+    "_visto": "2026-10-30T12:05:00.257Z"
   },
   "modelo_open_source": {
-    "nombre": "DeepSeek-V4.1-Flash-1017",
-    "tamano": "763B parámetros (MoE)",
-    "licencia": "DeepSeek License",
-    "destaca_en": "Eficiencia extrema con bajo consumo vRAM; múltiples quantizaciones para laptop/smartphone local con mínima degradación.",
-    "ejecucion_local": "Local con GGUF (4-8 bits): ~20GB vRAM en GPU o 4GB RAM en CPU con INT4; Ollama y llama.cpp soportados.",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "_visto": "2026-10-30T11:05:00.320Z",
+    "nombre": "Mistral Large 4",
+    "tamano": "1.05 billones de parámetros (MoE)",
+    "licencia": "Mistral Ecosystem Open-Weight License",
+    "destaca_en": "Razonamiento configurable, codificación agentica y ciberseguridad defensiva. Alcanza 41% en Terminal-Bench y 51% en Artificial Analysis Cyber Index.",
+    "ejecucion_local": "Requiere GPU de alto rendimiento como H100 para inferencia distribuida; contexto de 1M tokens soportado en clústers multi-GPU con inferencia especulativa integrada.",
+    "url": "https://huggingface.co/mistralai/Mistral-Large-4",
+    "_visto": "2026-10-30T12:05:00.257Z",
     "_img_intentos": 1,
-    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png"
+    "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
   },
   "herramienta_del_dia": {
     "nombre": "GitHub Copilot Fusion",
-    "que_hace": "Orquesta automáticamente entre modelos de IA seleccionando el más eficiente para cada subtarea sin intervención del usuario.",
-    "diferencia": "Primer asistente que elimina selección manual de modelo; coordinación automática reduce costos 50% vs usar fronteras únicas.",
-    "licencia": "De pago",
-    "url": "https://github.blog/ai-and-ml/github-copilot-fusion",
-    "_visto": "2026-10-30T11:05:00.320Z",
+    "que_hace": "Orquesta automáticamente múltiples modelos de IA seleccionando el más apropiado según tarea: simple, cascada o crítica. Reduce costos ~51% manteniendo calidad de frontera.",
+    "diferencia": "A diferencia de wrappers que usan un modelo fijo, Fusion evalúa dinámicamente la dificultad y enruta a modelos más ligeros cuando es suficiente, escalando solo cuando es necesario.",
+    "licencia": "Freemium",
+    "url": "https://github.blog/ai-and-ml/copilot-fusion-announcement",
+    "_visto": "2026-10-30T12:05:00.257Z",
     "_img_intentos": 1,
     "imagen": null,
-    "_imagen_error": "lectura directa: HTTP 404 | microlink: Microlink no encontró imagen"
+    "_imagen_error": "lectura directa: HTTP 404 | microlink: Request failed with status code 429"
   },
   "trending": [
     {
-      "nombre": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "nombre": "mistralai/Mistral-Large-4",
       "tipo": "huggingface",
-      "descripcion": "Modelo DeepSeek V4.1 Flash oficial liderando trending por eficiencia y disponibilidad de quantizaciones.",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "descripcion": "Modelo MoE de frontera con 1T params, razonamiento configurable y defensa cibernética",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4",
       "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png"
+      "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
     },
     {
-      "nombre": "zai-org/GLM-5.3",
+      "nombre": "google/gemini-4-carbon",
       "tipo": "huggingface",
-      "descripcion": "Nueva versión GLM 5.3 disponible para evaluación en cloud sin configuración previa, con mejoras de razonamiento.",
-      "url": "https://huggingface.co/zai-org/GLM-5.3",
+      "descripcion": "Modelo líder en benchmarks con foco en ciberseguridad ofensiva y defensiva",
+      "url": "https://console.cloud.google.com/vertex-ai",
       "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/zai-org/GLM-5.3.png"
+      "imagen": null,
+      "_imagen_error": "la página no tiene imagen de previsualización | microlink: Request failed with status code 429"
     },
     {
-      "nombre": "black-forest-labs/flux-3-image-klein-comfy",
-      "tipo": "huggingface",
-      "descripcion": "Distribución ComfyUI de Flux 3 con optimizaciones FP8/NVFP4 para generación de imágenes de alto rendimiento.",
-      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "nombre": "CopilotKit/nightly-labs",
+      "tipo": "github",
+      "descripcion": "Sandbox de código abierto para coworkers autónomos de IA con control humano",
+      "url": "https://github.com/CopilotKit/nightly-labs",
       "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/black-forest-labs/flux-3-image-klein-comfy.png"
+      "imagen": "https://opengraph.githubassets.com/1/CopilotKit/nightly-labs"
     }
   ],
   "fecha": "2026-10-30",
-  "generado": "2026-10-30T11:05:00.320Z",
-  "_ultima_consulta": "2026-10-30T11:05:00.320Z",
+  "generado": "2026-10-30T12:05:00.257Z",
+  "_ultima_consulta": "2026-10-30T12:05:00.257Z",
   "_vistas": [
+    {
+      "k": "https://blog.google/technology/ai/gemini-4-carbon",
+      "titulo": "Google Gemini 4 Carbon: modelo #1 en benchmarks con enfoque en ciberseguridad",
+      "url": "https://blog.google/technology/ai/gemini-4-carbon/",
+      "_visto": "2026-10-30T12:05:00.257Z"
+    },
+    {
+      "k": "https://openai.com/api/pricing",
+      "titulo": "OpenAI lanza GPT-6.1 Terra: modelo eficiente para automatización de tareas",
+      "url": "https://openai.com/api/pricing/",
+      "_visto": "2026-10-30T12:05:00.257Z"
+    },
+    {
+      "k": "https://www.anthropic.com/news/api-update",
+      "titulo": "Anthropic actualiza API con versión 2026-10-21 y Python SDK 2.0",
+      "url": "https://www.anthropic.com/news/api-update",
+      "_visto": "2026-10-30T12:05:00.257Z"
+    },
+    {
+      "k": "https://www.anthropic.com/news/claude-haiku-5-5",
+      "titulo": "Claude Haiku 5.5: modelo 75% más económico con latencia ultra-baja",
+      "url": "https://www.anthropic.com/news/claude-haiku-5-5",
+      "_visto": "2026-10-30T12:05:00.257Z"
+    },
+    {
+      "k": "https://ai.meta.com/blog",
+      "titulo": "Meta lanza Muse Wonder: modelo de frontera cerrado para competir con OpenAI",
+      "url": "https://ai.meta.com/blog/",
+      "_visto": "2026-10-30T12:05:00.257Z"
+    },
+    {
+      "k": "https://x.ai/grok",
+      "titulo": "xAI Grok Voice 3.0: audio real-time multilingüe actualizado",
+      "url": "https://x.ai/grok",
+      "_visto": "2026-10-30T12:05:00.257Z"
+    },
     {
       "k": "https://github.blog/ai-and-ml/copilot-fusion-announcement",
       "titulo": "GitHub Copilot Fusion GA: orquestación automática entre 5 modelos IA",
@@ -325,7 +363,7 @@
     },
     {
       "k": "https://www.cursor.com/changelog",
-      "titulo": "Cursor v3.26: SDK de agentes GA y canvases interactivos",
+      "titulo": "Cursor Agent SDK disponible: define agentes de software en código",
       "url": "https://www.cursor.com/changelog",
       "_visto": "2026-10-30T07:05:00.377Z"
     },
@@ -337,7 +375,7 @@
     },
     {
       "k": "https://mistral.ai/news/mistral-large-4-oss",
-      "titulo": "Mistral Large 4 abre pesos: modelo MoE de 1 billón parámetros",
+      "titulo": "Mistral Large 4 Open: 1 billón de parámetros con arquitectura MoE eficiente",
       "url": "https://mistral.ai/news/mistral-large-4-oss/",
       "_visto": "2026-10-29T16:05:00.311Z"
     },
