@@ -68,6 +68,22 @@
     },
     {
       "id": 5,
+      "titulo": "TBC Mischief 1: modelo vídeo neuron-derived 5× más rápido",
+      "titular_corto": "Mischief 1 acelera generación de vídeo con IA biológica",
+      "resumen": "The Biological Computing Co. lanza Mischief 1, modelo imagen-a-vídeo construido sobre Wan 2.2 que implementa eficiencias de redes neuronales biológicas mediante adaptadores post-training. Genera vídeo 5× más rápido con costo ~$0.005/segundo. Ya disponible en OpenRouter y fal.ai.",
+      "categoria": "Modelos",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "The Biological Computing Co.",
+      "url": "https://openrouter.ai",
+      "publicado": "2026-10-30T12:00:00Z",
+      "confirmado": false,
+      "_visto": "2026-10-30T16:05:00.233Z",
+      "reciente": true,
+      "imagen": null
+    },
+    {
+      "id": 6,
       "titulo": "TBC Mischief 1: modelo de video con tecnología neurobiológica 5× más rápido",
       "titular_corto": "TBC Mischief 1: video rápido con IA neuronderivada",
       "resumen": "The Biological Computing Co. lanza Mischief 1, primer modelo de video comercial derivado de computación biológica. Genera video a partir de imagen en 5 segundos a 720p por $0.01/seg (80% más barato que base abierta). Disponible en OpenRouter y fal.ai con arquitectura MoE optimizada por patrones extraídos de neuronas biológicas.",
@@ -83,7 +99,7 @@
       "imagen": null
     },
     {
-      "id": 6,
+      "id": 7,
       "titulo": "KT lanza Token Factory: plataforma unificada de 500 modelos",
       "titular_corto": "Token Factory: acceso a 500 modelos IA",
       "resumen": "El operador de telecomunicaciones coreano KT abrió Token Factory para empresas. Integra 73 modelos locales e internacionales expandibles a 500+ vía OpenRouter. Incluye router automático y compresión de prompts en coreano (ahorros hasta 25%) con data sovereignty para sectores regulados.",
@@ -100,7 +116,7 @@
       "reciente": true
     },
     {
-      "id": 7,
+      "id": 8,
       "titulo": "DeepSeek V4.1 Flash y Qwen3.8 lideran trending en Hugging Face",
       "titular_corto": "Modelos MoE y multimodales en trending",
       "resumen": "DeepSeek-V4.1-Flash (763B MoE, 1M contexto) y cuantizaciones GGUF dominan trending. Qwen3.8-27B multimodal en 4-bit y MLX. También trending Google Gemma-4-E2B (edge, QAT, 3.5GB), LiquidAI LFM2.5 (estado-espacio, 1.7GB) y WeVisOne-VL (visión unificada sin pipeline).",
@@ -117,7 +133,7 @@
       "publicado": "2026-10-30T06:30:00Z"
     },
     {
-      "id": 8,
+      "id": 9,
       "titulo": "Tencent presenta Hy4 y Hy4 Flash con capacidades de visión",
       "titular_corto": "Tencent Hy4 y Flash: modelos multimodales",
       "resumen": "En la Cumbre del Ecosistema Digital Global de Tencent, se anunciaron Hy4 (producción) y Hy4 Flash. Hy4 agrega visión nativa a un modelo MoE de 770B params (49B activos), mejorado para tareas largas y agentes. Hy4 Flash ofrece similar capacidad visual pero optimizado para alta velocidad e inferencia económica.",
@@ -134,7 +150,7 @@
       "reciente": true
     },
     {
-      "id": 9,
+      "id": 10,
       "titulo": "Idol: síntesis 3D local de imagen única a Gaussian Splat",
       "titular_corto": "Idol convierte fotos en modelos 3D ejecutables",
       "resumen": "Speridlabs lanzó Idol bajo Apache 2.0; convierte imagen en Gaussian Splat 3D con 1M gaussianas en local con 7.2GB VRAM. Referencia open source en síntesis 3D feed-forward para GPUs consumer.",
@@ -149,45 +165,29 @@
       "_img_intentos": 1,
       "imagen": "https://opengraph.githubassets.com/1/speridlabs/idol-sdk",
       "reciente": true
-    },
-    {
-      "id": 10,
-      "titulo": "GitHub Copilot integra múltiples modelos incluido Claude Sonnet",
-      "titular_corto": "Copilot soporta Claude y Gemini",
-      "resumen": "GitHub Copilot incorporó soporte multi-modelo, permitiendo a desarrolladores usar Claude 3.5/3.7 Sonnet de Anthropic, Gemini de Google y modelos de OpenAI. Rompe exclusividad con OpenAI.",
-      "categoria": "Producto",
-      "prioridad": "alta",
-      "fuente": "GitHub",
-      "url": "https://github.blog/ai-and-ml/",
-      "confirmado": true,
-      "_visto": "2026-10-29T12:05:00.078Z",
-      "_img_intentos": 1,
-      "imagen": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png?resize=800%2C425",
-      "reciente": false
     }
   ],
   "destacado": {
-    "titulo": "Google lanza Gemini 4 Carbon especializado en ciberseguridad",
-    "texto": "Google DeepMind presentó Gemini 4 Carbon, modelo de frontera diseñado para detectar vulnerabilidades, analizar exploits y generar parches automáticos. Lidera benchmarks con enfoque en defensa cibernética y razonamiento complejo para agentes.",
-    "_visto": "2026-10-30T15:05:00.258Z"
+    "titulo": "TBC Mischief 1: primer modelo de vídeo neuron-derived 5× más rápido",
+    "texto": "The Biological Computing Co. lanza Mischief 1, modelo imagen-a-vídeo basado en principios de redes neuronales biológicas, alcanzando velocidades 5× superiores con costo de $0.005/segundo. Disponible en OpenRouter y fal.ai.",
+    "_visto": "2026-10-30T16:05:00.233Z"
   },
   "modelo_open_source": {
-    "nombre": "Aleph-Alpha Kolibri-1",
-    "tamano": "78B parámetros (3.5B activos por token)",
-    "licencia": "Apache 2.0",
-    "destaca_en": "Razonamiento y uso de herramientas en alemán e inglés con contexto de 1M tokens",
-    "ejecucion_local": "Arquitectura MoE eficiente, optimizado para inferencia local en GPU; requiere GPU con 40GB+ VRAM",
-    "url": "https://huggingface.co/AlephAlpha/kolibri-1",
-    "_visto": "2026-10-30T15:05:00.258Z",
+    "nombre": "Liquid AI LFM3-1.7B",
+    "tamano": "1.7B parámetros base (6 variantes hasta 2B)",
+    "licencia": "Abierta (detalles en Hugging Face)",
+    "destaca_en": "IA edge local bajo 1GB RAM con velocidad 2-3× superior a competidores en dispositivos consumer",
+    "ejecucion_local": "Sí, nativo en Ollama, llama.cpp, MLX (Apple Silicon), ONNX, vLLM. Comprime a ~1GB Q4. Ejecuta en Raspberry Pi 5, móviles, MacBook M-series",
+    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+    "_visto": "2026-10-30T16:05:00.233Z",
     "_img_intentos": 1,
-    "imagen": null,
-    "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
+    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/LiquidAI/LFM3-1.7B.png"
   },
   "herramienta_del_dia": {
-    "nombre": "Cursor Cloud Agents",
-    "que_hace": "Agentes de IA que generan canvases interactivos, ejecutan código en entornos containerizados y permiten supervisión móvil",
-    "diferencia": "Integra visual interactivos en lienzo, API para gestionar 300 repos, monitorización remota desde iOS",
-    "licencia": "De pago",
+    "nombre": "Cursor Agent SDK",
+    "que_hace": "Define y orquesta agentes de software en código, integrándose con Cursor IDE para automatización agentic",
+    "diferencia": "SDK específico para expresar agentes directamente en código vs. interfaces visuales, permitiendo control fino de ejecución y sesiones persistentes",
+    "licencia": "Freemium",
     "url": "https://cursor.com/changelog",
     "_visto": "2026-10-30T15:05:00.258Z",
     "_img_intentos": 1,
@@ -195,36 +195,68 @@
   },
   "trending": [
     {
-      "nombre": "The-Biological-Computing-Co/mischief",
+      "nombre": "Liquid-ai/LFM3",
       "tipo": "huggingface",
-      "descripcion": "Modelo generador de video basado en mediciones de neuronas vivas, 5x más rápido",
-      "url": "https://huggingface.co/TheBiologicalComputingCo/mischief-1",
+      "descripcion": "Familia edge de modelos tri-híbridos 2B con soporte multimodal y ejecución sub-1GB",
+      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
       "_img_intentos": 1,
-      "imagen": null,
-      "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
+      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/LiquidAI/LFM3-1.7B.png"
     },
     {
-      "nombre": "google-deepmind/gemini-4-carbon",
-      "tipo": "huggingface",
-      "descripcion": "Modelo frontera especializado en ciberseguridad y razonamiento complejo",
-      "url": "https://huggingface.co/google/gemini-4-carbon",
-      "_img_intentos": 1,
-      "imagen": null,
-      "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
-    },
-    {
-      "nombre": "openai/model-spec",
+      "nombre": "deepseek-ai/DeepSeek-V4.1-Flash",
       "tipo": "github",
-      "descripcion": "Especificación revisada del comportamiento de modelos OpenAI con 5 valores eje de alineación",
-      "url": "https://github.com/openai/model-spec",
+      "descripcion": "Modelos rápidos y eficientes V4.1 con variantes especializadas para ciberseguridad",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V4.1-Flash",
       "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/openai/model-spec"
+      "imagen": "https://opengraph.githubassets.com/1/deepseek-ai/DeepSeek-V4.1-Flash"
     }
   ],
   "fecha": "2026-10-30",
-  "generado": "2026-10-30T15:05:00.258Z",
-  "_ultima_consulta": "2026-10-30T15:05:00.258Z",
+  "generado": "2026-10-30T16:05:00.233Z",
+  "_ultima_consulta": "2026-10-30T16:05:00.233Z",
   "_vistas": [
+    {
+      "k": "t:tbc mischief 1 modelo video neuron derived 5 mas rapido",
+      "titulo": "TBC Mischief 1: modelo vídeo neuron-derived 5× más rápido",
+      "url": "https://openrouter.ai",
+      "_visto": "2026-10-30T16:05:00.233Z"
+    },
+    {
+      "k": "t:claude code en cursor troyanizado 5 000 usuarios afectados",
+      "titulo": "Claude Code en Cursor troyanizado: 5.000 usuarios afectados",
+      "url": "https://cursor.com",
+      "_visto": "2026-10-30T16:05:00.233Z"
+    },
+    {
+      "k": "https://huggingface.co/liquidai",
+      "titulo": "Liquid AI lanza LFM3: familia edge de 2B parámetros bajo 1GB RAM",
+      "url": "https://huggingface.co/LiquidAI",
+      "_visto": "2026-10-30T16:05:00.233Z"
+    },
+    {
+      "k": "https://mistral.ai/news",
+      "titulo": "Mistral Large 4 'Le Chonk': 96.6% rechazo a prompts maliciosos",
+      "url": "https://mistral.ai/news",
+      "_visto": "2026-10-30T16:05:00.233Z"
+    },
+    {
+      "k": "t:kimi k3 1 pro moonshot 2 8t params 1m contexto 65 7 en terminal bench",
+      "titulo": "Kimi K3.1 Pro Moonshot: 2.8T params, 1M contexto, 65.7% en Terminal-Bench",
+      "url": "https://huggingface.co",
+      "_visto": "2026-10-30T16:05:00.233Z"
+    },
+    {
+      "k": "t:proton expande integracion de ia manteniendo privacidad end to end",
+      "titulo": "Proton expande integración de IA manteniendo privacidad end-to-end",
+      "url": "https://news.ycombinator.com",
+      "_visto": "2026-10-30T16:05:00.233Z"
+    },
+    {
+      "k": "https://arxiv.org/abs/2610.28763",
+      "titulo": "Agent4Sci: benchmark testbed para agentes frontier en ML científico",
+      "url": "https://arxiv.org/abs/2610.28763",
+      "_visto": "2026-10-30T16:05:00.233Z"
+    },
     {
       "k": "t:tbc mischief 1 primer modelo neuron derived para generacion de video",
       "titulo": "TBC Mischief 1: primer modelo neuron-derived para generación de video",
