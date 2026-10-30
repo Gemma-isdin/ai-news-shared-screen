@@ -84,6 +84,23 @@
     },
     {
       "id": 6,
+      "titulo": "Modellix.ai trae 100+ modelos generativos a ComfyUI",
+      "titular_corto": "Modellix.ai ComfyUI: video, imagen, audio integrados",
+      "resumen": "Aurora Mobile lanzó Modellix.ai para ComfyUI, integrando acceso a 100+ modelos generativos (Google Veo, Kling, CosyVoice). Los resultados se generan como tipos nativos IMAGE, VIDEO, AUDIO. Disponible en Comfy Registry.",
+      "categoria": "Herramientas",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "Aurora Mobile",
+      "url": "https://github.com/aurora-mobile/modellix-comfyui",
+      "publicado": "2026-10-30T12:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-30T17:05:00.261Z",
+      "reciente": true,
+      "_img_intentos": 1,
+      "imagen": "https://opengraph.githubassets.com/1/aurora-mobile/modellix-comfyui"
+    },
+    {
+      "id": 7,
       "titulo": "TBC Mischief 1: modelo de video con tecnología neurobiológica 5× más rápido",
       "titular_corto": "TBC Mischief 1: video rápido con IA neuronderivada",
       "resumen": "The Biological Computing Co. lanza Mischief 1, primer modelo de video comercial derivado de computación biológica. Genera video a partir de imagen en 5 segundos a 720p por $0.01/seg (80% más barato que base abierta). Disponible en OpenRouter y fal.ai con arquitectura MoE optimizada por patrones extraídos de neuronas biológicas.",
@@ -99,7 +116,7 @@
       "imagen": null
     },
     {
-      "id": 7,
+      "id": 8,
       "titulo": "KT lanza Token Factory: plataforma unificada de 500 modelos",
       "titular_corto": "Token Factory: acceso a 500 modelos IA",
       "resumen": "El operador de telecomunicaciones coreano KT abrió Token Factory para empresas. Integra 73 modelos locales e internacionales expandibles a 500+ vía OpenRouter. Incluye router automático y compresión de prompts en coreano (ahorros hasta 25%) con data sovereignty para sectores regulados.",
@@ -116,7 +133,7 @@
       "reciente": true
     },
     {
-      "id": 8,
+      "id": 9,
       "titulo": "DeepSeek V4.1 Flash y Qwen3.8 lideran trending en Hugging Face",
       "titular_corto": "Modelos MoE y multimodales en trending",
       "resumen": "DeepSeek-V4.1-Flash (763B MoE, 1M contexto) y cuantizaciones GGUF dominan trending. Qwen3.8-27B multimodal en 4-bit y MLX. También trending Google Gemma-4-E2B (edge, QAT, 3.5GB), LiquidAI LFM2.5 (estado-espacio, 1.7GB) y WeVisOne-VL (visión unificada sin pipeline).",
@@ -133,7 +150,7 @@
       "publicado": "2026-10-30T06:30:00Z"
     },
     {
-      "id": 9,
+      "id": 10,
       "titulo": "Tencent presenta Hy4 y Hy4 Flash con capacidades de visión",
       "titular_corto": "Tencent Hy4 y Flash: modelos multimodales",
       "resumen": "En la Cumbre del Ecosistema Digital Global de Tencent, se anunciaron Hy4 (producción) y Hy4 Flash. Hy4 agrega visión nativa a un modelo MoE de 770B params (49B activos), mejorado para tareas largas y agentes. Hy4 Flash ofrece similar capacidad visual pero optimizado para alta velocidad e inferencia económica.",
@@ -148,73 +165,72 @@
       "_img_intentos": 1,
       "imagen": null,
       "reciente": true
-    },
-    {
-      "id": 10,
-      "titulo": "Idol: síntesis 3D local de imagen única a Gaussian Splat",
-      "titular_corto": "Idol convierte fotos en modelos 3D ejecutables",
-      "resumen": "Speridlabs lanzó Idol bajo Apache 2.0; convierte imagen en Gaussian Splat 3D con 1M gaussianas en local con 7.2GB VRAM. Referencia open source en síntesis 3D feed-forward para GPUs consumer.",
-      "categoria": "Modelos",
-      "es_ia": true,
-      "prioridad": "alta",
-      "fuente": "Speridlabs",
-      "url": "https://github.com/speridlabs/idol-sdk",
-      "publicado": "2026-10-30T00:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-10-30T08:05:00.287Z",
-      "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/speridlabs/idol-sdk",
-      "reciente": true
     }
   ],
   "destacado": {
-    "titulo": "TBC Mischief 1: primer modelo de vídeo neuron-derived 5× más rápido",
-    "texto": "The Biological Computing Co. lanza Mischief 1, modelo imagen-a-vídeo basado en principios de redes neuronales biológicas, alcanzando velocidades 5× superiores con costo de $0.005/segundo. Disponible en OpenRouter y fal.ai.",
-    "_visto": "2026-10-30T16:05:00.233Z"
+    "titulo": "Alerta de seguridad: backdoor en Claude Code VS Code del Cursor Marketplace",
+    "texto": "Extensión troyanizada (v2.1.313) comprometió hasta 5.000 usuarios. Instala puerta trasera SSH persistente y roba datos del sistema. Fue removida tras 11 horas.",
+    "_visto": "2026-10-30T17:05:00.261Z"
   },
   "modelo_open_source": {
-    "nombre": "Liquid AI LFM3-1.7B",
-    "tamano": "1.7B parámetros base (6 variantes hasta 2B)",
-    "licencia": "Abierta (detalles en Hugging Face)",
-    "destaca_en": "IA edge local bajo 1GB RAM con velocidad 2-3× superior a competidores en dispositivos consumer",
-    "ejecucion_local": "Sí, nativo en Ollama, llama.cpp, MLX (Apple Silicon), ONNX, vLLM. Comprime a ~1GB Q4. Ejecuta en Raspberry Pi 5, móviles, MacBook M-series",
-    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-    "_visto": "2026-10-30T16:05:00.233Z",
+    "nombre": "DeepSeek V4.1 Flash Cyber",
+    "tamano": "552B parámetros (MoE)",
+    "destaca_en": "Pentesting y red-teaming con contexto 1M y soporte multimodal nativo",
+    "ejecucion_local": "Requiere GPU gama alta (H100/A100) o acceso API verificado mediante Inference.net",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-Cyber",
+    "_visto": "2026-10-30T17:05:00.261Z",
     "_img_intentos": 1,
-    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/LiquidAI/LFM3-1.7B.png"
+    "imagen": null,
+    "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
   },
   "herramienta_del_dia": {
-    "nombre": "Cursor Agent SDK",
-    "que_hace": "Define y orquesta agentes de software en código, integrándose con Cursor IDE para automatización agentic",
-    "diferencia": "SDK específico para expresar agentes directamente en código vs. interfaces visuales, permitiendo control fino de ejecución y sesiones persistentes",
+    "nombre": "Modellix.ai ComfyUI",
+    "que_hace": "Integración unificada de 100+ modelos generativos de video, imagen y audio en ComfyUI",
+    "diferencia": "Acceso consolidado bajo un API único a múltiples proveedores sin custom nodes separados",
     "licencia": "Freemium",
-    "url": "https://cursor.com/changelog",
-    "_visto": "2026-10-30T15:05:00.258Z",
+    "url": "https://github.com/aurora-mobile/modellix-comfyui",
+    "_visto": "2026-10-30T17:05:00.261Z",
     "_img_intentos": 1,
-    "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
+    "imagen": "https://opengraph.githubassets.com/1/aurora-mobile/modellix-comfyui"
   },
   "trending": [
     {
-      "nombre": "Liquid-ai/LFM3",
-      "tipo": "huggingface",
-      "descripcion": "Familia edge de modelos tri-híbridos 2B con soporte multimodal y ejecución sub-1GB",
-      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-      "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/LiquidAI/LFM3-1.7B.png"
-    },
-    {
-      "nombre": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "nombre": "dbreunig/nesformer",
       "tipo": "github",
-      "descripcion": "Modelos rápidos y eficientes V4.1 con variantes especializadas para ciberseguridad",
-      "url": "https://github.com/deepseek-ai/DeepSeek-V4.1-Flash",
+      "descripcion": "Nintendo emulado funcionando con ~1GB de pesos de red neuronal Qwen",
+      "url": "https://github.com/dbreunig/nesformer",
       "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/deepseek-ai/DeepSeek-V4.1-Flash"
+      "imagen": "https://opengraph.githubassets.com/1/dbreunig/nesformer"
     }
   ],
   "fecha": "2026-10-30",
-  "generado": "2026-10-30T16:05:00.233Z",
-  "_ultima_consulta": "2026-10-30T16:05:00.233Z",
+  "generado": "2026-10-30T17:05:00.261Z",
+  "_ultima_consulta": "2026-10-30T17:05:00.261Z",
   "_vistas": [
+    {
+      "k": "https://phorion.io/blog/offical-claude-code-vsx-compromise",
+      "titulo": "Puerta trasera en extensión Claude Code para VS Code",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "_visto": "2026-10-30T17:05:00.261Z"
+    },
+    {
+      "k": "https://github.com/aurora-mobile/modellix-comfyui",
+      "titulo": "Modellix.ai trae 100+ modelos generativos a ComfyUI",
+      "url": "https://github.com/aurora-mobile/modellix-comfyui",
+      "_visto": "2026-10-30T17:05:00.261Z"
+    },
+    {
+      "k": "https://mistral.ai/news/mistral-large-4",
+      "titulo": "Mistral Large 4 mejorado con defensa cibernética del 96.6%",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "_visto": "2026-10-30T17:05:00.261Z"
+    },
+    {
+      "k": "https://huggingface.co/deepseek-ai/deepseek-v4.1-flash-cyber",
+      "titulo": "DeepSeek V4.1 Flash Cyber para pentesting y red-teaming",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-Cyber",
+      "_visto": "2026-10-30T17:05:00.261Z"
+    },
     {
       "k": "t:tbc mischief 1 modelo video neuron derived 5 mas rapido",
       "titulo": "TBC Mischief 1: modelo vídeo neuron-derived 5× más rápido",
