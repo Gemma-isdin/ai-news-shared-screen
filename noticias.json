@@ -114,7 +114,7 @@
       "publicado": "2026-10-29T14:00:00Z",
       "confirmado": true,
       "_visto": "2026-10-30T13:05:00.260Z",
-      "reciente": true,
+      "reciente": false,
       "_img_intentos": 1,
       "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
     },
@@ -166,9 +166,9 @@
     }
   ],
   "destacado": {
-    "titulo": "Qwenputer: CPU RISC-V compilado en pesos de Qwen3.5 ejecuta código nativo",
-    "texto": "Un proyecto de investigación lanza la primera computadora completamente embebida en una red neuronal. El modelo ejecuta programas en C y MicroPython mediante cálculos determinísticos sin runtime externo, alcanzando 100% de precisión en aritmética de enteros frente al 48% de los LLMs.",
-    "_visto": "2026-10-30T13:05:00.260Z"
+    "titulo": "Articul8 Bivia: modelo decisor multimodal para agentes IA",
+    "texto": "Articul8 lanzó Bivia, especializado en decisiones estructuradas para agentes. Procesa texto, documentos, imágenes, audio y video retornando JSON con confianza calibrada. Elimina tokens innecesarios y hallucinations en workflows agentic.",
+    "_visto": "2026-10-30T14:05:00.427Z"
   },
   "modelo_open_source": {
     "nombre": "Qwen3.5-4B-Qwenputer",
@@ -182,28 +182,45 @@
     "imagen": "https://opengraph.githubassets.com/1/divagr18/qwenputer"
   },
   "herramienta_del_dia": {
-    "nombre": "TBC Mischief 1",
-    "que_hace": "Generación de video imagen-a-vídeo basada en tecnología neurobiológica. Produce clips 3-5s a 480p/720p en ~2-5seg por clip.",
-    "diferencia": "5× más rápido que modelos base abiertos, 80% más barato ($0.005-0.01/seg vs competencia), optimizado via patrones de neuronas biológicas reales.",
+    "nombre": "Bivia",
+    "que_hace": "Modelo multimodal especializado en tomar decisiones estructuradas, retornando JSON tipado con confianza calibrada sobre múltiples tipos de datos.",
+    "diferencia": "Diseñado específicamente para evaluación discreta en lugar de generación conversacional, reduciendo tokens innecesarios y hallucinations en workflows agentic multi-paso. Soporta abstención cuando confianza es insuficiente.",
     "licencia": "De pago",
-    "url": "https://openrouter.ai",
-    "_visto": "2026-10-30T13:05:00.260Z",
+    "url": "https://articul8.ai/",
+    "_visto": "2026-10-30T14:05:00.427Z",
     "imagen": null
   },
   "trending": [
     {
-      "nombre": "divagr18/qwenputer",
-      "tipo": "github",
-      "descripcion": "CPU RISC-V exacto compilado en pesos Qwen3.5. Ejecución determinística sin runtime externo.",
-      "url": "https://github.com/divagr18/qwenputer",
-      "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/divagr18/qwenputer"
+      "nombre": "articul8/bivia",
+      "tipo": "huggingface",
+      "descripcion": "Modelo decisor multimodal para agentes con salida JSON tipado, confianza calibrada y capacidad de abstención.",
+      "url": "https://articul8.ai/",
+      "imagen": null
     }
   ],
   "fecha": "2026-10-30",
-  "generado": "2026-10-30T13:05:00.260Z",
-  "_ultima_consulta": "2026-10-30T13:05:00.260Z",
+  "generado": "2026-10-30T14:05:00.427Z",
+  "_ultima_consulta": "2026-10-30T14:05:00.427Z",
   "_vistas": [
+    {
+      "k": "t:articul8 lanza bivia modelo decisor multimodal para agentes",
+      "titulo": "Articul8 lanza Bivia: modelo decisor multimodal para agentes",
+      "url": "https://articul8.ai/",
+      "_visto": "2026-10-30T14:05:00.427Z"
+    },
+    {
+      "k": "t:atos genesis intelligence suite de ia soberana empresarial",
+      "titulo": "Atos Genesis Intelligence: suite de IA soberana empresarial",
+      "url": "https://atos.ai/",
+      "_visto": "2026-10-30T14:05:00.427Z"
+    },
+    {
+      "k": "t:cognizant forma grupo de 25k profesionales para escalar openai",
+      "titulo": "Cognizant forma grupo de 25k profesionales para escalar OpenAI",
+      "url": "https://cognizant.com/",
+      "_visto": "2026-10-30T14:05:00.427Z"
+    },
     {
       "k": "https://github.com/divagr18/qwenputer",
       "titulo": "Qwenputer: RISC-V CPU compilado en pesos de red neuronal de Qwen",
