@@ -13,7 +13,7 @@
       "publicado": "2026-10-30T06:45:00Z",
       "confirmado": true,
       "_visto": "2026-10-30T07:05:00.377Z",
-      "_img_intentos": 1,
+      "_img_intentos": 2,
       "imagen": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMTkiIHZpZXdCb3g9IjAgMCAyNSAxOSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8bGluZSB4MT0iMS41IiB5MT0iMS41IiB4Mj0iMTcuNSIgeTI9IjEuNSIgc3Ryb2tlPSIjMDAzQTY5IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogIDxsaW5lIHgxPSIxLjUiIHkxPSI5LjUiIHgyPSIyMy41IiB5Mj0iOS41IiBzdHJva2U9IiMwMDNBNjkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPGxpbmUgeDE9IjEuNSIgeTE9IjE3LjUiIHgyPSIyMC41IiB5Mj0iMTcuNSIgc3Ryb2tlPSIjMDAzQTY5IiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K"
     },
     {
@@ -67,6 +67,22 @@
     },
     {
       "id": 5,
+      "titulo": "Idol: síntesis 3D local de imagen única a Gaussian Splat",
+      "titular_corto": "Idol convierte fotos en modelos 3D ejecutables",
+      "resumen": "Speridlabs lanzó Idol bajo Apache 2.0; convierte imagen en Gaussian Splat 3D con 1M gaussianas en local con 7.2GB VRAM. Referencia open source en síntesis 3D feed-forward para GPUs consumer.",
+      "categoria": "Modelos",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "Speridlabs",
+      "url": "https://github.com/speridlabs/idol-sdk",
+      "publicado": "2026-10-30T00:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-10-30T08:05:00.287Z",
+      "_img_intentos": 1,
+      "imagen": "https://opengraph.githubassets.com/1/speridlabs/idol-sdk"
+    },
+    {
+      "id": 6,
       "titulo": "GitHub Copilot integra múltiples modelos incluido Claude Sonnet",
       "titular_corto": "Copilot soporta Claude y Gemini",
       "resumen": "GitHub Copilot incorporó soporte multi-modelo, permitiendo a desarrolladores usar Claude 3.5/3.7 Sonnet de Anthropic, Gemini de Google y modelos de OpenAI. Rompe exclusividad con OpenAI.",
@@ -81,36 +97,18 @@
       "reciente": true
     },
     {
-      "id": 6,
-      "titulo": "Mistral Large 4 \"Le Chonk\" lanzado: 1T parámetros con 49B activos",
-      "titular_corto": "Mistral Large 4 abierto para descargar hoy",
-      "resumen": "Mistral AI liberó oficialmente Mistral Large 4 (Le Chonk) el 29 de octubre con 1.05 billones de parámetros en arquitectura MoE (49B activos). Soporta contexto de 1M tokens, es multimodal y destaca en ciberseguridad y codificación de agentes. Disponible en FP8 y GGUF en Hugging Face.",
+      "id": 7,
+      "titulo": "Mistral Large 4 abre pesos: modelo MoE de 1 billón parámetros",
+      "titular_corto": "Mistral Large 4 open weights disponible",
+      "resumen": "Mistral AI publicó pesos de Mistral Large 4 (Le Chonk), modelo Mixture-of-Experts de 1T parámetros con 52B activos. Optimizado para programación, bajo consumo tokens, entrenado en Europa, bajo licencia abierta para ejecución local.",
       "categoria": "Modelos",
       "prioridad": "alta",
       "fuente": "Mistral AI",
       "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "publicado": "2026-10-29T00:00:00Z",
+      "publicado": "2026-10-29T12:00:00Z",
       "imagen": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
       "confirmado": true,
       "_visto": "2026-10-29T16:05:00.311Z",
-      "es_ia": true
-    },
-    {
-      "id": 7,
-      "titulo": "Google Gemini 4 Carbon: 88.2% en SEC-bench Pro para ciberseguridad",
-      "titular_corto": "Gemini 4 Carbon domina benchmarks de seguridad",
-      "resumen": "Google lanzó Gemini 4 Carbon, modelo de frontera para ingeniería de software y defensa cibernética autónoma. Alcanza 88.2% en SEC-bench Pro (vulnerabilidades), 71% en CWE-bench (parches). Acceso restringido a defensores verificados bajo el programa Fairwind.",
-      "categoria": "Modelos",
-      "prioridad": "alta",
-      "fuente": "Google DeepMind",
-      "url": "https://blog.google/technology/ai/gemini-4-carbon-cybersecurity/",
-      "publicado": "2026-10-29T00:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-10-29T12:10:56.075Z",
-      "reciente": true,
-      "_img_intentos": 3,
-      "imagen": null,
-      "_imagen_error": "lectura directa: HTTP 404 | microlink: Microlink no encontró imagen",
       "es_ia": true
     },
     {
@@ -161,57 +159,50 @@
     }
   ],
   "destacado": {
-    "titulo": "Tencent y KT lanzan modelos y plataforma de IA el mismo día",
-    "texto": "Tencent revela Hy4 y Hy4 Flash con visión integrada; KT lanza Token Factory con 500 modelos. Anthropic avanza en su salida a bolsa con ticket ANT en Nasdaq.",
-    "_visto": "2026-10-30T07:05:00.377Z"
+    "titulo": "Mistral Large 4 y Gemini 4 Carbon definen la semana de IA",
+    "texto": "Mistral libera los pesos de su modelo 1T parámetros optimizado para programación. Google presenta Gemini 4 Carbon, especializado en ciberseguridad, número 1 en benchmarks globales de inteligencia artificial.",
+    "_visto": "2026-10-30T08:05:00.287Z"
   },
   "modelo_open_source": {
-    "nombre": "DeepSeek V4.1 Flash",
-    "tamano": "763B parámetros (49B activos)",
-    "destaca_en": "Modelo MoE masivo con contexto de 1M tokens; trending en cuantizaciones GGUF para inferencia local.",
-    "ejecucion_local": "Requiere cluster multi-GPU (A100/H100) o cuantizaciones 4-bit viables en 80GB+ VRAM con optimizaciones.",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-    "_visto": "2026-10-30T07:05:00.377Z",
+    "nombre": "Mistral Large 4 (Le Chonk)",
+    "tamano": "1.05T parámetros totales (52B activos con MoE)",
+    "licencia": "Mistral Research License",
+    "destaca_en": "Programación, sistemas y tareas autónomas con bajo consumo de tokens",
+    "ejecucion_local": "Local con hardware modesto; optimizado servidores y edge con soporte cuantización",
+    "url": "https://mistral.ai/news/mistral-large-4-oss/",
+    "_visto": "2026-10-30T08:05:00.287Z",
     "_img_intentos": 1,
-    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash.png"
+    "imagen": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp"
   },
   "herramienta_del_dia": {
-    "nombre": "Cursor Agent SDK",
-    "que_hace": "Framework para construir, testear y desplegar agentes autónomos como código en Cursor Cloud o auto-hosted.",
-    "diferencia": "Integración nativa con canvases interactivos, ambientes multi-repo (300 repos), APIs programáticas y control remoto iOS. Templates listos para PR fixers, políticas de aprobación y triaje de tareas.",
-    "licencia": "Freemium",
-    "url": "https://www.cursor.com/changelog",
-    "_visto": "2026-10-30T07:05:00.377Z",
+    "nombre": "anySpeechRecognizer",
+    "que_hace": "API Swift unificada para ejecutar modelos reconocimiento voz en dispositivos Apple sin servidores remotos",
+    "diferencia": "Integración nativa Core ML, MLX, llama.cpp; compatible Parakeet, Qwen3-ASR y modelos IA locales",
+    "licencia": "Open source",
+    "url": "https://huggingface.co/blog",
+    "_visto": "2026-10-30T08:05:00.287Z",
     "_img_intentos": 1,
-    "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
+    "imagen": "https://huggingface.co/front/thumbnails/blog.png"
   },
   "trending": [
     {
-      "nombre": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "nombre": "mistralai/Mistral-Large-4",
       "tipo": "huggingface",
-      "descripcion": "Modelo MoE 763B con 49B activos y 1M contexto; cuantizaciones GGUF para inferencia local.",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "descripcion": "Modelo MoE 1T parámetros para código y tareas autónomas, open weights",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4",
       "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash.png"
+      "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
     },
     {
-      "nombre": "google/gemma-4-E2B-it-qat-q4_0-gguf",
-      "tipo": "huggingface",
-      "descripcion": "Edge LLM Gemma con QAT, optimizado para on-device <3.5GB manteniendo precisión.",
-      "url": "https://huggingface.co/google/gemma-4-E2B-it-qat-q4_0-gguf",
-      "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/google/gemma-4-E2B-it-qat-q4_0-gguf.png"
-    },
-    {
-      "nombre": "cursor/agent-sdk",
+      "nombre": "speridlabs/idol-sdk",
       "tipo": "github",
-      "descripcion": "SDK oficial de Cursor para desarrollar agentes autónomos con templates y deployment integrado.",
-      "url": "https://github.com/getcursor/agent-sdk",
+      "descripcion": "Imagen a Gaussian Splats 3D ejecutable local, 7.2GB VRAM, Apache 2.0",
+      "url": "https://github.com/speridlabs/idol-sdk",
       "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/getcursor/agent-sdk"
+      "imagen": "https://opengraph.githubassets.com/1/speridlabs/idol-sdk"
     }
   ],
   "fecha": "2026-10-30",
-  "generado": "2026-10-30T07:05:00.377Z",
-  "_ultima_consulta": "2026-10-30T07:05:00.377Z"
+  "generado": "2026-10-30T08:05:00.287Z",
+  "_ultima_consulta": "2026-10-30T08:05:00.287Z"
 }
