@@ -46,9 +46,9 @@
       "confirmado": false,
       "_visto": "2026-11-02T13:05:00.252Z",
       "reciente": true,
-      "_img_intentos": 1,
+      "_img_intentos": 2,
       "imagen": null,
-      "_imagen_error": "lectura directa: HTTP 403 | microlink: Request failed with status code 429"
+      "_imagen_error": "lectura directa: HTTP 404 | microlink: Request failed with status code 429"
     },
     {
       "id": 4,
@@ -198,8 +198,8 @@
     }
   ],
   "fecha": "2026-11-02",
-  "generado": "2026-11-02T13:05:00.252Z",
-  "_ultima_consulta": "2026-11-02T13:05:00.252Z",
+  "generado": "2026-11-02T14:05:00.266Z",
+  "_ultima_consulta": "2026-11-02T14:05:00.266Z",
   "_vistas": [
     {
       "k": "https://openai.com/index/gpt-oss-models",
