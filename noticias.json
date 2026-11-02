@@ -35,6 +35,23 @@
     },
     {
       "id": 3,
+      "titulo": "OpenAI lanza gpt-oss: modelos abiertos de razonamiento bajo Apache 2.0",
+      "titular_corto": "OpenAI publica modelos gpt-oss abiertos",
+      "resumen": "OpenAI ha publicado familia gpt-oss incluyendo gpt-oss-120b y gpt-oss-20b bajo Apache 2.0. Diseñados para razonamiento avanzado, inspección de cadenas de pensamiento e integración de herramientas en sistemas agénticos.",
+      "categoria": "Modelos",
+      "prioridad": "alta",
+      "fuente": "OpenAI",
+      "url": "https://openai.com/index/gpt-oss-models/",
+      "publicado": "2026-11-02T12:00:00Z",
+      "confirmado": false,
+      "_visto": "2026-11-02T13:05:00.252Z",
+      "reciente": true,
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: HTTP 403 | microlink: Request failed with status code 429"
+    },
+    {
+      "id": 4,
       "titulo": "Aider agentes CLI con modo Arquitecto: dos modelos para mejor calidad",
       "titular_corto": "Aider desacopla razonamiento y formato de diffs",
       "resumen": "Aider implementó arquitectura de dos pasos: un modelo de razonamiento (o1/Claude) para planificación conceptual y otro más rápido para generar diffs exactos. Reduce alucinaciones en refactorizaciones multi-archivo, optimiza costos y es el estándar agnóstico en desarrolladores que prefieren terminal, Git y modelos locales.",
@@ -49,7 +66,21 @@
       "imagen": null
     },
     {
-      "id": 4,
+      "id": 5,
+      "titulo": "Dream recauda $17M de a16z para world models en construcción e ingeniería",
+      "titular_corto": "Dream cierra $17M Series A para modelos de mundo",
+      "resumen": "Startup fundada por exejecutivos de Palantir anunció inversión de 17 millones liderada por Andreessen Horowitz para desarrollar modelos de mundo aplicados a construcción e ingeniería.",
+      "categoria": "Negocio",
+      "prioridad": "media",
+      "fuente": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "confirmado": false,
+      "_visto": "2026-11-02T13:05:00.252Z",
+      "reciente": true,
+      "imagen": null
+    },
+    {
+      "id": 6,
       "titulo": "Hugging Face abre CMU Climate Risk Intelligence Challenge",
       "titular_corto": "CMU lanza desafío de IA climática bajo Project ProtoStar",
       "resumen": "Hugging Face y Carnegie Mellon University lanzan el CMU Climate Risk Intelligence Challenge dentro de Project ProtoStar el 2 de noviembre hasta el 13. Participantes predicen tendencias climáticas urbanas en 210 ciudades estadounidenses usando datos históricos hasta 2018 con énfasis en datasets abiertos.",
@@ -65,7 +96,7 @@
       "imagen": null
     },
     {
-      "id": 5,
+      "id": 7,
       "titulo": "Reflection AI abre Build with Beam Challenge por $20k en Hugging Face",
       "titular_corto": "Hackathon Beam: premios hasta $20k para desarrolladores",
       "resumen": "Reflection AI y Hugging Face lanzan Build with Beam Community Challenge con $20,000 en premios o créditos Hub. Plazo 2 de noviembre a las 23:59 PT. Busca demostraciones, fine-tuning, benchmarks y datasets sintéticos usando el modelo open Beam. Abierto a comunidad global.",
@@ -81,7 +112,7 @@
       "imagen": null
     },
     {
-      "id": 6,
+      "id": 8,
       "titulo": "Pika H3 Flex se integra en herramientas creativas de Pika Labs",
       "titular_corto": "Pika H3 Flex: generación visual e integración en suite creativa",
       "resumen": "Pika Labs completa integración de Pika H3 Flex en sus herramientas tras lanzamiento open-weights del 29 de octubre. El adaptador multimodal mejora generación de contenido visual y video con latencias reducidas. Disponible en plataforma Pika para usuarios a partir del 2 de noviembre.",
@@ -98,7 +129,7 @@
       "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Pika-Labs/Pika-H3-Flex.png"
     },
     {
-      "id": 7,
+      "id": 9,
       "titulo": "Fujitsu y SoftBank Robotics pilotan IA para evaluar daños logísticos",
       "titular_corto": "Fujitsu + SoftBank: inspección IA automatizada de embalajes",
       "resumen": "Fujitsu y SoftBank Robotics lanzan piloto conjunto para evaluar daños en embalajes de electrodomésticos con IA. Emplean Fujitsu Kozuchi y Amalgamation AI for Vision combinado con análisis de imágenes vía smartphone. Financiado por ministerio japonés, busca reducir rechazos innecesarios y optimizar costos.",
@@ -114,7 +145,7 @@
       "imagen": null
     },
     {
-      "id": 8,
+      "id": 10,
       "titulo": "Alibaba-Apple integran Qwen en Apple Intelligence para China",
       "titular_corto": "Qwen potencia Apple Intelligence en China",
       "resumen": "Alibaba y Apple anunciaron integración de la familia Qwen en Apple Intelligence para usuarios en China. Beta para desarrolladores lanzada a principios de noviembre. Marca expansión de opciones de modelos locales y soberanos para dispositivos Apple.",
@@ -126,60 +157,25 @@
       "publicado": "2026-11-01T12:00:00Z",
       "confirmado": false,
       "_visto": "2026-11-02T07:05:00.391Z",
-      "reciente": true,
+      "reciente": false,
       "imagen": null
-    },
-    {
-      "id": 9,
-      "titulo": "Anthropic expande watermarking sintético en nuevos modelos Claude",
-      "titular_corto": "Anthropic añade marcas de agua a Claude",
-      "resumen": "Anthropic expandió su sistema de watermarking sintético invisible en modelos Claude adicionales para cumplimiento con AI Act de UE. Las marcas de agua refuerzan trazabilidad de contenido generado. Entrada en vigor planificada para 12 de noviembre.",
-      "categoria": "Producto",
-      "es_ia": true,
-      "prioridad": "media",
-      "fuente": "Anthropic",
-      "url": "https://www.anthropic.com/news",
-      "publicado": "2026-11-01T12:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-11-02T07:05:00.391Z",
-      "reciente": true,
-      "_img_intentos": 1,
-      "imagen": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
-    },
-    {
-      "id": 10,
-      "titulo": "DeepSeek V5: especulaciones desmentidas, no lanzado",
-      "titular_corto": "DeepSeek V5 aún no publicado",
-      "resumen": "Análisis del 1 de noviembre confirmó que DeepSeek V5 no ha sido lanzado públicamente. Identifiers en repositorio de testing causaron especulación, pero no hay versión disponible. Desarrolladores esperan anuncio próximo.",
-      "categoria": "Negocio",
-      "es_ia": true,
-      "prioridad": "baja",
-      "fuente": "DeepSeek Community",
-      "url": "https://github.com/deepseek-ai",
-      "publicado": "2026-11-01T12:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-11-02T07:05:00.391Z",
-      "reciente": true,
-      "_img_intentos": 1,
-      "imagen": "https://avatars.githubusercontent.com/u/148330874?s=280&v=4"
     }
   ],
   "destacado": {
-    "titulo": "Gemini 4 Carbon lidera benchmarks de ciberseguridad en IA",
-    "texto": "Google DeepMind presenta su modelo más potente con capacidades especializadas en detección, validación y remediación de vulnerabilidades. Posicionado en el primer lugar del Artificial Analysis Intelligence Index con resultados del 88% en descubrimiento autónomo de fallos de seguridad.",
-    "_visto": "2026-11-02T10:05:00.286Z"
+    "titulo": "OpenAI libera gpt-oss bajo Apache 2.0; acuerdo de opt-out unificado para IA",
+    "texto": "OpenAI publica modelos gpt-oss para razonamiento agéntico. Simultáneamente, OpenAI, Google, Anthropic y Microsoft acuerdan estándar unificado en robots.txt permitiendo bloquear entrenamientos de IA con regla única.",
+    "_visto": "2026-11-02T13:05:00.252Z"
   },
   "modelo_open_source": {
-    "nombre": "Mistral Large 4 'Le Chonk'",
-    "tamano": "1T parámetros totales, ~50B activos",
-    "licencia": "Mistral Ecosystem Open-Weight License (basada en MIT)",
-    "destaca_en": "Programación agéntica, análisis de malware defensivo, contexto largo (1M tokens) y visión multimodal",
-    "ejecucion_local": "Soporta FP8 y NVFP4 en GPUs NVIDIA. Conversiones GGUF disponibles para llama.cpp, vLLM y Ollama en hardware consumer con cuantización",
-    "url": "https://huggingface.co/mistralai/Mistral-Large-4",
-    "_visto": "2026-11-02T10:05:00.286Z",
+    "nombre": "gpt-oss-120b",
+    "tamano": "120B parámetros",
+    "licencia": "Apache 2.0",
+    "destaca_en": "Razonamiento avanzado e inspección completa de cadenas de pensamiento para agentes",
+    "ejecucion_local": "Requiere GPUs de gama alta (A100/H100) o clusters distribuidos",
+    "url": "https://huggingface.co/openai/gpt-oss-120b",
+    "_visto": "2026-11-02T13:05:00.252Z",
     "_img_intentos": 1,
-    "imagen": null,
-    "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
+    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/openai/gpt-oss-120b.png"
   },
   "herramienta_del_dia": {
     "nombre": "Cursor IDE versión 3.27",
@@ -193,36 +189,30 @@
   },
   "trending": [
     {
-      "nombre": "mistralai/Mistral-Large-4",
-      "tipo": "huggingface",
-      "descripcion": "Modelo MoE 1T parámetros abiertos. Líder en code, seguridad defensiva, multimodal con 1M contexto",
-      "url": "https://huggingface.co/mistralai/Mistral-Large-4",
-      "_img_intentos": 1,
-      "imagen": null,
-      "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
-    },
-    {
-      "nombre": "moonshot-ai/Kimi-K3.1-Pro",
-      "tipo": "huggingface",
-      "descripcion": "Modelo 2.8T open weights del 4 de noviembre. MoE con 104B activos, 1M contexto, 65,7% en Terminal-Bench",
-      "url": "https://huggingface.co/moonshot-ai",
-      "_img_intentos": 1,
-      "imagen": null,
-      "_imagen_error": "lectura directa: HTTP 404 | microlink: Request failed with status code 429"
-    },
-    {
-      "nombre": "paul-gauthier/aider",
+      "nombre": "openai/gpt-oss",
       "tipo": "github",
-      "descripcion": "CLI agéntica para desarrollo con arquitectura arquitecto-editor. Commits atómicos, bucles de linting, modo watch. Agnóstica con modelos locales",
-      "url": "https://github.com/paul-gauthier/aider",
+      "descripcion": "Modelos abiertos para razonamiento agéntico bajo licencia Apache 2.0",
+      "url": "https://github.com/openai/gpt-oss",
       "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/paul-gauthier/aider"
+      "imagen": "https://opengraph.githubassets.com/1/openai/gpt-oss"
     }
   ],
   "fecha": "2026-11-02",
-  "generado": "2026-11-02T10:05:00.286Z",
-  "_ultima_consulta": "2026-11-02T10:05:00.286Z",
+  "generado": "2026-11-02T13:05:00.252Z",
+  "_ultima_consulta": "2026-11-02T13:05:00.252Z",
   "_vistas": [
+    {
+      "k": "https://openai.com/index/gpt-oss-models",
+      "titulo": "OpenAI lanza gpt-oss: modelos abiertos de razonamiento bajo Apache 2.0",
+      "url": "https://openai.com/index/gpt-oss-models/",
+      "_visto": "2026-11-02T13:05:00.252Z"
+    },
+    {
+      "k": "t:dream recauda 17m de a16z para world models en construccion e ingenieria",
+      "titulo": "Dream recauda $17M de a16z para world models en construcción e ingeniería",
+      "url": "https://techcrunch.com/",
+      "_visto": "2026-11-02T13:05:00.252Z"
+    },
     {
       "k": "t:kimi k3 1 pro moonshot ai libera pesos abiertos el 4 de noviembre",
       "titulo": "Kimi K3.1 Pro: Moonshot AI libera pesos abiertos el 4 de noviembre",
