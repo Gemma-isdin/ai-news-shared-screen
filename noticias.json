@@ -35,6 +35,21 @@
     },
     {
       "id": 3,
+      "titulo": "Aider agentes CLI con modo Arquitecto: dos modelos para mejor calidad",
+      "titular_corto": "Aider desacopla razonamiento y formato de diffs",
+      "resumen": "Aider implementó arquitectura de dos pasos: un modelo de razonamiento (o1/Claude) para planificación conceptual y otro más rápido para generar diffs exactos. Reduce alucinaciones en refactorizaciones multi-archivo, optimiza costos y es el estándar agnóstico en desarrolladores que prefieren terminal, Git y modelos locales.",
+      "categoria": "Herramientas",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "Aider",
+      "url": "https://aider.chat",
+      "confirmado": false,
+      "_visto": "2026-11-02T10:05:00.286Z",
+      "reciente": true,
+      "imagen": null
+    },
+    {
+      "id": 4,
       "titulo": "Hugging Face abre CMU Climate Risk Intelligence Challenge",
       "titular_corto": "CMU lanza desafío de IA climática bajo Project ProtoStar",
       "resumen": "Hugging Face y Carnegie Mellon University lanzan el CMU Climate Risk Intelligence Challenge dentro de Project ProtoStar el 2 de noviembre hasta el 13. Participantes predicen tendencias climáticas urbanas en 210 ciudades estadounidenses usando datos históricos hasta 2018 con énfasis en datasets abiertos.",
@@ -50,7 +65,7 @@
       "imagen": null
     },
     {
-      "id": 4,
+      "id": 5,
       "titulo": "Reflection AI abre Build with Beam Challenge por $20k en Hugging Face",
       "titular_corto": "Hackathon Beam: premios hasta $20k para desarrolladores",
       "resumen": "Reflection AI y Hugging Face lanzan Build with Beam Community Challenge con $20,000 en premios o créditos Hub. Plazo 2 de noviembre a las 23:59 PT. Busca demostraciones, fine-tuning, benchmarks y datasets sintéticos usando el modelo open Beam. Abierto a comunidad global.",
@@ -66,7 +81,7 @@
       "imagen": null
     },
     {
-      "id": 5,
+      "id": 6,
       "titulo": "Pika H3 Flex se integra en herramientas creativas de Pika Labs",
       "titular_corto": "Pika H3 Flex: generación visual e integración en suite creativa",
       "resumen": "Pika Labs completa integración de Pika H3 Flex en sus herramientas tras lanzamiento open-weights del 29 de octubre. El adaptador multimodal mejora generación de contenido visual y video con latencias reducidas. Disponible en plataforma Pika para usuarios a partir del 2 de noviembre.",
@@ -83,7 +98,7 @@
       "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Pika-Labs/Pika-H3-Flex.png"
     },
     {
-      "id": 6,
+      "id": 7,
       "titulo": "Fujitsu y SoftBank Robotics pilotan IA para evaluar daños logísticos",
       "titular_corto": "Fujitsu + SoftBank: inspección IA automatizada de embalajes",
       "resumen": "Fujitsu y SoftBank Robotics lanzan piloto conjunto para evaluar daños en embalajes de electrodomésticos con IA. Emplean Fujitsu Kozuchi y Amalgamation AI for Vision combinado con análisis de imágenes vía smartphone. Financiado por ministerio japonés, busca reducir rechazos innecesarios y optimizar costos.",
@@ -99,7 +114,7 @@
       "imagen": null
     },
     {
-      "id": 7,
+      "id": 8,
       "titulo": "Alibaba-Apple integran Qwen en Apple Intelligence para China",
       "titular_corto": "Qwen potencia Apple Intelligence en China",
       "resumen": "Alibaba y Apple anunciaron integración de la familia Qwen en Apple Intelligence para usuarios en China. Beta para desarrolladores lanzada a principios de noviembre. Marca expansión de opciones de modelos locales y soberanos para dispositivos Apple.",
@@ -115,7 +130,7 @@
       "imagen": null
     },
     {
-      "id": 8,
+      "id": 9,
       "titulo": "Anthropic expande watermarking sintético en nuevos modelos Claude",
       "titular_corto": "Anthropic añade marcas de agua a Claude",
       "resumen": "Anthropic expandió su sistema de watermarking sintético invisible en modelos Claude adicionales para cumplimiento con AI Act de UE. Las marcas de agua refuerzan trazabilidad de contenido generado. Entrada en vigor planificada para 12 de noviembre.",
@@ -132,7 +147,7 @@
       "imagen": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
     },
     {
-      "id": 9,
+      "id": 10,
       "titulo": "DeepSeek V5: especulaciones desmentidas, no lanzado",
       "titular_corto": "DeepSeek V5 aún no publicado",
       "resumen": "Análisis del 1 de noviembre confirmó que DeepSeek V5 no ha sido lanzado públicamente. Identifiers en repositorio de testing causaron especulación, pero no hay versión disponible. Desarrolladores esperan anuncio próximo.",
@@ -147,82 +162,79 @@
       "reciente": true,
       "_img_intentos": 1,
       "imagen": "https://avatars.githubusercontent.com/u/148330874?s=280&v=4"
-    },
-    {
-      "id": 10,
-      "titulo": "Glif AI lanza agencia de personas virtuales sintéticas",
-      "titular_corto": "Glif: generador de avatares y personas IA",
-      "resumen": "Glif AI presentó plataforma para síntesis de personas virtuales y avatares IA, generando debate en industria sobre modelado virtual y ética. Herramienta permite crear personajes sinténticos para diversas aplicaciones.",
-      "categoria": "Producto",
-      "es_ia": true,
-      "prioridad": "baja",
-      "fuente": "Glif AI",
-      "url": "https://glif.app",
-      "publicado": "2026-11-01T12:00:00Z",
-      "confirmado": false,
-      "_visto": "2026-11-02T07:05:00.391Z",
-      "reciente": true,
-      "imagen": null
     }
   ],
   "destacado": {
-    "titulo": "Meituan LongCat-2.5: modelo MoE de 1.6T parámetros para agentes autónomos",
-    "texto": "Meituan lanza LongCat-2.5, su modelo multimodal más potente con 1.6 billones de parámetros. Optimizado para tareas de ingeniería de software a largo plazo, supera benchmarks clave de automatización con puntuaciones de 88.4 en Terminal Bench y 51.8 en AutomationBench. Entrenado completamente con chips nacionales.",
-    "_visto": "2026-11-02T08:05:00.306Z"
+    "titulo": "Gemini 4 Carbon lidera benchmarks de ciberseguridad en IA",
+    "texto": "Google DeepMind presenta su modelo más potente con capacidades especializadas en detección, validación y remediación de vulnerabilidades. Posicionado en el primer lugar del Artificial Analysis Intelligence Index con resultados del 88% en descubrimiento autónomo de fallos de seguridad.",
+    "_visto": "2026-11-02T10:05:00.286Z"
   },
   "modelo_open_source": {
-    "nombre": "SenseNova-Loop-9B-Preview",
-    "tamano": "9B parámetros (profundidad efectiva 14.6B)",
-    "licencia": "Apache 2.0",
-    "destaca_en": "Tareas agenticas largas, razonamiento en documentos, generación de código multipasos. Eficiente en memoria pese a profundidad computacional superior a su tamaño almacenado.",
-    "ejecucion_local": "GPU con 16-32 GB VRAM. Contexto de 256K tokens. Compatible con vLLM, Ollama y frameworks estándar de Hugging Face.",
-    "url": "https://huggingface.co/SenseTime/SenseNova-Loop-9B-Preview",
-    "_visto": "2026-11-02T08:05:00.306Z",
-    "_img_intentos": 1,
-    "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
-  },
-  "herramienta_del_dia": {
-    "nombre": "Beam (Reflection AI)",
-    "que_hace": "Modelo base open-source para razonamiento multi-etapa en ingeniería de software. Integrable con agentes y workflows automatizados para tareas complejas.",
-    "diferencia": "Enfoque en transparencia y reproducibilidad de agentes. Diseño específico para benchmarking. Comunidad activa en Hugging Face con hackathon de $20k para implementaciones.",
-    "licencia": "Open source",
-    "url": "https://huggingface.co/Reflection-AI/beam",
-    "_visto": "2026-11-02T08:05:00.306Z",
+    "nombre": "Mistral Large 4 'Le Chonk'",
+    "tamano": "1T parámetros totales, ~50B activos",
+    "licencia": "Mistral Ecosystem Open-Weight License (basada en MIT)",
+    "destaca_en": "Programación agéntica, análisis de malware defensivo, contexto largo (1M tokens) y visión multimodal",
+    "ejecucion_local": "Soporta FP8 y NVFP4 en GPUs NVIDIA. Conversiones GGUF disponibles para llama.cpp, vLLM y Ollama en hardware consumer con cuantización",
+    "url": "https://huggingface.co/mistralai/Mistral-Large-4",
+    "_visto": "2026-11-02T10:05:00.286Z",
     "_img_intentos": 1,
     "imagen": null,
     "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
   },
+  "herramienta_del_dia": {
+    "nombre": "Cursor IDE versión 3.27",
+    "que_hace": "IDE nativa de IA basada en VS Code con agentes autónomos en la nube, búsqueda web integrada, canvases interactivos y soporte para 300 repositorios simultáneos",
+    "diferencia": "Agentes autónomos nativos que generan dashboards visuales interactivos. Búsqueda web contextual dentro de agentes. Canvases compartibles en web. Mejor que Copilot por arquitectura agnóstica de modelos",
+    "licencia": "De pago",
+    "url": "https://cursor.com/changelog",
+    "_visto": "2026-11-02T10:05:00.286Z",
+    "_img_intentos": 1,
+    "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
+  },
   "trending": [
     {
-      "nombre": "meituan/LongCat-2.5",
+      "nombre": "mistralai/Mistral-Large-4",
       "tipo": "huggingface",
-      "descripcion": "Modelo MoE de 1.6T para agentes de ingeniería con contexto 1M tokens. Benchmark Terminal 88.4.",
-      "url": "https://huggingface.co/meituan/LongCat-2.5",
+      "descripcion": "Modelo MoE 1T parámetros abiertos. Líder en code, seguridad defensiva, multimodal con 1M contexto",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4",
       "_img_intentos": 1,
       "imagen": null,
       "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
     },
     {
-      "nombre": "SenseTime/SenseNova-Loop-9B-Preview",
+      "nombre": "moonshot-ai/Kimi-K3.1-Pro",
       "tipo": "huggingface",
-      "descripcion": "Modelo multimodal con arquitectura layer-reusing. 9B params, profundidad 14.6B, contexto 256K.",
-      "url": "https://huggingface.co/SenseTime/SenseNova-Loop-9B-Preview",
+      "descripcion": "Modelo 2.8T open weights del 4 de noviembre. MoE con 104B activos, 1M contexto, 65,7% en Terminal-Bench",
+      "url": "https://huggingface.co/moonshot-ai",
       "_img_intentos": 1,
-      "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
+      "imagen": null,
+      "_imagen_error": "lectura directa: HTTP 404 | microlink: Request failed with status code 429"
     },
     {
-      "nombre": "Pika-Labs/Pika-H3-Flex",
-      "tipo": "huggingface",
-      "descripcion": "Adaptador multimodal para generación de video y contenido visual optimizado.",
-      "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+      "nombre": "paul-gauthier/aider",
+      "tipo": "github",
+      "descripcion": "CLI agéntica para desarrollo con arquitectura arquitecto-editor. Commits atómicos, bucles de linting, modo watch. Agnóstica con modelos locales",
+      "url": "https://github.com/paul-gauthier/aider",
       "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Pika-Labs/Pika-H3-Flex.png"
+      "imagen": "https://opengraph.githubassets.com/1/paul-gauthier/aider"
     }
   ],
   "fecha": "2026-11-02",
-  "generado": "2026-11-02T08:05:00.306Z",
-  "_ultima_consulta": "2026-11-02T08:05:00.306Z",
+  "generado": "2026-11-02T10:05:00.286Z",
+  "_ultima_consulta": "2026-11-02T10:05:00.286Z",
   "_vistas": [
+    {
+      "k": "t:kimi k3 1 pro moonshot ai libera pesos abiertos el 4 de noviembre",
+      "titulo": "Kimi K3.1 Pro: Moonshot AI libera pesos abiertos el 4 de noviembre",
+      "url": "https://moonshot.ai",
+      "_visto": "2026-11-02T10:05:00.286Z"
+    },
+    {
+      "k": "t:aider agentes cli con modo arquitecto dos modelos para mejor calidad",
+      "titulo": "Aider agentes CLI con modo Arquitecto: dos modelos para mejor calidad",
+      "url": "https://aider.chat",
+      "_visto": "2026-11-02T10:05:00.286Z"
+    },
     {
       "k": "t:meituan lanza longcat 2 5 modelo moe de 1 6t parametros para agentes",
       "titulo": "Meituan lanza LongCat-2.5: modelo MoE de 1.6T parámetros para agentes",
