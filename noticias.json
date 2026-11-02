@@ -2,6 +2,72 @@
   "noticias": [
     {
       "id": 1,
+      "titulo": "Alibaba-Apple integran Qwen en Apple Intelligence para China",
+      "titular_corto": "Qwen potencia Apple Intelligence en China",
+      "resumen": "Alibaba y Apple anunciaron integración de la familia Qwen en Apple Intelligence para usuarios en China. Beta para desarrolladores lanzada a principios de noviembre. Marca expansión de opciones de modelos locales y soberanos para dispositivos Apple.",
+      "categoria": "Negocio",
+      "es_ia": true,
+      "prioridad": "media",
+      "fuente": "Alibaba / Apple",
+      "url": "https://www.alibaba.com",
+      "publicado": "2026-11-01T12:00:00Z",
+      "confirmado": false,
+      "_visto": "2026-11-02T07:05:00.391Z",
+      "reciente": true,
+      "imagen": null
+    },
+    {
+      "id": 2,
+      "titulo": "Anthropic expande watermarking sintético en nuevos modelos Claude",
+      "titular_corto": "Anthropic añade marcas de agua a Claude",
+      "resumen": "Anthropic expandió su sistema de watermarking sintético invisible en modelos Claude adicionales para cumplimiento con AI Act de UE. Las marcas de agua refuerzan trazabilidad de contenido generado. Entrada en vigor planificada para 12 de noviembre.",
+      "categoria": "Producto",
+      "es_ia": true,
+      "prioridad": "media",
+      "fuente": "Anthropic",
+      "url": "https://www.anthropic.com/news",
+      "publicado": "2026-11-01T12:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-11-02T07:05:00.391Z",
+      "reciente": true,
+      "_img_intentos": 1,
+      "imagen": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "DeepSeek V5: especulaciones desmentidas, no lanzado",
+      "titular_corto": "DeepSeek V5 aún no publicado",
+      "resumen": "Análisis del 1 de noviembre confirmó que DeepSeek V5 no ha sido lanzado públicamente. Identifiers en repositorio de testing causaron especulación, pero no hay versión disponible. Desarrolladores esperan anuncio próximo.",
+      "categoria": "Negocio",
+      "es_ia": true,
+      "prioridad": "baja",
+      "fuente": "DeepSeek Community",
+      "url": "https://github.com/deepseek-ai",
+      "publicado": "2026-11-01T12:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-11-02T07:05:00.391Z",
+      "reciente": true,
+      "_img_intentos": 1,
+      "imagen": "https://avatars.githubusercontent.com/u/148330874?s=280&v=4"
+    },
+    {
+      "id": 4,
+      "titulo": "Glif AI lanza agencia de personas virtuales sintéticas",
+      "titular_corto": "Glif: generador de avatares y personas IA",
+      "resumen": "Glif AI presentó plataforma para síntesis de personas virtuales y avatares IA, generando debate en industria sobre modelado virtual y ética. Herramienta permite crear personajes sinténticos para diversas aplicaciones.",
+      "categoria": "Producto",
+      "es_ia": true,
+      "prioridad": "baja",
+      "fuente": "Glif AI",
+      "url": "https://glif.app",
+      "publicado": "2026-11-01T12:00:00Z",
+      "confirmado": false,
+      "_visto": "2026-11-02T07:05:00.391Z",
+      "reciente": true,
+      "imagen": null
+    },
+    {
+      "id": 5,
       "titulo": "Estándar unificado robots.txt para opt-out de entrenamientos IA",
       "titular_corto": "IETF aprueba token __usage_ai-training",
       "resumen": "Anthropic, OpenAI, Google y Microsoft acordaron un estándar unificado vía IETF (draft AIPREF) mediante el token __usage_ai-training en robots.txt. Permite indicar con una sola línea que el contenido no debe usarse para entrenar modelos, evitando reglas fragmentadas. Implementación gradual entre 2027-2027.",
@@ -18,7 +84,7 @@
       "imagen": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-white.svg"
     },
     {
-      "id": 2,
+      "id": 6,
       "titulo": "Qwenputer: RISC-V CPU compilado en pesos de red neuronal de Qwen",
       "titular_corto": "Qwenputer: computadora embebida en modelo de IA",
       "resumen": "Divyansh Agrawal publica Qwenputer en GitHub: una arquitectura RISC-V de 32 bits compilada directamente en 11 capas transformer de Qwen3.5-4B. Usa el estado recurrente Gated DeltaNet como RAM exacta. El modelo ejecuta programas C y MicroPython internamente con precisión bit-perfecta, pasando tests oficiales y alcanzando 100% en aritmética de enteros.",
@@ -35,7 +101,7 @@
       "imagen": "https://opengraph.githubassets.com/1/divagr18/qwenputer"
     },
     {
-      "id": 3,
+      "id": 7,
       "titulo": "Cursor IDE versión 3.27: agentes en nube con canvases interactivos",
       "titular_corto": "Cursor mejora agentes remotos y entornos",
       "resumen": "Cursor lanzó versión 3.27 con Cloud Agents capaces de generar canvases interactivos, nueva Environments API para gestionar contenedores, soporte para 300 repositorios, monitorización móvil de agentes locales y mejoras de accesibilidad. Diagramas Mermaid interactivos en preview.",
@@ -52,7 +118,7 @@
       "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
     },
     {
-      "id": 4,
+      "id": 8,
       "titulo": "TBC Mischief 1: primer modelo neuron-derived para generación de video",
       "titular_corto": "TBC Mischief genera video 5x más rápido",
       "resumen": "The Biological Computing Co. lanzó TBC Mischief 1, modelo de video basado en mediciones de neuronas vivas. Genera videos 5 veces más rápido que base model a costo ultra-bajo: 2,50 dólares por 100 clips de 5 segundos. Disponible en fal y OpenRouter.",
@@ -68,7 +134,7 @@
       "imagen": null
     },
     {
-      "id": 5,
+      "id": 9,
       "titulo": "Bivia: modelo multimodal decisor para orquestación de agentes de IA",
       "titular_corto": "Bivia: decisor multimodal para agentes",
       "resumen": "Articul8 lanzó Bivia, modelo especializado que toma decisiones estructuradas sobre texto, imagen, video, audio y sensores sin generar tokens. Incluye puntuación de confianza y atribución de evidencia. Diseñado para enrutamiento y verificación de tareas en agentes empresariales.",
@@ -84,7 +150,7 @@
       "imagen": null
     },
     {
-      "id": 6,
+      "id": 10,
       "titulo": "TBC Mischief 1: modelo vídeo neuron-derived 5× más rápido",
       "titular_corto": "Mischief 1 acelera generación de vídeo con IA biológica",
       "resumen": "The Biological Computing Co. lanza Mischief 1, modelo imagen-a-vídeo construido sobre Wan 2.2 que implementa eficiencias de redes neuronales biológicas mediante adaptadores post-training. Genera vídeo 5× más rápido con costo ~$0.005/segundo. Ya disponible en OpenRouter y fal.ai.",
@@ -98,115 +164,106 @@
       "_visto": "2026-10-30T16:05:00.233Z",
       "reciente": false,
       "imagen": null
-    },
-    {
-      "id": 7,
-      "titulo": "Modellix.ai trae 100+ modelos generativos a ComfyUI",
-      "titular_corto": "Modellix.ai ComfyUI: video, imagen, audio integrados",
-      "resumen": "Aurora Mobile lanzó Modellix.ai para ComfyUI, integrando acceso a 100+ modelos generativos (Google Veo, Kling, CosyVoice). Los resultados se generan como tipos nativos IMAGE, VIDEO, AUDIO. Disponible en Comfy Registry.",
-      "categoria": "Herramientas",
-      "es_ia": true,
-      "prioridad": "alta",
-      "fuente": "Aurora Mobile",
-      "url": "https://github.com/aurora-mobile/modellix-comfyui",
-      "publicado": "2026-10-30T12:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-10-30T17:05:00.261Z",
-      "reciente": false,
-      "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/aurora-mobile/modellix-comfyui"
-    },
-    {
-      "id": 8,
-      "titulo": "OpenAI lanza GPT-6 Rosalind para investigación biomédica",
-      "titular_corto": "GPT-6 Rosalind con guardrails biología dual-use",
-      "resumen": "El 30 de octubre, OpenAI lanzó GPT-6 Rosalind, derivado de GPT-6 Astra con límites de rechazo modificados para permitir consultas profundas en biología de dual-use. Acceso exclusivo a organizaciones verificadas en investigación biomédica, farmacéutica y defensa.",
-      "categoria": "Producto",
-      "es_ia": true,
-      "prioridad": "alta",
-      "fuente": "OpenAI",
-      "url": "https://openai.com/index/gpt-6-rosalind-research/",
-      "publicado": "2026-10-30T12:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-11-02T06:05:00.317Z",
-      "reciente": false,
-      "_img_intentos": 1,
-      "imagen": null,
-      "_imagen_error": "lectura directa: HTTP 404 | microlink: Microlink no encontró imagen"
-    },
-    {
-      "id": 9,
-      "titulo": "DiffuSpace abre Clover-35B: modelo MoE difusión con bloque iterativo",
-      "titular_corto": "Clover-35B: 35B params con 3B activos, 680 tok/s",
-      "resumen": "DiffuSpace lanzó el 30 de octubre Clover-35B-A3B-Preview, modelo MoE difusión con 35B parámetros totales y 3B activos. Decodificación en bloques paralelos logra 680 tokens/seg en GPU. SWE-bench: 73,6%. Licencia Apache 2.0, context 128K, arquitectura híbrida GDN+Qwen.",
-      "categoria": "Modelos",
-      "es_ia": true,
-      "prioridad": "alta",
-      "fuente": "DiffuSpace/Hugging Face",
-      "url": "https://huggingface.co/DiffuSpace/Clover-35B-A3B-Preview",
-      "publicado": "2026-10-30T12:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-11-02T06:05:00.317Z",
-      "reciente": false,
-      "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Diffuspace/Clover-35B-A3B-Preview.png"
-    },
-    {
-      "id": 10,
-      "titulo": "TBC Mischief 1: modelo de video con tecnología neurobiológica 5× más rápido",
-      "titular_corto": "TBC Mischief 1: video rápido con IA neuronderivada",
-      "resumen": "The Biological Computing Co. lanza Mischief 1, primer modelo de video comercial derivado de computación biológica. Genera video a partir de imagen en 5 segundos a 720p por $0.01/seg (80% más barato que base abierta). Disponible en OpenRouter y fal.ai con arquitectura MoE optimizada por patrones extraídos de neuronas biológicas.",
-      "categoria": "Producto",
-      "es_ia": true,
-      "prioridad": "alta",
-      "fuente": "The Biological Computing Co.",
-      "url": "https://openrouter.ai",
-      "publicado": "2026-10-30T10:00:00Z",
-      "confirmado": false,
-      "_visto": "2026-10-30T13:05:00.260Z",
-      "reciente": false,
-      "imagen": null
     }
   ],
   "destacado": {
-    "titulo": "Google Gemini 4 Carbon lidera en defensa cibernética",
-    "texto": "Google DeepMind lanzó Gemini 4 Carbon el 28 de octubre, modelo #1 en benchmarks de ciberseguridad con 88,2% en descubrimiento de vulnerabilidades y 71% en remedición. Acceso restringido para defensores verificados a través del programa Fairwind.",
-    "_visto": "2026-11-02T06:05:00.317Z"
+    "titulo": "Google ejecuta Gemma en órbita y lanza EmbeddingGemma 2 multimodal",
+    "texto": "Google anunció que su satélite Suncatcher ejecutó un modelo Gemma directamente en órbita generando un haiku, marcando un hito en la IA espacial. Simultáneamente, lanzó EmbeddingGemma 2, un modelo multimodal open source para búsqueda y organización en dispositivos edge.",
+    "_visto": "2026-11-02T07:05:00.391Z"
   },
   "modelo_open_source": {
-    "nombre": "Clover-35B-A3B",
-    "tamano": "35B parámetros (3B activos)",
+    "nombre": "EmbeddingGemma 2",
+    "tamano": "740M parámetros",
     "licencia": "Apache 2.0",
-    "destaca_en": "Generación rápida mediante difusión iterativa, SWE-bench 73.6%, inferencia paralela",
-    "ejecucion_local": "Requiere ~69GB VRAM (GPU H200, GB300). Soporta SGLang y llama.cpp",
-    "url": "https://huggingface.co/DiffuSpace/Clover-35B-A3B-Preview",
-    "_visto": "2026-11-02T06:05:00.317Z",
+    "destaca_en": "Embedding multimodal (texto, código, imagen, video, audio) en espacio vectorial unificado para búsqueda y RAG en dispositivos edge",
+    "ejecucion_local": "Sí, en dispositivos edge. Módulos separables: texto (270M), visión (170M), audio (300M). Corre con 8K contexto y soporta truncamiento de dimensión a 256/128",
+    "url": "https://huggingface.co/google/embeddinggemma-2",
+    "_visto": "2026-11-02T07:05:00.391Z",
     "_img_intentos": 1,
-    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Diffuspace/Clover-35B-A3B-Preview.png"
+    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/google/embeddinggemma-2.png"
   },
-  "herramienta_del_dia": null,
+  "herramienta_del_dia": {
+    "nombre": "Phonon (vía Ollama)",
+    "que_hace": "Síntesis de voz en tiempo real desde texto en 5 idiomas con múltiples voces, ejecutable localmente sin conexión a cloud",
+    "diferencia": "Integración nativa en Ollama con optimización MLX para Apple Silicon (>100× real-time), stream tokens en vivo sin esperar respuesta completa",
+    "licencia": "Open source (Apache 2.0 base, CC BY-NC 4.0 extensiones)",
+    "url": "https://ollama.com/library/phonon",
+    "_visto": "2026-11-02T07:05:00.391Z",
+    "_img_intentos": 1,
+    "imagen": "https://ollama.com/public/og.png"
+  },
   "trending": [
     {
-      "nombre": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "nombre": "Reflection-ai/Beam",
       "tipo": "huggingface",
-      "descripcion": "Modelo MoE ultra-eficiente, 32B params, especializado en velocidad de inferencia",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-      "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash.png"
-    },
-    {
-      "nombre": "mistralai/Mistral-Large-4-Open",
-      "tipo": "huggingface",
-      "descripcion": "1T parámetros con 52B activos, architecture MoE abierta, ciberseguridad",
-      "url": "https://huggingface.co/mistralai/Mistral-Large-4-Open",
+      "descripcion": "Modelo MoE 501B para ingeniería autónoma de software y agentes con razonamiento token-eficiente",
+      "url": "https://huggingface.co/reflection-ai/beam-1.0-501b",
       "_img_intentos": 1,
       "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
+    },
+    {
+      "nombre": "LiquidAI/LFM3",
+      "tipo": "huggingface",
+      "descripcion": "Familia edge 2B parámetros con arquitectura tri-híbrida para inferencia local en dispositivos con bajo recurso",
+      "url": "https://huggingface.co/LiquidAI",
+      "_img_intentos": 1,
+      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/LiquidAI.png"
+    },
+    {
+      "nombre": "google/embeddinggemma-2",
+      "tipo": "huggingface",
+      "descripcion": "Embedding multimodal open 740M parámetros mapea texto, imagen, video y audio a espacio vectorial unificado",
+      "url": "https://huggingface.co/google/embeddinggemma-2",
+      "_img_intentos": 1,
+      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/google/embeddinggemma-2.png"
     }
   ],
   "fecha": "2026-11-02",
-  "generado": "2026-11-02T06:05:00.317Z",
-  "_ultima_consulta": "2026-11-02T06:05:00.317Z",
+  "generado": "2026-11-02T07:05:00.391Z",
+  "_ultima_consulta": "2026-11-02T07:05:00.391Z",
   "_vistas": [
+    {
+      "k": "https://huggingface.co/reflection-ai/beam-1.0-501b",
+      "titulo": "Reflection Beam: modelo 501B MoE para ingeniería de software",
+      "url": "https://huggingface.co/reflection-ai/beam-1.0-501b",
+      "_visto": "2026-11-02T07:05:00.391Z"
+    },
+    {
+      "k": "https://ollama.com/blog/phonon",
+      "titulo": "Ollama integra Phonon: TTS open source multilingüe en local",
+      "url": "https://ollama.com/blog/phonon",
+      "_visto": "2026-11-02T07:05:00.391Z"
+    },
+    {
+      "k": "t:alibaba apple integran qwen en apple intelligence para china",
+      "titulo": "Alibaba-Apple integran Qwen en Apple Intelligence para China",
+      "url": "https://www.alibaba.com",
+      "_visto": "2026-11-02T07:05:00.391Z"
+    },
+    {
+      "k": "https://www.anthropic.com/news",
+      "titulo": "Anthropic expande watermarking sintético en nuevos modelos Claude",
+      "url": "https://www.anthropic.com/news",
+      "_visto": "2026-11-02T07:05:00.391Z"
+    },
+    {
+      "k": "t:aie code summit 2026 conferencia de 1000 ingenieros de ia",
+      "titulo": "AIE Code Summit 2026: conferencia de 1000 ingenieros de IA",
+      "url": "https://www.latent.space/",
+      "_visto": "2026-11-02T07:05:00.391Z"
+    },
+    {
+      "k": "https://github.com/deepseek-ai",
+      "titulo": "DeepSeek V5: especulaciones desmentidas, no lanzado",
+      "url": "https://github.com/deepseek-ai",
+      "_visto": "2026-11-02T07:05:00.391Z"
+    },
+    {
+      "k": "t:glif ai lanza agencia de personas virtuales sinteticas",
+      "titulo": "Glif AI lanza agencia de personas virtuales sintéticas",
+      "url": "https://glif.app",
+      "_visto": "2026-11-02T07:05:00.391Z"
+    },
     {
       "k": "https://openai.com/index/gpt-6-rosalind-research",
       "titulo": "OpenAI lanza GPT-6 Rosalind para investigación biomédica",
