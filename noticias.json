@@ -2,6 +2,104 @@
   "noticias": [
     {
       "id": 1,
+      "titulo": "Meituan lanza LongCat-2.5: modelo MoE de 1.6T parámetros para agentes",
+      "titular_corto": "Meituan LongCat-2.5: 1.6T MoE para ingeniería de software",
+      "resumen": "Meituan presentó LongCat-2.5, su modelo multimodal MoE con 1.6 billones de parámetros totales y 48 mil millones activos por token. Ofrece contexto de 1 millón de tokens y destaca en tareas de codificación agentica, GUI navigation y diseño 3D. Logra 88.4 en Terminal Bench v2.1 y 51.8 en AutomationBench.",
+      "categoria": "Modelos",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "Meituan",
+      "url": "https://longcat.ai",
+      "publicado": "2026-11-02T12:00:00Z",
+      "imagen": null,
+      "confirmado": false,
+      "_visto": "2026-11-02T08:05:00.306Z",
+      "reciente": true
+    },
+    {
+      "id": 2,
+      "titulo": "SenseTime abre SenseNova-Loop-9B: modelo layer-reusing multimodal",
+      "titular_corto": "SenseNova-Loop-9B: 9B con profundidad de 14.6B efectivos",
+      "resumen": "SenseTime lanzó SenseNova-Loop-9B, modelo multimodal open-source bajo Apache 2.0 que reutiliza capas para lograr profundidad equivalente de 14.6 mil millones de parámetros con solo 9B almacenados. Soporta 256K tokens de contexto e incluye mecanismos de hyper-conexión manifold-constrained. Compite con modelos de 27B.",
+      "categoria": "Modelos",
+      "es_ia": true,
+      "prioridad": "alta",
+      "fuente": "SenseTime",
+      "url": "https://huggingface.co/SenseTime/SenseNova-Loop-9B-Preview",
+      "publicado": "2026-11-02T12:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-11-02T08:05:00.306Z",
+      "reciente": true,
+      "_img_intentos": 1,
+      "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
+    },
+    {
+      "id": 3,
+      "titulo": "Hugging Face abre CMU Climate Risk Intelligence Challenge",
+      "titular_corto": "CMU lanza desafío de IA climática bajo Project ProtoStar",
+      "resumen": "Hugging Face y Carnegie Mellon University lanzan el CMU Climate Risk Intelligence Challenge dentro de Project ProtoStar el 2 de noviembre hasta el 13. Participantes predicen tendencias climáticas urbanas en 210 ciudades estadounidenses usando datos históricos hasta 2018 con énfasis en datasets abiertos.",
+      "categoria": "Producto",
+      "es_ia": true,
+      "prioridad": "media",
+      "fuente": "Hugging Face",
+      "url": "https://huggingface.co",
+      "publicado": "2026-11-02T12:00:00Z",
+      "confirmado": false,
+      "_visto": "2026-11-02T08:05:00.306Z",
+      "reciente": true,
+      "imagen": null
+    },
+    {
+      "id": 4,
+      "titulo": "Reflection AI abre Build with Beam Challenge por $20k en Hugging Face",
+      "titular_corto": "Hackathon Beam: premios hasta $20k para desarrolladores",
+      "resumen": "Reflection AI y Hugging Face lanzan Build with Beam Community Challenge con $20,000 en premios o créditos Hub. Plazo 2 de noviembre a las 23:59 PT. Busca demostraciones, fine-tuning, benchmarks y datasets sintéticos usando el modelo open Beam. Abierto a comunidad global.",
+      "categoria": "Herramientas",
+      "es_ia": true,
+      "prioridad": "media",
+      "fuente": "Reflection AI",
+      "url": "https://huggingface.co",
+      "publicado": "2026-11-02T12:00:00Z",
+      "confirmado": false,
+      "_visto": "2026-11-02T08:05:00.306Z",
+      "reciente": true,
+      "imagen": null
+    },
+    {
+      "id": 5,
+      "titulo": "Pika H3 Flex se integra en herramientas creativas de Pika Labs",
+      "titular_corto": "Pika H3 Flex: generación visual e integración en suite creativa",
+      "resumen": "Pika Labs completa integración de Pika H3 Flex en sus herramientas tras lanzamiento open-weights del 29 de octubre. El adaptador multimodal mejora generación de contenido visual y video con latencias reducidas. Disponible en plataforma Pika para usuarios a partir del 2 de noviembre.",
+      "categoria": "Producto",
+      "es_ia": true,
+      "prioridad": "media",
+      "fuente": "Pika Labs",
+      "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+      "publicado": "2026-11-02T12:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-11-02T08:05:00.306Z",
+      "reciente": true,
+      "_img_intentos": 1,
+      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Pika-Labs/Pika-H3-Flex.png"
+    },
+    {
+      "id": 6,
+      "titulo": "Fujitsu y SoftBank Robotics pilotan IA para evaluar daños logísticos",
+      "titular_corto": "Fujitsu + SoftBank: inspección IA automatizada de embalajes",
+      "resumen": "Fujitsu y SoftBank Robotics lanzan piloto conjunto para evaluar daños en embalajes de electrodomésticos con IA. Emplean Fujitsu Kozuchi y Amalgamation AI for Vision combinado con análisis de imágenes vía smartphone. Financiado por ministerio japonés, busca reducir rechazos innecesarios y optimizar costos.",
+      "categoria": "Producto",
+      "es_ia": true,
+      "prioridad": "media",
+      "fuente": "Fujitsu",
+      "url": "https://global.fujitsu",
+      "publicado": "2026-11-02T12:00:00Z",
+      "confirmado": false,
+      "_visto": "2026-11-02T08:05:00.306Z",
+      "reciente": true,
+      "imagen": null
+    },
+    {
+      "id": 7,
       "titulo": "Alibaba-Apple integran Qwen en Apple Intelligence para China",
       "titular_corto": "Qwen potencia Apple Intelligence en China",
       "resumen": "Alibaba y Apple anunciaron integración de la familia Qwen en Apple Intelligence para usuarios en China. Beta para desarrolladores lanzada a principios de noviembre. Marca expansión de opciones de modelos locales y soberanos para dispositivos Apple.",
@@ -17,7 +115,7 @@
       "imagen": null
     },
     {
-      "id": 2,
+      "id": 8,
       "titulo": "Anthropic expande watermarking sintético en nuevos modelos Claude",
       "titular_corto": "Anthropic añade marcas de agua a Claude",
       "resumen": "Anthropic expandió su sistema de watermarking sintético invisible en modelos Claude adicionales para cumplimiento con AI Act de UE. Las marcas de agua refuerzan trazabilidad de contenido generado. Entrada en vigor planificada para 12 de noviembre.",
@@ -34,7 +132,7 @@
       "imagen": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
     },
     {
-      "id": 3,
+      "id": 9,
       "titulo": "DeepSeek V5: especulaciones desmentidas, no lanzado",
       "titular_corto": "DeepSeek V5 aún no publicado",
       "resumen": "Análisis del 1 de noviembre confirmó que DeepSeek V5 no ha sido lanzado públicamente. Identifiers en repositorio de testing causaron especulación, pero no hay versión disponible. Desarrolladores esperan anuncio próximo.",
@@ -51,7 +149,7 @@
       "imagen": "https://avatars.githubusercontent.com/u/148330874?s=280&v=4"
     },
     {
-      "id": 4,
+      "id": 10,
       "titulo": "Glif AI lanza agencia de personas virtuales sintéticas",
       "titular_corto": "Glif: generador de avatares y personas IA",
       "resumen": "Glif AI presentó plataforma para síntesis de personas virtuales y avatares IA, generando debate en industria sobre modelado virtual y ética. Herramienta permite crear personajes sinténticos para diversas aplicaciones.",
@@ -65,163 +163,102 @@
       "_visto": "2026-11-02T07:05:00.391Z",
       "reciente": true,
       "imagen": null
-    },
-    {
-      "id": 5,
-      "titulo": "Estándar unificado robots.txt para opt-out de entrenamientos IA",
-      "titular_corto": "IETF aprueba token __usage_ai-training",
-      "resumen": "Anthropic, OpenAI, Google y Microsoft acordaron un estándar unificado vía IETF (draft AIPREF) mediante el token __usage_ai-training en robots.txt. Permite indicar con una sola línea que el contenido no debe usarse para entrenar modelos, evitando reglas fragmentadas. Implementación gradual entre 2027-2027.",
-      "categoria": "Regulación",
-      "es_ia": true,
-      "prioridad": "media",
-      "fuente": "IETF AIPREF Working Group",
-      "url": "https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/",
-      "publicado": "2026-10-31T12:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-11-02T06:05:00.317Z",
-      "reciente": false,
-      "_img_intentos": 1,
-      "imagen": "https://static.ietf.org/dt/12.82.1/ietf/images/ietf-logo-nor-white.svg"
-    },
-    {
-      "id": 6,
-      "titulo": "Qwenputer: RISC-V CPU compilado en pesos de red neuronal de Qwen",
-      "titular_corto": "Qwenputer: computadora embebida en modelo de IA",
-      "resumen": "Divyansh Agrawal publica Qwenputer en GitHub: una arquitectura RISC-V de 32 bits compilada directamente en 11 capas transformer de Qwen3.5-4B. Usa el estado recurrente Gated DeltaNet como RAM exacta. El modelo ejecuta programas C y MicroPython internamente con precisión bit-perfecta, pasando tests oficiales y alcanzando 100% en aritmética de enteros.",
-      "categoria": "Investigación",
-      "es_ia": true,
-      "prioridad": "alta",
-      "fuente": "GitHub / Divyansh Agrawal",
-      "url": "https://github.com/divagr18/qwenputer",
-      "publicado": "2026-10-30T12:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-10-30T13:05:00.260Z",
-      "reciente": false,
-      "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/divagr18/qwenputer"
-    },
-    {
-      "id": 7,
-      "titulo": "Cursor IDE versión 3.27: agentes en nube con canvases interactivos",
-      "titular_corto": "Cursor mejora agentes remotos y entornos",
-      "resumen": "Cursor lanzó versión 3.27 con Cloud Agents capaces de generar canvases interactivos, nueva Environments API para gestionar contenedores, soporte para 300 repositorios, monitorización móvil de agentes locales y mejoras de accesibilidad. Diagramas Mermaid interactivos en preview.",
-      "categoria": "Herramientas",
-      "es_ia": true,
-      "prioridad": "alta",
-      "fuente": "Cursor",
-      "url": "https://cursor.com/changelog",
-      "publicado": "2026-10-30T12:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-10-30T13:05:00.260Z",
-      "reciente": false,
-      "_img_intentos": 1,
-      "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
-    },
-    {
-      "id": 8,
-      "titulo": "TBC Mischief 1: primer modelo neuron-derived para generación de video",
-      "titular_corto": "TBC Mischief genera video 5x más rápido",
-      "resumen": "The Biological Computing Co. lanzó TBC Mischief 1, modelo de video basado en mediciones de neuronas vivas. Genera videos 5 veces más rápido que base model a costo ultra-bajo: 2,50 dólares por 100 clips de 5 segundos. Disponible en fal y OpenRouter.",
-      "categoria": "Modelos",
-      "es_ia": true,
-      "prioridad": "alta",
-      "fuente": "The Biological Computing Co.",
-      "url": "https://fal.ai/",
-      "publicado": "2026-10-30T12:00:00Z",
-      "confirmado": false,
-      "_visto": "2026-10-30T15:05:00.258Z",
-      "reciente": false,
-      "imagen": null
-    },
-    {
-      "id": 9,
-      "titulo": "Bivia: modelo multimodal decisor para orquestación de agentes de IA",
-      "titular_corto": "Bivia: decisor multimodal para agentes",
-      "resumen": "Articul8 lanzó Bivia, modelo especializado que toma decisiones estructuradas sobre texto, imagen, video, audio y sensores sin generar tokens. Incluye puntuación de confianza y atribución de evidencia. Diseñado para enrutamiento y verificación de tareas en agentes empresariales.",
-      "categoria": "Herramientas",
-      "es_ia": true,
-      "prioridad": "alta",
-      "fuente": "Articul8",
-      "url": "https://www.articul8.ai/",
-      "publicado": "2026-10-30T12:00:00Z",
-      "confirmado": false,
-      "_visto": "2026-10-30T15:05:00.258Z",
-      "reciente": false,
-      "imagen": null
-    },
-    {
-      "id": 10,
-      "titulo": "TBC Mischief 1: modelo vídeo neuron-derived 5× más rápido",
-      "titular_corto": "Mischief 1 acelera generación de vídeo con IA biológica",
-      "resumen": "The Biological Computing Co. lanza Mischief 1, modelo imagen-a-vídeo construido sobre Wan 2.2 que implementa eficiencias de redes neuronales biológicas mediante adaptadores post-training. Genera vídeo 5× más rápido con costo ~$0.005/segundo. Ya disponible en OpenRouter y fal.ai.",
-      "categoria": "Modelos",
-      "es_ia": true,
-      "prioridad": "alta",
-      "fuente": "The Biological Computing Co.",
-      "url": "https://openrouter.ai",
-      "publicado": "2026-10-30T12:00:00Z",
-      "confirmado": false,
-      "_visto": "2026-10-30T16:05:00.233Z",
-      "reciente": false,
-      "imagen": null
     }
   ],
   "destacado": {
-    "titulo": "Google ejecuta Gemma en órbita y lanza EmbeddingGemma 2 multimodal",
-    "texto": "Google anunció que su satélite Suncatcher ejecutó un modelo Gemma directamente en órbita generando un haiku, marcando un hito en la IA espacial. Simultáneamente, lanzó EmbeddingGemma 2, un modelo multimodal open source para búsqueda y organización en dispositivos edge.",
-    "_visto": "2026-11-02T07:05:00.391Z"
+    "titulo": "Meituan LongCat-2.5: modelo MoE de 1.6T parámetros para agentes autónomos",
+    "texto": "Meituan lanza LongCat-2.5, su modelo multimodal más potente con 1.6 billones de parámetros. Optimizado para tareas de ingeniería de software a largo plazo, supera benchmarks clave de automatización con puntuaciones de 88.4 en Terminal Bench y 51.8 en AutomationBench. Entrenado completamente con chips nacionales.",
+    "_visto": "2026-11-02T08:05:00.306Z"
   },
   "modelo_open_source": {
-    "nombre": "EmbeddingGemma 2",
-    "tamano": "740M parámetros",
+    "nombre": "SenseNova-Loop-9B-Preview",
+    "tamano": "9B parámetros (profundidad efectiva 14.6B)",
     "licencia": "Apache 2.0",
-    "destaca_en": "Embedding multimodal (texto, código, imagen, video, audio) en espacio vectorial unificado para búsqueda y RAG en dispositivos edge",
-    "ejecucion_local": "Sí, en dispositivos edge. Módulos separables: texto (270M), visión (170M), audio (300M). Corre con 8K contexto y soporta truncamiento de dimensión a 256/128",
-    "url": "https://huggingface.co/google/embeddinggemma-2",
-    "_visto": "2026-11-02T07:05:00.391Z",
+    "destaca_en": "Tareas agenticas largas, razonamiento en documentos, generación de código multipasos. Eficiente en memoria pese a profundidad computacional superior a su tamaño almacenado.",
+    "ejecucion_local": "GPU con 16-32 GB VRAM. Contexto de 256K tokens. Compatible con vLLM, Ollama y frameworks estándar de Hugging Face.",
+    "url": "https://huggingface.co/SenseTime/SenseNova-Loop-9B-Preview",
+    "_visto": "2026-11-02T08:05:00.306Z",
     "_img_intentos": 1,
-    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/google/embeddinggemma-2.png"
+    "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
   },
   "herramienta_del_dia": {
-    "nombre": "Phonon (vía Ollama)",
-    "que_hace": "Síntesis de voz en tiempo real desde texto en 5 idiomas con múltiples voces, ejecutable localmente sin conexión a cloud",
-    "diferencia": "Integración nativa en Ollama con optimización MLX para Apple Silicon (>100× real-time), stream tokens en vivo sin esperar respuesta completa",
-    "licencia": "Open source (Apache 2.0 base, CC BY-NC 4.0 extensiones)",
-    "url": "https://ollama.com/library/phonon",
-    "_visto": "2026-11-02T07:05:00.391Z",
+    "nombre": "Beam (Reflection AI)",
+    "que_hace": "Modelo base open-source para razonamiento multi-etapa en ingeniería de software. Integrable con agentes y workflows automatizados para tareas complejas.",
+    "diferencia": "Enfoque en transparencia y reproducibilidad de agentes. Diseño específico para benchmarking. Comunidad activa en Hugging Face con hackathon de $20k para implementaciones.",
+    "licencia": "Open source",
+    "url": "https://huggingface.co/Reflection-AI/beam",
+    "_visto": "2026-11-02T08:05:00.306Z",
     "_img_intentos": 1,
-    "imagen": "https://ollama.com/public/og.png"
+    "imagen": null,
+    "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
   },
   "trending": [
     {
-      "nombre": "Reflection-ai/Beam",
+      "nombre": "meituan/LongCat-2.5",
       "tipo": "huggingface",
-      "descripcion": "Modelo MoE 501B para ingeniería autónoma de software y agentes con razonamiento token-eficiente",
-      "url": "https://huggingface.co/reflection-ai/beam-1.0-501b",
+      "descripcion": "Modelo MoE de 1.6T para agentes de ingeniería con contexto 1M tokens. Benchmark Terminal 88.4.",
+      "url": "https://huggingface.co/meituan/LongCat-2.5",
+      "_img_intentos": 1,
+      "imagen": null,
+      "_imagen_error": "lectura directa: HTTP 401 | microlink: Request failed with status code 429"
+    },
+    {
+      "nombre": "SenseTime/SenseNova-Loop-9B-Preview",
+      "tipo": "huggingface",
+      "descripcion": "Modelo multimodal con arquitectura layer-reusing. 9B params, profundidad 14.6B, contexto 256K.",
+      "url": "https://huggingface.co/SenseTime/SenseNova-Loop-9B-Preview",
       "_img_intentos": 1,
       "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
     },
     {
-      "nombre": "LiquidAI/LFM3",
+      "nombre": "Pika-Labs/Pika-H3-Flex",
       "tipo": "huggingface",
-      "descripcion": "Familia edge 2B parámetros con arquitectura tri-híbrida para inferencia local en dispositivos con bajo recurso",
-      "url": "https://huggingface.co/LiquidAI",
+      "descripcion": "Adaptador multimodal para generación de video y contenido visual optimizado.",
+      "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
       "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/LiquidAI.png"
-    },
-    {
-      "nombre": "google/embeddinggemma-2",
-      "tipo": "huggingface",
-      "descripcion": "Embedding multimodal open 740M parámetros mapea texto, imagen, video y audio a espacio vectorial unificado",
-      "url": "https://huggingface.co/google/embeddinggemma-2",
-      "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/google/embeddinggemma-2.png"
+      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Pika-Labs/Pika-H3-Flex.png"
     }
   ],
   "fecha": "2026-11-02",
-  "generado": "2026-11-02T07:05:00.391Z",
-  "_ultima_consulta": "2026-11-02T07:05:00.391Z",
+  "generado": "2026-11-02T08:05:00.306Z",
+  "_ultima_consulta": "2026-11-02T08:05:00.306Z",
   "_vistas": [
+    {
+      "k": "t:meituan lanza longcat 2 5 modelo moe de 1 6t parametros para agentes",
+      "titulo": "Meituan lanza LongCat-2.5: modelo MoE de 1.6T parámetros para agentes",
+      "url": "https://longcat.ai",
+      "_visto": "2026-11-02T08:05:00.306Z"
+    },
+    {
+      "k": "https://huggingface.co/sensetime/sensenova-loop-9b-preview",
+      "titulo": "SenseTime abre SenseNova-Loop-9B: modelo layer-reusing multimodal",
+      "url": "https://huggingface.co/SenseTime/SenseNova-Loop-9B-Preview",
+      "_visto": "2026-11-02T08:05:00.306Z"
+    },
+    {
+      "k": "t:hugging face abre cmu climate risk intelligence challenge",
+      "titulo": "Hugging Face abre CMU Climate Risk Intelligence Challenge",
+      "url": "https://huggingface.co",
+      "_visto": "2026-11-02T08:05:00.306Z"
+    },
+    {
+      "k": "t:reflection ai abre build with beam challenge por 20k en hugging face",
+      "titulo": "Reflection AI abre Build with Beam Challenge por $20k en Hugging Face",
+      "url": "https://huggingface.co",
+      "_visto": "2026-11-02T08:05:00.306Z"
+    },
+    {
+      "k": "https://huggingface.co/pika-labs/pika-h3-flex",
+      "titulo": "Pika H3 Flex se integra en herramientas creativas de Pika Labs",
+      "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+      "_visto": "2026-11-02T08:05:00.306Z"
+    },
+    {
+      "k": "t:fujitsu y softbank robotics pilotan ia para evaluar danos logisticos",
+      "titulo": "Fujitsu y SoftBank Robotics pilotan IA para evaluar daños logísticos",
+      "url": "https://global.fujitsu",
+      "_visto": "2026-11-02T08:05:00.306Z"
+    },
     {
       "k": "https://huggingface.co/reflection-ai/beam-1.0-501b",
       "titulo": "Reflection Beam: modelo 501B MoE para ingeniería de software",
