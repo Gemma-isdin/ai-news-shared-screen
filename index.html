@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="referrer" content="no-referrer">
-<title>ISDIN | AI News</title>
+<title>ISDIN | AI &amp; Tech News</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -122,6 +122,7 @@ h1, h2 { font-family: var(--font-display); letter-spacing: -0.02em; line-height:
 }
 .tile-txt { position: absolute; left: 1.1rem; right: 1.1rem; bottom: 0.9rem; }
 .tile-meta { font-size: 0.95rem; color: hsl(220 30% 82%); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.punto-cat { display: inline-block; width: 0.6rem; height: 0.6rem; border-radius: 50%; margin-right: 0.5rem; vertical-align: 0.05em; }
 .tile-meta b { color: #fff; font-weight: 600; margin-right: 0.4rem; }
 .tile-titulo {
   font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2;
@@ -165,7 +166,6 @@ h1, h2 { font-family: var(--font-display); letter-spacing: -0.02em; line-height:
 .etiquetas { position: absolute; left: 2.5rem; top: 3.2rem; display: flex; align-items: center; gap: 0.7rem; font-size: 1.1rem; font-weight: 600; }
 .chip { padding: 0.3rem 0.85rem; border-radius: var(--radius); background: hsl(0 0% 100% / .2); }
 .chip.nuevo { background: var(--primary); }
-.chip.aviso { background: var(--isdin-gold); color: var(--isdin-navy-deep); }
 .foco-txt { position: absolute; left: 2.5rem; right: 2.5rem; bottom: 2.2rem; }
 .foco-txt.con-qr { right: 14rem; }
 .estado { display: inline-flex; align-items: center; gap: 0.6rem; font-size: 1.05rem; font-weight: 500; color: hsl(220 30% 85%); margin-bottom: 0.9rem; }
@@ -249,7 +249,7 @@ h1, h2 { font-family: var(--font-display); letter-spacing: -0.02em; line-height:
       <span id="logo"></span>
       <span class="marca-sep"></span>
       <div>
-        <div class="marca-nombre">AI News</div>
+        <div class="marca-nombre">AI &amp; Tech News</div>
         <div class="marca-sub">Novedades de inteligencia artificial</div>
       </div>
     </div>
@@ -331,7 +331,8 @@ const EJEMPLO = {
     { titulo: "Nuevo modelo open weights de 8B optimizado para programar", titular_corto: "Modelo abierto de 8B para código", resumen: "El modelo se publica con licencia Apache 2.0 y funciona en GPUs de consumo con 16 GB. Sus autores lo orientan a autocompletado y revisión de código.", categoria: "Modelos", prioridad: "alta", fuente: "Hugging Face", url: "https://huggingface.co/", publicado: new Date(Date.now() - 2 * 3600000).toISOString(), imagen: null },
     { titulo: "Un agente de programación de terminal añade soporte para modelos locales", titular_corto: "Agente de terminal con modelos locales", resumen: "La nueva versión permite conectar modelos servidos con Ollama, de modo que el código no sale del equipo del desarrollador.", categoria: "Herramientas", prioridad: "alta", fuente: "GitHub", url: "https://github.com/", publicado: new Date(Date.now() - 5 * 3600000).toISOString(), imagen: null },
     { titulo: "Ollama publica mejoras de rendimiento en Apple Silicon", titular_corto: "Ollama, más rápido en Mac", resumen: "La actualización reduce el tiempo de carga de los modelos y el consumo de memoria al ejecutar varios modelos a la vez.", categoria: "Herramientas", prioridad: "alta", fuente: "Ollama", url: "https://ollama.com/blog", publicado: new Date(Date.now() - 8 * 3600000).toISOString(), imagen: null },
-    { titulo: "Rebaja de precios en la API de un modelo de razonamiento", titular_corto: "Baja el precio de una API de razonamiento", resumen: "El proveedor reduce el coste por millón de tokens de entrada. Afecta sobre todo a aplicaciones con contextos largos.", categoria: "Producto", prioridad: "media", fuente: "Blog oficial", url: "https://example.com", publicado: new Date(Date.now() - 14 * 3600000).toISOString(), imagen: null, confirmado: false },
+    { titulo: "Rebaja de precios en la API de un modelo de razonamiento", titular_corto: "Baja el precio de una API de razonamiento", resumen: "El proveedor reduce el coste por millón de tokens de entrada. Afecta sobre todo a aplicaciones con contextos largos.", categoria: "Producto", prioridad: "media", fuente: "Blog oficial", url: "https://example.com", publicado: new Date(Date.now() - 14 * 3600000).toISOString(), imagen: null },
+    { titulo: "Un modelo de IA gana a humanos en una partida de ajedrez con piezas inventadas", titular_corto: "Una IA juega con reglas que no conocía", resumen: "Los investigadores cambiaron las reglas a mitad de partida y el modelo se adaptó en pocos movimientos. Es un ejemplo curioso de cómo generaliza.", categoria: "Curiosidad", prioridad: "media", fuente: "Ejemplo", url: "https://example.com/curiosidad", publicado: new Date(Date.now() - 6 * 3600000).toISOString(), imagen: null },
     { titulo: "Un estudio mide cuánto ayudan los agentes de código en proyectos reales", titular_corto: "Estudio sobre agentes de código", resumen: "El trabajo compara tareas resueltas con y sin agente en repositorios abiertos. Las mejoras se concentran en tareas bien especificadas.", categoria: "Investigación", prioridad: "media", fuente: "arXiv", url: "https://arxiv.org/", publicado: new Date(Date.now() - 19 * 3600000).toISOString(), imagen: null }
   ],
   modelo_open_source: { nombre: "Ejemplo-Coder 8B", tamano: "8B parámetros", licencia: "Apache 2.0", destaca_en: "Autocompletado y explicación de código en varios lenguajes", ejecucion_local: "Funciona con 16 GB de VRAM o en un Mac con 32 GB", url: "https://huggingface.co/" },
@@ -366,8 +367,10 @@ function hash(t) { let h = 7; for (const c of String(t)) h = (h * 31 + c.charCod
 
 /* ---------- Imágenes y fondos de marca ---------- */
 // Cuando el agente no trae imagen se dibuja una ilustración según el tipo de noticia.
-const ACENTO = { modelos: "12 76% 61%", herramientas: "38 92% 50%", investigacion: "215 75% 62%", producto: "330 60% 60%", regulacion: "38 92% 50%", negocio: "12 76% 61%", ia: "12 76% 61%" };
-const TIPOS = [["model", "modelos"], ["herram", "herramientas"], ["investig", "investigacion"], ["product", "producto"], ["regul", "regulacion"], ["negoc", "negocio"]];
+const ACENTO = { modelos: "12 76% 61%", herramientas: "38 92% 50%", investigacion: "215 75% 62%", producto: "330 60% 60%", regulacion: "245 40% 60%", negocio: "220 10% 48%",
+  desarrollo: "195 75% 42%", hardware: "150 50% 38%", ciberseguridad: "0 72% 52%", curiosidad: "295 55% 58%", ciencia: "175 60% 38%", ia: "12 76% 61%" };
+const TIPOS = [["model", "modelos"], ["herram", "herramientas"], ["investig", "investigacion"], ["product", "producto"], ["regul", "regulacion"], ["negoc", "negocio"], ["desarrol", "desarrollo"], ["hardware", "hardware"], ["ciberseg", "ciberseguridad"], ["curiosidad", "curiosidad"], ["cienc", "ciencia"]];
+const colorDe = cat => `hsl(${ACENTO[tipoDe(cat)]})`;
 function tipoDe(cat) {
   const c = String(cat || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
   for (const [k, t] of TIPOS) if (c.includes(k)) return t;
@@ -440,6 +443,8 @@ const MOTIVOS = {
     return o + `<path d="M500 110 C502 122 506 126 518 128 C506 130 502 134 500 146 C498 134 494 130 482 128 C494 126 498 122 500 110 Z" fill="hsl(${a})"/><path d="M290 215 C292 225 296 229 306 231 C296 233 292 237 290 247 C288 237 284 233 274 231 C284 229 288 225 290 215 Z" fill="#fff" fill-opacity=".7"/>`;
   }
 };
+MOTIVOS.desarrollo = MOTIVOS.herramientas; MOTIVOS.hardware = MOTIVOS.modelos; MOTIVOS.ciberseguridad = MOTIVOS.regulacion;
+MOTIVOS.curiosidad = MOTIVOS.ia; MOTIVOS.ciencia = MOTIVOS.investigacion;
 let svgN = 0;
 function fondoDefecto(cat, semilla) {
   const tipo = tipoDe(cat), a = ACENTO[tipo], r = azar(tipo + "|" + semilla), id = "d" + (++svgN);
@@ -536,7 +541,8 @@ function crearTile(s, pos, total) {
   } else {
     const n = datos.noticias[s.i];
     imagenEn(img, n.imagen, n.categoria || "IA", n.titulo);
-    meta.append(el("b", null, n.fuente || dominio(n.url)),
+    const punto = el("i", "punto-cat"); punto.style.background = colorDe(n.categoria);
+    meta.append(punto, el("b", null, n.fuente || dominio(n.url)),
       document.createTextNode([n.categoria, hace(n.publicado)].filter(Boolean).join(", ")));
     tit.textContent = n.titulo;
     t.append(img, el("div", "tile-velo"), el("div", "tile-num", String(s.i + 1).padStart(2, "0")));
@@ -604,7 +610,7 @@ function pintarPanel(d) {
   if (t && t.nombre) {
     const dt = el("div", "panel-datos", t.que_hace || "");
     if (t.diferencia) { dt.appendChild(el("br")); dt.appendChild(el("strong", null, t.diferencia)); }
-    hojas.push(hoja(t.imagen, t.nombre, "Herramientas", el("div", "panel-cab", "Herramienta de programación del día"),
+    hojas.push(hoja(t.imagen, t.nombre, "Herramientas", el("div", "panel-cab", "Herramienta del día"),
       el("div", "panel-nombre", t.nombre + (t.licencia ? ` (${t.licencia})` : "")), dt));
   }
   if (Array.isArray(d.trending) && d.trending.length) {
@@ -694,8 +700,7 @@ function prepararFoco(s) {
     const n = datos.noticias[s.i];
     imagenEn(fimg, n.imagen, n.categoria || "IA", n.titulo);
     if (esNuevo(n.publicado) || n._nueva) etq.appendChild(el("span", "chip nuevo", "Nuevo"));
-    if (n.categoria) etq.appendChild(el("span", "chip", n.categoria));
-    if (n.confirmado === false) etq.appendChild(el("span", "chip aviso", "Pendiente de confirmar"));
+    if (n.categoria) { const c = el("span", "chip", n.categoria); c.style.background = colorDe(n.categoria); etq.appendChild(c); }
     titulo = n.titulo; resumen = n.resumen; url = n.url; origen = dominio(n.url) || n.fuente || "la fuente";
     pie.append(el("b", null, n.fuente || dominio(n.url)));
     if (hace(n.publicado)) pie.append(el("span", null, hace(n.publicado)));
