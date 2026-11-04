@@ -17,6 +17,40 @@
     },
     {
       "id": 2,
+      "titulo": "Alerta NCSC: malware con IA ya 'altamente probable' contra infraestructuras críticas",
+      "titular_corto": "NCSC: malware con IA amenaza redes eléctricas y hospitales",
+      "resumen": "El Centro Nacional de Ciberseguridad británico (NCSC) advierte que entre 2026 y 2028 es 'altamente probable' que ataquen con malware impulsado por IA contra infraestructuras críticas (redes eléctricas, hospitales, transporte). La IA no crea vectores nuevos, pero actúa como multiplicador: acelera búsqueda masiva de vulnerabilidades que las organizaciones descuidaron por recortes.",
+      "tipo": "tecnica",
+      "es_ia": true,
+      "categoria": "Ciberseguridad",
+      "prioridad": "alta",
+      "fuente": "NCSC",
+      "url": "https://ncsc.gov.uk/collection/annual-review-2026",
+      "publicado": "2026-11-04T08:00:00Z",
+      "_visto": "2026-11-04T10:41:32.213Z",
+      "reciente": true,
+      "_img_intentos": 1,
+      "imagen": "https://www.ncsc.gov.uk/sites/default/files/styles/uncropped_lg/public/2026-10/AR-26-cover-image-landscape-low.png?itok=bJ7muqE6"
+    },
+    {
+      "id": 3,
+      "titulo": "Agentes IA en GitHub avanzan: MCP y orquestación multi-agente dominan",
+      "titular_corto": "GitHub: frameworks agénticos y MCP lideran desarrollo open source",
+      "resumen": "Los repositorios más en tendencia de GitHub migran de simples wrappers a orquestación de producción: LangGraph (LangChain), CrewAI y Smolagents destacan por arquitecturas modulares. Clave: adopción masiva del estándar MCP (Model Context Protocol) para conectar agentes a bases de datos, GitHub y terminales de forma unificada, sin integraciones propietarias.",
+      "tipo": "tecnica",
+      "es_ia": true,
+      "categoria": "Desarrollo",
+      "prioridad": "alta",
+      "fuente": "GitHub / Comunidad",
+      "url": "https://github.com/trending",
+      "publicado": "2026-11-03T15:00:00Z",
+      "_visto": "2026-11-04T10:41:32.213Z",
+      "reciente": true,
+      "_img_intentos": 1,
+      "imagen": "https://github.githubassets.com/assets/github-mark-57519b92ca4e.png"
+    },
+    {
+      "id": 4,
       "titulo": "Apple Intelligence integra Qwen de Alibaba en China con iOS 27.3 beta",
       "titular_corto": "Apple + Qwen: AI en China desde hoy",
       "resumen": "Apple comenzó hoy la beta de iOS 27.3 integrando Qwen de Alibaba como backend de IA para cumplir regulaciones chinas. Incluye Writing Tools, Visual Intelligence, Live Translation y Genmoji opt-in. Pública en diciembre. Protege privacidad: no entrena con datos del usuario.",
@@ -31,7 +65,7 @@
       "imagen": null
     },
     {
-      "id": 3,
+      "id": 5,
       "titulo": "Baidu Apollo World: simulador de conducción autónoma con 100k km/día",
       "titular_corto": "Baidu World Model: 100k km sintéticos diarios",
       "resumen": "Baidu presentó Apollo World, un simulador impulsado por world models que genera 100.000 km de conducción sintetizada por día. Usa agentes IA dinámicos, sensores multisensoriales sincronizados y datos de 350M km reales. Evalúa robotaxis Apollo Go en edge cases raros y complejos.",
@@ -46,7 +80,7 @@
       "imagen": null
     },
     {
-      "id": 4,
+      "id": 6,
       "titulo": "Observabilidad IA: NVIDIA Minerva y Datadog trazan agentes autónomos",
       "titular_corto": "Minerva + Datadog: debug de agentes",
       "resumen": "NVIDIA y Datadog lanzaron suites de observabilidad dedicadas para agentes autónomos. Trazan consumo de tokens, alucinaciones, bottlenecks en pipelines multi-agentes. Monitorean ejecutables, input/output y traces de herramientas en prod para garantizar calidad.",
@@ -62,7 +96,7 @@
       "imagen": "https://developer-blogs.nvidia.com/wp-content/uploads/2024/09/techblog-og.jpg"
     },
     {
-      "id": 5,
+      "id": 7,
       "titulo": "Dream recauda $17M de a16z para world models en construcción e ingeniería",
       "titular_corto": "Dream cierra $17M Series A para modelos de mundo",
       "resumen": "Startup fundada por exejecutivos de Palantir anunció inversión de 17 millones liderada por Andreessen Horowitz para desarrollar modelos de mundo aplicados a construcción e ingeniería.",
@@ -76,7 +110,7 @@
       "imagen": null
     },
     {
-      "id": 6,
+      "id": 8,
       "titulo": "Meituan lanza LongCat-2.5: modelo MoE de 1.6T parámetros para agentes",
       "titular_corto": "Meituan LongCat-2.5: 1.6T MoE para ingeniería de software",
       "resumen": "Meituan presentó LongCat-2.5, su modelo multimodal MoE con 1.6 billones de parámetros totales y 48 mil millones activos por token. Ofrece contexto de 1 millón de tokens y destaca en tareas de codificación agentica, GUI navigation y diseño 3D. Logra 88.4 en Terminal Bench v2.1 y 51.8 en AutomationBench.",
@@ -92,7 +126,7 @@
       "reciente": false
     },
     {
-      "id": 7,
+      "id": 9,
       "titulo": "SenseTime abre SenseNova-Loop-9B: modelo layer-reusing multimodal",
       "titular_corto": "SenseNova-Loop-9B: 9B con profundidad de 14.6B efectivos",
       "resumen": "SenseTime lanzó SenseNova-Loop-9B, modelo multimodal open-source bajo Apache 2.0 que reutiliza capas para lograr profundidad equivalente de 14.6 mil millones de parámetros con solo 9B almacenados. Soporta 256K tokens de contexto e incluye mecanismos de hyper-conexión manifold-constrained. Compite con modelos de 27B.",
@@ -107,151 +141,94 @@
       "reciente": false,
       "_img_intentos": 1,
       "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
-    },
-    {
-      "id": 8,
-      "titulo": "OpenAI lanza gpt-oss: modelos abiertos de razonamiento bajo Apache 2.0",
-      "titular_corto": "OpenAI publica modelos gpt-oss abiertos",
-      "resumen": "OpenAI ha publicado familia gpt-oss incluyendo gpt-oss-120b y gpt-oss-20b bajo Apache 2.0. Diseñados para razonamiento avanzado, inspección de cadenas de pensamiento e integración de herramientas en sistemas agénticos.",
-      "categoria": "Modelos",
-      "prioridad": "alta",
-      "fuente": "OpenAI",
-      "url": "https://openai.com/index/gpt-oss-models/",
-      "publicado": "2026-11-02T12:00:00Z",
-      "confirmado": false,
-      "_visto": "2026-11-02T13:05:00.252Z",
-      "reciente": false,
-      "_img_intentos": 3,
-      "imagen": null,
-      "_imagen_error": "lectura directa: HTTP 404 | microlink: Microlink no encontró imagen"
-    },
-    {
-      "id": 9,
-      "titulo": "Hugging Face abre CMU Climate Risk Intelligence Challenge",
-      "titular_corto": "CMU lanza desafío de IA climática bajo Project ProtoStar",
-      "resumen": "Hugging Face y Carnegie Mellon University lanzan el CMU Climate Risk Intelligence Challenge dentro de Project ProtoStar el 2 de noviembre hasta el 13. Participantes predicen tendencias climáticas urbanas en 210 ciudades estadounidenses usando datos históricos hasta 2018 con énfasis en datasets abiertos.",
-      "categoria": "Producto",
-      "es_ia": true,
-      "prioridad": "media",
-      "fuente": "Hugging Face",
-      "url": "https://huggingface.co",
-      "publicado": "2026-11-02T12:00:00Z",
-      "confirmado": false,
-      "_visto": "2026-11-02T08:05:00.306Z",
-      "reciente": false,
-      "imagen": null
-    },
-    {
-      "id": 10,
-      "titulo": "Aider agentes CLI con modo Arquitecto: dos modelos para mejor calidad",
-      "titular_corto": "Aider desacopla razonamiento y formato de diffs",
-      "resumen": "Aider implementó arquitectura de dos pasos: un modelo de razonamiento (o1/Claude) para planificación conceptual y otro más rápido para generar diffs exactos. Reduce alucinaciones en refactorizaciones multi-archivo, optimiza costos y es el estándar agnóstico en desarrolladores que prefieren terminal, Git y modelos locales.",
-      "categoria": "Herramientas",
-      "es_ia": true,
-      "prioridad": "alta",
-      "fuente": "Aider",
-      "url": "https://aider.chat",
-      "confirmado": false,
-      "_visto": "2026-11-02T10:05:00.286Z",
-      "reciente": false,
-      "imagen": null
-    },
-    {
-      "id": 11,
-      "titulo": "Sarvam Prism: modelo decisor ultra-rápido de 105B con 44ms latencia",
-      "titular_corto": "Sarvam Prism: decisiones en 44ms, open-weights",
-      "resumen": "Sarvam AI lanzó Prism, modelo de decisión rápida basado en su arquitectura 105B MoE. Ejecuta clasificación y toma de decisiones en 44ms con 71.8% precisión. Apache 2.0, optimizado para enrutamiento, guardrails y seguridad en pipelines de agentes. Requiere GPU con FP8.",
-      "tipo": "tecnica",
-      "es_ia": true,
-      "categoria": "Modelos",
-      "prioridad": "media",
-      "fuente": "Sarvam AI",
-      "url": "https://huggingface.co/sarvamai/prism",
-      "publicado": "2026-11-01T12:00:00Z",
-      "_visto": "2026-11-04T09:42:21.898Z",
-      "reciente": false,
-      "_img_intentos": 1,
-      "imagen": null,
-      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
-    },
-    {
-      "id": 12,
-      "titulo": "OpenAI integra GPT-6.1 Terra en agentes Dots con coste 50% menor",
-      "titular_corto": "GPT-6.1 Terra: agentes económicos en ChatGPT",
-      "resumen": "OpenAI desplegó GPT-6.1 Terra optimizado para automatización de tareas y ofimática. Reduce a mitad el coste de tokens ($1/$5 vs anteriores). Integrado en agentes autónomos (Dots) para flujos de trabajo continuos. Completa línea GPT-6 con Astra (razonamiento) y Sol (económico).",
-      "tipo": "tecnica",
-      "es_ia": true,
-      "categoria": "Producto",
-      "prioridad": "media",
-      "fuente": "OpenAI",
-      "url": "https://openai.com/news/",
-      "publicado": "2026-11-01T12:00:00Z",
-      "_visto": "2026-11-04T09:42:21.898Z",
-      "reciente": false,
-      "_img_intentos": 1,
-      "imagen": "https://images.ctfassets.net/kftzwdyauwt9/6iFRMxhUWyxFR6zpThf2Am/1f826b5095ca8854064989ecec465049/SEO_Banner_2400x1350_04.png?w=1600&h=900&fit=fill"
     }
   ],
   "destacado": {
-    "titulo": "Tencent Hy4: modelo multimodal de 770B con visión y control de PC",
-    "texto": "Tencent lanzó hoy Hy4, su modelo de pesos abiertos con 770 mil millones de parámetros capaz de ver imágenes, operar interfaces gráficas y procesar 1 millón de tokens. Integra visión nativa y agentes de computadora para tareas empresariales complejas, posicionándose como competidor mayor de OpenAI.",
-    "_visto": "2026-11-04T09:42:21.898Z"
+    "titulo": "Mistral Large 4 toma forma: IA soberana con 1T parámetros abiertos",
+    "texto": "Mistral libera los pesos de su modelo más potente, 'Le Chonk', un MoE de 1 billón parámetros entrenado en infraestructura europea. Destaca por defensa cibernética autónoma: orquestó 133 agentes para parchear vulnerabilidades reales en Django.",
+    "_visto": "2026-11-04T10:41:32.213Z"
   },
   "modelo_open_source": {
-    "nombre": "Tencent Hy4",
-    "tamano": "770B parámetros totales (49B activos)",
-    "licencia": "Open-weights",
-    "destaca_en": "Visión nativa, control de PC (GUI/CLI), razonamiento empresarial, 1M contexto",
-    "ejecucion_local": "Infraestructura GPU de alto rendimiento (Hopper/Blackwell), integración vLLM/SGLang",
-    "url": "https://huggingface.co/Tencent/Hy4",
-    "_visto": "2026-11-04T09:42:21.898Z",
+    "nombre": "Mistral Large 4",
+    "tamano": "~1 billón parámetros (50B activos)",
+    "licencia": "Mistral Ecosystem Open-Weight License",
+    "destaca_en": "Defensa cibernética autónoma, codificación agentica, contexto de 1M tokens. Demostración: 133 agentes parquearon CVEs reales en Django.",
+    "ejecucion_local": "Requiere múltiples GPUs; optimizado para datacenters europeos con infraestructura sovereign.",
+    "url": "https://huggingface.co/mistralai/Mistral-Large-4",
+    "_visto": "2026-11-04T10:41:32.213Z",
     "_img_intentos": 1,
-    "imagen": null,
-    "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
+    "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
   },
   "herramienta_del_dia": {
-    "nombre": "GitHub Copilot Fusion",
-    "que_hace": "Enrutador automático multi-modelo que selecciona y orquesta GPTs según complejidad, costo y latencia de tarea",
-    "diferencia": "Elimina selección manual de modelos; ecosistema unificado entre Anthropic y OpenAI con tres niveles de esfuerzo",
-    "licencia": "De pago",
-    "url": "https://github.blog/ai-and-ml/",
-    "_visto": "2026-11-04T08:14:45.951Z",
+    "nombre": "Liquid AI LFM3-1.7B",
+    "que_hace": "Modelo compacto de 1.73B parámetros para ejecutarse localmente en edge devices (teléfono, laptop) con soporte de 256K contexto y herramientas integradas.",
+    "diferencia": "Arquitectura híbrida única (13 convolución + 5 atención local + 6 global) reduce KV-cache a 1.6GB. Corre en ~1GB RAM con 4-bit quantization sin sacrificar largo contexto.",
+    "licencia": "Open source (LFM Open License v1.0)",
+    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+    "_visto": "2026-11-04T10:41:32.213Z",
     "_img_intentos": 1,
-    "imagen": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png?resize=800%2C425"
+    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/LiquidAI/LFM3-1.7B.png"
   },
   "trending": [
     {
-      "nombre": "Tencent/Hy4",
-      "tipo": "huggingface",
-      "descripcion": "Modelo MoE de 770B multimodal con visión, GUI/CLI y 1M contexto",
-      "url": "https://huggingface.co/Tencent/Hy4",
-      "_img_intentos": 1,
-      "imagen": null,
-      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
-    },
-    {
-      "nombre": "sarvamai/prism",
-      "tipo": "huggingface",
-      "descripcion": "Modelo decisor ultra-rápido (44ms) para enrutamiento y guardrails, Apache 2.0",
-      "url": "https://huggingface.co/sarvamai/prism",
-      "_img_intentos": 1,
-      "imagen": null,
-      "_imagen_error": "lectura directa: self-signed certificate in certificate chain | microlink: self-signed certificate in certificate chain"
-    },
-    {
-      "nombre": "github/copilot-fusion",
+      "nombre": "langchain-ai/langgraph",
       "tipo": "github",
-      "descripcion": "Orquestación automática multi-modelo GA con 30% descuento hasta 30 noviembre",
-      "url": "https://github.blog/ai-and-ml/",
+      "descripcion": "Framework de orquestación con grafos cíclicos para agentes de producción. Referencia en persistencia de estado y control determinista.",
+      "url": "https://github.com/langchain-ai/langgraph",
       "_img_intentos": 1,
-      "imagen": null,
-      "_imagen_error": "la página no tiene imagen de previsualización | microlink: self-signed certificate in certificate chain"
+      "imagen": "https://opengraph.githubassets.com/1/langchain-ai/langgraph"
+    },
+    {
+      "nombre": "huggingface/smolagents",
+      "tipo": "github",
+      "descripcion": "Agentes simples, rigorosos. Ejecutan código en lugar de JSON inflado para tool-calling. Focus en eficiencia.",
+      "url": "https://github.com/huggingface/smolagents",
+      "_img_intentos": 1,
+      "imagen": "https://opengraph.githubassets.com/1/huggingface/smolagents"
+    },
+    {
+      "nombre": "All-Hands-AI/OpenHands",
+      "tipo": "github",
+      "descripcion": "Entorno de software autónomo en contenedores Docker. Lee repos completos, ejecuta CLI y compila código seguramente.",
+      "url": "https://github.com/All-Hands-AI/OpenHands",
+      "_img_intentos": 1,
+      "imagen": "https://opengraph.githubassets.com/1/All-Hands-AI/OpenHands"
     }
   ],
   "fecha": "2026-11-04",
-  "generado": "2026-11-04T09:42:21.898Z",
-  "_ultima_consulta": "2026-11-04T09:42:21.898Z",
+  "generado": "2026-11-04T10:41:32.213Z",
+  "_ultima_consulta": "2026-11-04T10:41:32.213Z",
   "_vistas": [
+    {
+      "k": "https://openai.com/index/grid-protectors",
+      "titulo": "OpenAI lanza Grid Protectors: centros datos flexibles que estabilizan la red",
+      "url": "https://openai.com/index/grid-protectors/",
+      "_visto": "2026-11-04T10:41:32.213Z"
+    },
+    {
+      "k": "https://ncsc.gov.uk/collection/annual-review-2026",
+      "titulo": "Alerta NCSC: malware con IA ya 'altamente probable' contra infraestructuras críticas",
+      "url": "https://ncsc.gov.uk/collection/annual-review-2026",
+      "_visto": "2026-11-04T10:41:32.213Z"
+    },
+    {
+      "k": "https://huggingface.co/liquidai/lfm3-1.7b",
+      "titulo": "Liquid AI libera LFM3-1.7B: modelo edge con 256K contexto en menos de 1GB",
+      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+      "_visto": "2026-11-04T10:41:32.213Z"
+    },
+    {
+      "k": "https://github.com/trending",
+      "titulo": "Agentes IA en GitHub avanzan: MCP y orquestación multi-agente dominan",
+      "url": "https://github.com/trending",
+      "_visto": "2026-11-04T10:41:32.213Z"
+    },
+    {
+      "k": "https://www.anthropic.com/news/watermarking-rollout",
+      "titulo": "Anthropic amplía watermarking sintético a Claude Opus 4.6 y Sonnet 4.6",
+      "url": "https://www.anthropic.com/news/watermarking-rollout",
+      "_visto": "2026-11-04T10:41:32.213Z"
+    },
     {
       "k": "https://huggingface.co/sarvamai/prism",
       "titulo": "Sarvam Prism: modelo decisor ultra-rápido de 105B con 44ms latencia",
