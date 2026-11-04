@@ -2,6 +2,21 @@
   "noticias": [
     {
       "id": 1,
+      "titulo": "Kimi K3.1 Pro: Moonshot libera 2.8T MoE con 1M contexto abierto",
+      "titular_corto": "Moonshot K3.1 Pro pesos abiertos hoy",
+      "resumen": "Moonshot AI publicó los pesos abiertos de Kimi K3.1 Pro el 4 de noviembre. El modelo MoE de 2.8 billones de parámetros (104B activos) incluye 1M contexto, multimodal, optimizado para agentes, CAD parametrizado, y análisis financiero. Requiere infraestructura multi-GPU; API disponible.",
+      "categoria": "Modelos",
+      "prioridad": "alta",
+      "fuente": "Moonshot AI",
+      "url": "https://kimi.ai",
+      "publicado": "2026-11-04T12:00:00Z",
+      "confirmado": false,
+      "_visto": "2026-11-04T08:14:45.951Z",
+      "reciente": true,
+      "imagen": null
+    },
+    {
+      "id": 2,
       "titulo": "Meituan lanza LongCat-2.5: modelo MoE de 1.6T parámetros para agentes",
       "titular_corto": "Meituan LongCat-2.5: 1.6T MoE para ingeniería de software",
       "resumen": "Meituan presentó LongCat-2.5, su modelo multimodal MoE con 1.6 billones de parámetros totales y 48 mil millones activos por token. Ofrece contexto de 1 millón de tokens y destaca en tareas de codificación agentica, GUI navigation y diseño 3D. Logra 88.4 en Terminal Bench v2.1 y 51.8 en AutomationBench.",
@@ -14,10 +29,10 @@
       "imagen": null,
       "confirmado": false,
       "_visto": "2026-11-02T08:05:00.306Z",
-      "reciente": true
+      "reciente": false
     },
     {
-      "id": 2,
+      "id": 3,
       "titulo": "SenseTime abre SenseNova-Loop-9B: modelo layer-reusing multimodal",
       "titular_corto": "SenseNova-Loop-9B: 9B con profundidad de 14.6B efectivos",
       "resumen": "SenseTime lanzó SenseNova-Loop-9B, modelo multimodal open-source bajo Apache 2.0 que reutiliza capas para lograr profundidad equivalente de 14.6 mil millones de parámetros con solo 9B almacenados. Soporta 256K tokens de contexto e incluye mecanismos de hyper-conexión manifold-constrained. Compite con modelos de 27B.",
@@ -29,12 +44,12 @@
       "publicado": "2026-11-02T12:00:00Z",
       "confirmado": true,
       "_visto": "2026-11-02T08:05:00.306Z",
-      "reciente": true,
+      "reciente": false,
       "_img_intentos": 1,
       "imagen": "https://huggingface.co/front/thumbnails/v2-2.png"
     },
     {
-      "id": 3,
+      "id": 4,
       "titulo": "OpenAI lanza gpt-oss: modelos abiertos de razonamiento bajo Apache 2.0",
       "titular_corto": "OpenAI publica modelos gpt-oss abiertos",
       "resumen": "OpenAI ha publicado familia gpt-oss incluyendo gpt-oss-120b y gpt-oss-20b bajo Apache 2.0. Diseñados para razonamiento avanzado, inspección de cadenas de pensamiento e integración de herramientas en sistemas agénticos.",
@@ -45,13 +60,13 @@
       "publicado": "2026-11-02T12:00:00Z",
       "confirmado": false,
       "_visto": "2026-11-02T13:05:00.252Z",
-      "reciente": true,
-      "_img_intentos": 2,
+      "reciente": false,
+      "_img_intentos": 3,
       "imagen": null,
-      "_imagen_error": "lectura directa: HTTP 404 | microlink: Request failed with status code 429"
+      "_imagen_error": "lectura directa: HTTP 404 | microlink: Microlink no encontró imagen"
     },
     {
-      "id": 4,
+      "id": 5,
       "titulo": "Aider agentes CLI con modo Arquitecto: dos modelos para mejor calidad",
       "titular_corto": "Aider desacopla razonamiento y formato de diffs",
       "resumen": "Aider implementó arquitectura de dos pasos: un modelo de razonamiento (o1/Claude) para planificación conceptual y otro más rápido para generar diffs exactos. Reduce alucinaciones en refactorizaciones multi-archivo, optimiza costos y es el estándar agnóstico en desarrolladores que prefieren terminal, Git y modelos locales.",
@@ -62,11 +77,57 @@
       "url": "https://aider.chat",
       "confirmado": false,
       "_visto": "2026-11-02T10:05:00.286Z",
+      "reciente": false,
+      "imagen": null
+    },
+    {
+      "id": 6,
+      "titulo": "Apple Intelligence integra Qwen de Alibaba en China con iOS 27.3 beta",
+      "titular_corto": "Apple + Qwen: AI en China desde hoy",
+      "resumen": "Apple comenzó hoy la beta de iOS 27.3 integrando Qwen de Alibaba como backend de IA para cumplir regulaciones chinas. Incluye Writing Tools, Visual Intelligence, Live Translation y Genmoji opt-in. Pública en diciembre. Protege privacidad: no entrena con datos del usuario.",
+      "categoria": "Producto",
+      "prioridad": "media",
+      "fuente": "Apple / Alibaba",
+      "url": "https://apple.com",
+      "publicado": "2026-11-04T12:00:00Z",
+      "confirmado": false,
+      "_visto": "2026-11-04T08:14:45.951Z",
       "reciente": true,
       "imagen": null
     },
     {
-      "id": 5,
+      "id": 7,
+      "titulo": "Baidu Apollo World: simulador de conducción autónoma con 100k km/día",
+      "titular_corto": "Baidu World Model: 100k km sintéticos diarios",
+      "resumen": "Baidu presentó Apollo World, un simulador impulsado por world models que genera 100.000 km de conducción sintetizada por día. Usa agentes IA dinámicos, sensores multisensoriales sincronizados y datos de 350M km reales. Evalúa robotaxis Apollo Go en edge cases raros y complejos.",
+      "categoria": "Producto",
+      "prioridad": "media",
+      "fuente": "Baidu",
+      "url": "https://baidu.com",
+      "publicado": "2026-11-04T12:00:00Z",
+      "confirmado": false,
+      "_visto": "2026-11-04T08:14:45.951Z",
+      "reciente": true,
+      "imagen": null
+    },
+    {
+      "id": 8,
+      "titulo": "Observabilidad IA: NVIDIA Minerva y Datadog trazan agentes autónomos",
+      "titular_corto": "Minerva + Datadog: debug de agentes",
+      "resumen": "NVIDIA y Datadog lanzaron suites de observabilidad dedicadas para agentes autónomos. Trazan consumo de tokens, alucinaciones, bottlenecks en pipelines multi-agentes. Monitorean ejecutables, input/output y traces de herramientas en prod para garantizar calidad.",
+      "categoria": "Herramientas",
+      "prioridad": "media",
+      "fuente": "NVIDIA / Datadog",
+      "url": "https://developer.nvidia.com/blog/",
+      "publicado": "2026-11-04T12:00:00Z",
+      "confirmado": true,
+      "_visto": "2026-11-04T08:14:45.951Z",
+      "reciente": true,
+      "_img_intentos": 1,
+      "imagen": "https://developer-blogs.nvidia.com/wp-content/uploads/2024/09/techblog-og.jpg"
+    },
+    {
+      "id": 9,
       "titulo": "Dream recauda $17M de a16z para world models en construcción e ingeniería",
       "titular_corto": "Dream cierra $17M Series A para modelos de mundo",
       "resumen": "Startup fundada por exejecutivos de Palantir anunció inversión de 17 millones liderada por Andreessen Horowitz para desarrollar modelos de mundo aplicados a construcción e ingeniería.",
@@ -76,11 +137,11 @@
       "url": "https://techcrunch.com/",
       "confirmado": false,
       "_visto": "2026-11-02T13:05:00.252Z",
-      "reciente": true,
+      "reciente": false,
       "imagen": null
     },
     {
-      "id": 6,
+      "id": 10,
       "titulo": "Hugging Face abre CMU Climate Risk Intelligence Challenge",
       "titular_corto": "CMU lanza desafío de IA climática bajo Project ProtoStar",
       "resumen": "Hugging Face y Carnegie Mellon University lanzan el CMU Climate Risk Intelligence Challenge dentro de Project ProtoStar el 2 de noviembre hasta el 13. Participantes predicen tendencias climáticas urbanas en 210 ciudades estadounidenses usando datos históricos hasta 2018 con énfasis en datasets abiertos.",
@@ -92,115 +153,88 @@
       "publicado": "2026-11-02T12:00:00Z",
       "confirmado": false,
       "_visto": "2026-11-02T08:05:00.306Z",
-      "reciente": true,
-      "imagen": null
-    },
-    {
-      "id": 7,
-      "titulo": "Reflection AI abre Build with Beam Challenge por $20k en Hugging Face",
-      "titular_corto": "Hackathon Beam: premios hasta $20k para desarrolladores",
-      "resumen": "Reflection AI y Hugging Face lanzan Build with Beam Community Challenge con $20,000 en premios o créditos Hub. Plazo 2 de noviembre a las 23:59 PT. Busca demostraciones, fine-tuning, benchmarks y datasets sintéticos usando el modelo open Beam. Abierto a comunidad global.",
-      "categoria": "Herramientas",
-      "es_ia": true,
-      "prioridad": "media",
-      "fuente": "Reflection AI",
-      "url": "https://huggingface.co",
-      "publicado": "2026-11-02T12:00:00Z",
-      "confirmado": false,
-      "_visto": "2026-11-02T08:05:00.306Z",
-      "reciente": true,
-      "imagen": null
-    },
-    {
-      "id": 8,
-      "titulo": "Pika H3 Flex se integra en herramientas creativas de Pika Labs",
-      "titular_corto": "Pika H3 Flex: generación visual e integración en suite creativa",
-      "resumen": "Pika Labs completa integración de Pika H3 Flex en sus herramientas tras lanzamiento open-weights del 29 de octubre. El adaptador multimodal mejora generación de contenido visual y video con latencias reducidas. Disponible en plataforma Pika para usuarios a partir del 2 de noviembre.",
-      "categoria": "Producto",
-      "es_ia": true,
-      "prioridad": "media",
-      "fuente": "Pika Labs",
-      "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
-      "publicado": "2026-11-02T12:00:00Z",
-      "confirmado": true,
-      "_visto": "2026-11-02T08:05:00.306Z",
-      "reciente": true,
-      "_img_intentos": 1,
-      "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Pika-Labs/Pika-H3-Flex.png"
-    },
-    {
-      "id": 9,
-      "titulo": "Fujitsu y SoftBank Robotics pilotan IA para evaluar daños logísticos",
-      "titular_corto": "Fujitsu + SoftBank: inspección IA automatizada de embalajes",
-      "resumen": "Fujitsu y SoftBank Robotics lanzan piloto conjunto para evaluar daños en embalajes de electrodomésticos con IA. Emplean Fujitsu Kozuchi y Amalgamation AI for Vision combinado con análisis de imágenes vía smartphone. Financiado por ministerio japonés, busca reducir rechazos innecesarios y optimizar costos.",
-      "categoria": "Producto",
-      "es_ia": true,
-      "prioridad": "media",
-      "fuente": "Fujitsu",
-      "url": "https://global.fujitsu",
-      "publicado": "2026-11-02T12:00:00Z",
-      "confirmado": false,
-      "_visto": "2026-11-02T08:05:00.306Z",
-      "reciente": true,
-      "imagen": null
-    },
-    {
-      "id": 10,
-      "titulo": "Alibaba-Apple integran Qwen en Apple Intelligence para China",
-      "titular_corto": "Qwen potencia Apple Intelligence en China",
-      "resumen": "Alibaba y Apple anunciaron integración de la familia Qwen en Apple Intelligence para usuarios en China. Beta para desarrolladores lanzada a principios de noviembre. Marca expansión de opciones de modelos locales y soberanos para dispositivos Apple.",
-      "categoria": "Negocio",
-      "es_ia": true,
-      "prioridad": "media",
-      "fuente": "Alibaba / Apple",
-      "url": "https://www.alibaba.com",
-      "publicado": "2026-11-01T12:00:00Z",
-      "confirmado": false,
-      "_visto": "2026-11-02T07:05:00.391Z",
       "reciente": false,
       "imagen": null
     }
   ],
   "destacado": {
-    "titulo": "OpenAI libera gpt-oss bajo Apache 2.0; acuerdo de opt-out unificado para IA",
-    "texto": "OpenAI publica modelos gpt-oss para razonamiento agéntico. Simultáneamente, OpenAI, Google, Anthropic y Microsoft acuerdan estándar unificado en robots.txt permitiendo bloquear entrenamientos de IA con regla única.",
-    "_visto": "2026-11-02T13:05:00.252Z"
+    "titulo": "Kimi K3.1 Pro libera pesos abiertos: modelo MoE 2.8T para agentes",
+    "texto": "Moonshot AI lanzó hoy los pesos abiertos de Kimi K3.1 Pro, su modelo de 2.8 billones de parámetros con contexto de 1M tokens. Optimizado para razonamiento long-horizon, 3D CAD y análisis financiero, marca un hito en modelos open-weight de frontera para código y agentes autónomos.",
+    "_visto": "2026-11-04T08:14:45.951Z"
   },
   "modelo_open_source": {
-    "nombre": "gpt-oss-120b",
-    "tamano": "120B parámetros",
-    "licencia": "Apache 2.0",
-    "destaca_en": "Razonamiento avanzado e inspección completa de cadenas de pensamiento para agentes",
-    "ejecucion_local": "Requiere GPUs de gama alta (A100/H100) o clusters distribuidos",
-    "url": "https://huggingface.co/openai/gpt-oss-120b",
-    "_visto": "2026-11-02T13:05:00.252Z",
-    "_img_intentos": 1,
-    "imagen": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/openai/gpt-oss-120b.png"
+    "nombre": "Kimi K3.1 Pro",
+    "tamano": "2.8T parámetros (104B activos MoE)",
+    "destaca_en": "Razonamiento long-horizon, CAD parametrizado, análisis financiero con 1M contexto y multimodal.",
+    "ejecucion_local": "Requiere cluster multi-GPU para 2.8T parámetros. Mejor en instancias A100/H100. API hosted disponible desde Moonshot.",
+    "url": "https://kimi.ai",
+    "_visto": "2026-11-04T08:14:45.951Z",
+    "imagen": null
   },
   "herramienta_del_dia": {
-    "nombre": "Cursor IDE versión 3.27",
-    "que_hace": "IDE nativa de IA basada en VS Code con agentes autónomos en la nube, búsqueda web integrada, canvases interactivos y soporte para 300 repositorios simultáneos",
-    "diferencia": "Agentes autónomos nativos que generan dashboards visuales interactivos. Búsqueda web contextual dentro de agentes. Canvases compartibles en web. Mejor que Copilot por arquitectura agnóstica de modelos",
+    "nombre": "GitHub Copilot Coding Agent",
+    "que_hace": "Ejecuta tareas end-to-end: crea PRs, gestiona branches, resuelve issues y workflows CI/CD autónomamente.",
+    "diferencia": "Pasa de sugerencias inline a delegación proactiva: lee especificaciones, planifica cambios multi-archivo, ejecuta tests.",
     "licencia": "De pago",
-    "url": "https://cursor.com/changelog",
-    "_visto": "2026-11-02T10:05:00.286Z",
+    "url": "https://github.blog/ai-and-ml/",
+    "_visto": "2026-11-04T08:14:45.951Z",
     "_img_intentos": 1,
-    "imagen": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/uploads/changelog-og.png"
+    "imagen": "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo.png?resize=800%2C425"
   },
   "trending": [
     {
-      "nombre": "openai/gpt-oss",
+      "nombre": "vllm-project/vllm",
       "tipo": "github",
-      "descripcion": "Modelos abiertos para razonamiento agéntico bajo licencia Apache 2.0",
-      "url": "https://github.com/openai/gpt-oss",
+      "descripcion": "Serving optimizado para LLMs con speculative decoding, KV cache dinámico y scheduling multi-GPU.",
+      "url": "https://github.com/vllm-project/vllm",
       "_img_intentos": 1,
-      "imagen": "https://opengraph.githubassets.com/1/openai/gpt-oss"
+      "imagen": "https://opengraph.githubassets.com/1/vllm-project/vllm"
+    },
+    {
+      "nombre": "open-webui/open-webui",
+      "tipo": "github",
+      "descripcion": "UI self-hosted para Ollama y endpoints cloud con RAG, workspaces colaborativos y chats multi-agentes.",
+      "url": "https://github.com/open-webui/open-webui",
+      "_img_intentos": 1,
+      "imagen": "https://opengraph.githubassets.com/1/open-webui/open-webui"
+    },
+    {
+      "nombre": "crewAIInc/crewAI",
+      "tipo": "github",
+      "descripcion": "Framework de multi-agentes colaborativos para workflows empresariales y análisis de lógica compleja.",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "_img_intentos": 1,
+      "imagen": "https://opengraph.githubassets.com/1/crewAIInc/crewAI"
     }
   ],
-  "fecha": "2026-11-02",
-  "generado": "2026-11-02T14:05:00.266Z",
-  "_ultima_consulta": "2026-11-02T14:05:00.266Z",
+  "fecha": "2026-11-04",
+  "generado": "2026-11-04T08:14:45.951Z",
+  "_ultima_consulta": "2026-11-04T08:14:45.951Z",
   "_vistas": [
+    {
+      "k": "t:kimi k3 1 pro moonshot libera 2 8t moe con 1m contexto abierto",
+      "titulo": "Kimi K3.1 Pro: Moonshot libera 2.8T MoE con 1M contexto abierto",
+      "url": "https://kimi.ai",
+      "_visto": "2026-11-04T08:14:45.951Z"
+    },
+    {
+      "k": "t:apple intelligence integra qwen de alibaba en china con ios 27 3 beta",
+      "titulo": "Apple Intelligence integra Qwen de Alibaba en China con iOS 27.3 beta",
+      "url": "https://apple.com",
+      "_visto": "2026-11-04T08:14:45.951Z"
+    },
+    {
+      "k": "t:baidu apollo world simulador de conduccion autonoma con 100k km dia",
+      "titulo": "Baidu Apollo World: simulador de conducción autónoma con 100k km/día",
+      "url": "https://baidu.com",
+      "_visto": "2026-11-04T08:14:45.951Z"
+    },
+    {
+      "k": "https://developer.nvidia.com/blog",
+      "titulo": "Observabilidad IA: NVIDIA Minerva y Datadog trazan agentes autónomos",
+      "url": "https://developer.nvidia.com/blog/",
+      "_visto": "2026-11-04T08:14:45.951Z"
+    },
     {
       "k": "https://openai.com/index/gpt-oss-models",
       "titulo": "OpenAI lanza gpt-oss: modelos abiertos de razonamiento bajo Apache 2.0",
